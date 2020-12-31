@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyTypeDef>
+    <defName>SayersBody</defName>
+    <headOffset>(0.09, 0.34)</headOffset>
+    <bodyNakedGraphicPath>Things/Pawn/Sayers/Bodies/Naked_SayersBody</bodyNakedGraphicPath>
+    <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</bodyDessicatedGraphicPath>
+  </BodyTypeDef>
+</Defs>

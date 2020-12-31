@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ToolCapacityDef>
+    <defName>Injection</defName>
+    <label>注射</label>
+  </ToolCapacityDef>
+</Defs>

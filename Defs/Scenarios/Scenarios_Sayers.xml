@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ScenarioDef>
+    <defName>Sayers_Stat</defName>
+    <label>异星来客[Sayers]</label>
+    <description>随着空投仓砰地一声落地，你们三个感到了自己的意识开始被重启，曾经的记忆已经不是很清楚了，唯一能够记清楚的，只是一齐被从培养皿中提取出来放进空投仓的短暂片段。
+\n你们三个都很年幼没错，但显然，现在可没有父母的庇佑，没有温暖的巢穴，一切都是陌生的。也只好祝你们好运了。
+\n
+\n注：Sayers不像人类一样那么麻烦，你大可让他们去狩猎，吃生食，而不用担心他们会对此感到不满。
+\nSayers自带极高的种植天赋，欢迎老农民(bushi.</description>
+    <scenario>
+      <summary>被从异星投放来的三只Sayers幼体。</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>SayersClan</factionDef>
+      </playerFaction>
+      <parts>
+        <!--== 人数 ==-->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>3</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+        <!--== 到达方法 ==-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>DropPods</method>
+          <visible>false</visible>
+        </li>
+        <!--== 人物年龄范围 ==-->
+        <li Class="ScenPart_PawnFilter_Age">
+          <def>PawnFilter_Age</def>
+          <allowedAgeRange>15~18</allowedAgeRange>
+          <visible>false</visible>
+        </li>
+        <!--== 裸体唷 ==-->
+        <li Class="ScenPart_Naked">
+          <def>Naked</def>
+          <context>PlayerStarter</context>
+        </li>
+        <!--== 开场信息 ==-->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>随着砰的一声巨响，你的触手蜿蜒上了空投仓的舱门，从粘稠冰冷的液体中探出了头。这是你们的花组第一次接触到这个星球的空气——陌生而又令你们好奇。
+\n但问题也随之而来，这里的一切都是陌生的，对于三个在年幼之时就被宛如垃圾一般投放到另一个星球的，手无寸铁的幼崽来说，生存下去……是否会太困难了呢？</text>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+</Defs>

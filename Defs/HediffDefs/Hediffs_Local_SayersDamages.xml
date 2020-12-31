@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef Name="InjuryBase" Abstract="True">
+    <hediffClass>Hediff_Injury</hediffClass>
+    <tendable>true</tendable>
+    <displayWound>true</displayWound>
+    <labelNounPretty>{0} in the {1}</labelNounPretty>
+  </HediffDef>
+  <HediffDef ParentName="InjuryBase">
+    <defName>Injection</defName>
+    <label>注射</label>
+    <labelNoun>一处注射遗留伤口</labelNoun>
+    <description>一处注射遗留伤口</description>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>已包扎</labelTendedWell>
+        <labelTendedWellInner>已缝合</labelTendedWellInner>
+        <labelSolidTendedWell>已简单止血</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.15</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>注射遗留疤痕</permanentLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>375</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.01875</averagePainPerSeverityPermanent>
+      <bleedRate>0.06</bleedRate>
+      <canMerge>true</canMerge>
+      <destroyedLabel>被腐蚀殆尽</destroyedLabel>
+      <destroyedOutLabel>被腐蚀殆尽</destroyedOutLabel>
+    </injuryProps>
+  </HediffDef>
+</Defs>
