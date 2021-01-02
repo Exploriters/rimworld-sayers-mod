@@ -181,7 +181,7 @@
       <li>BodyPartsBionic</li>
     </thingCategories>
     <graphicData>
-      <texPath>Things/Item/Health/HealthItem</texPath>
+      <texPath>Things/Item/Health/HealthItem_Sayers</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.80</drawSize>
       <color>(189,169,118)</color>
@@ -304,7 +304,7 @@
       <li>BodyPartsArchotech</li>
     </thingCategories>
     <graphicData>
-      <texPath>Things/Item/Health/HealthItem</texPath>
+      <texPath>Things/Item/Health/HealthItem_Sayers</texPath>
       <color>(155,165,148)</color>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.80</drawSize>

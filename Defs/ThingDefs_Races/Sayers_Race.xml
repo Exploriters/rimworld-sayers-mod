@@ -11,7 +11,7 @@
       <MarketValue>5150</MarketValue>
       <MoveSpeed>13.8</MoveSpeed>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
-      <ComfyTemperatureMax>20</ComfyTemperatureMax>
+      <ComfyTemperatureMax>15</ComfyTemperatureMax>
       <LeatherAmount>50</LeatherAmount>
       <RoyalFavorValue>3</RoyalFavorValue>
       <Flammability>1</Flammability>
@@ -126,7 +126,7 @@
       <li>
         <label>触手注射头</label>
         <capacities>
-          <li>Stab</li>
+          <li>ToxicBite</li>
         </capacities>
         <power>24.6</power>
         <cooldownTime>1</cooldownTime>
@@ -136,7 +136,7 @@
       <li>
         <label>触手注射头</label>
         <capacities>
-          <li>Stab</li>
+          <li>ToxicBite</li>
         </capacities>
         <power>24.6</power>
         <cooldownTime>1</cooldownTime>
@@ -146,7 +146,7 @@
       <li>
         <label>触手注射头</label>
         <capacities>
-          <li>Stab</li>
+          <li>ToxicBite</li>
         </capacities>
         <power>24.6</power>
         <cooldownTime>1</cooldownTime>
@@ -156,7 +156,7 @@
       <li>
         <label>触手注射头</label>
         <capacities>
-          <li>Stab</li>
+          <li>ToxicBite</li>
         </capacities>
         <power>24.6</power>
         <cooldownTime>1</cooldownTime>
@@ -800,6 +800,15 @@
           <li>Naked</li>
         </cannotReceiveThoughts>
       </thoughtSettings>
+      <raceRestriction>
+        <apparelList>
+          <li>Apparel_SayersBasic</li>
+          <li>Apparel_SayersParka</li>
+          <li>Apparel_SayersDuster</li>
+          <li>Apparel_SayersPlateArmor</li>
+        </apparelList>
+        <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+      </raceRestriction>
     </alienRace>
   </AlienRace.ThingDef_AlienRace>
 </Defs>
