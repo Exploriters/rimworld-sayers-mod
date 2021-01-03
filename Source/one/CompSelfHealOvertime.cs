@@ -6,7 +6,50 @@ namespace Sayers1
 {
     public class CompSelfHealOvertime : ThingComp
     {
+        public double detlaHpPerSec => ((CompProperties_SelfHealOvertime)props).detlaHpPerSec;
+        public double detlaHpPerTick => detlaHpPerSec / 60;
 
+        public int detlaHpPerTickInteger => (int)Math.Floor(detlaHpPerTick);
+        public double detlaHpPerTickDecimal => detlaHpPerTick - detlaHpPerTickInteger;
+        public double exceedHealth = 0;
+        public int ticksBetweenHeal => ((CompProperties_SelfHealOvertime)props).ticksBetweenHeal;
+
+        public bool isNotValid => detlaHpPerSec == 0D;
+
+        public override void PostExposeData()
+        {
+            base.PostExposeData();
+
+            Scribe_Values.Look(ref exceedHealth, "exceedHealth", 0D);
+        }
+        public override void CompTick()
+        {
+            base.CompTick();
+
+            if (isNotValid)
+                return;
+
+            if (parent.HitPoints < parent.MaxHitPoints)
+            {
+                exceedHealth += detlaHpPerTickDecimal;
+
+                int exceedHealthInteger = (int)Math.Floor(exceedHealth);
+
+                parent.HitPoints = Math.Min(
+                    parent.MaxHitPoints,
+                    parent.HitPoints + detlaHpPerTickInteger + exceedHealthInteger
+                    );
+
+                exceedHealth -= exceedHealthInteger;
+
+                if (parent.HitPoints <= 0)
+                    parent.Destroy(DestroyMode.KillFinalize);
+            }
+            else
+            {
+                exceedHealth = 0D;
+            }
+        }
     }
     public class CompProperties_SelfHealOvertime : CompProperties
     {
