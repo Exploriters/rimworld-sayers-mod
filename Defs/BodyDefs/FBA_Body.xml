@@ -114,22 +114,22 @@
                 <li>
                   <def>HeadWings</def>
                   <customLabel>左上头翼</customLabel>
-                  <coverage>0.21</coverage>
+                  <coverage>0.03</coverage>
                 </li>
                 <li>
                   <def>HeadWings</def>
                   <customLabel>左下头翼</customLabel>
-                  <coverage>0.21</coverage>
+                  <coverage>0.03</coverage>
                 </li>
                 <li>
                   <def>HeadWings</def>
                   <customLabel>右上头翼</customLabel>
-                  <coverage>0.21</coverage>
+                  <coverage>0.03</coverage>
                 </li>
                 <li>
                   <def>HeadWings</def>
                   <customLabel>右下头翼</customLabel>
-                  <coverage>0.21</coverage>
+                  <coverage>0.03</coverage>
                 </li>
               </parts>
             </li>
