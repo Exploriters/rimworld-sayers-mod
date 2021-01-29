@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>Pre_Plants</defName>
+    <label>植物科技前置研究</label>
+    <tab>Sayers</tab>
+    <description>Sayers相关的，一切Sayers专属科技的前置研究</description>
+    <baseCost>50</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+    <tags>
+      <li>SayersStart</li>
+    </tags>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PlantElementRefining</defName>
+    <label>植元素提炼</label>
+    <tab>Sayers</tab>
+    <description>一种从植物——尤其是木材中提炼植元素的科技，由Sayers掌握。</description>
+    <baseCost>150</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0.5</researchViewY>
+    <prerequisites>
+      <li>Pre_Plants</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PlantModuleMakeing</defName>
+    <label>植模块制作</label>
+    <tab>Sayers</tab>
+    <description>利用植模块制作东西的科技，显然，这依旧是Sayers掌握的独门科技不是吗？</description>
+    <baseCost>150</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0.5</researchViewY>
+    <prerequisites>
+      <li>PlantElementRefining</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>

@@ -37,12 +37,139 @@
         <li Class="ScenPart_Naked">
           <def>Naked</def>
           <context>PlayerStarter</context>
+          <visible>false</visible>
         </li>
         <!--== 开场信息 ==-->
         <li Class="ScenPart_GameStartDialog">
           <def>GameStartDialog</def>
           <text>随着砰的一声巨响，你的触手蜿蜒上了空投仓的舱门，从粘稠冰冷的液体中探出了头。这是你们的花组第一次接触到这个星球的空气——陌生而又令你们好奇。
 \n但问题也随之而来，这里的一切都是陌生的，对于三个在年幼之时就被宛如垃圾一般投放到另一个星球的，手无寸铁的幼崽来说，生存下去……是否会太困难了呢？</text>
+        </li>
+        <!--== 开局科技 ==-->
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>Pre_Plants</project>
+          <visible>false</visible>
+        </li>
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>Cocoa</project>
+          <visible>false</visible>
+        </li>
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>Devilstrand</project>
+          <visible>false</visible>
+        </li>
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>Hydroponics</project>
+          <visible>false</visible>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+  <ScenarioDef>
+    <defName>Sayers_Runaway</defName>
+    <label>溶解逃亡[Sayers]</label>
+    <description>当你意识到这个世界开始不对劲时，已经晚了。你的族人消失殆尽，只剩你，和你的五只花寄兽留在这儿。这个世界变得陌生，危险，疯狂而可怖，甚至随时可能分崩离析。
+\n你能做的，就是尽量带着你的同伴们——花寄兽们，尽力从这危险的，即将毁灭的星球中逃离。
+\n
+\n注;高难度剧本，当心！</description>
+    <scenario>
+      <summary>带着5只花寄兽逃离这个危险的星球。</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>SayersRefugees</factionDef>
+      </playerFaction>
+      <parts>
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>1</pawnCount>
+          <pawnChoiceCount>9</pawnChoiceCount>
+        </li>
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+        </li>
+        <li Class="ScenPart_PawnFilter_Age">
+          <def>PawnFilter_Age</def>
+          <allowedAgeRange>15~18</allowedAgeRange>
+          <visible>false</visible>
+        </li>
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>无光之夜，电闪雷鸣。你的触手抚摸着花寄兽的头颅，但显然，这星球已经没法待了，随时可能分崩离析。
+\n而你能做的，就是跑，逃，带着花寄兽，离开这个是非之地。
+快点 跑吧。</text>
+        </li>
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>Cocoa</project>
+          <visible>false</visible>
+        </li>
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>Devilstrand</project>
+          <visible>false</visible>
+        </li>
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>Hydroponics</project>
+          <visible>false</visible>
+        </li>
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>Pre_Plants</project>
+          <visible>false</visible>
+        </li>
+        <li Class="ScenPart_GameCondition">
+          <def>GameCondition_Planetkiller</def>
+          <durationDays>180</durationDays>
+        </li>
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <animalKind>Pawn_FlowerBorhAnimal</animalKind>
+          <count>5</count>
+        </li>
+        <li Class="ScenPart_PermaGameCondition">
+          <def>PermanentGameCondition</def>
+          <gameCondition>Eclipse</gameCondition>
+          <visible>false</visible>
+        </li>
+        <li Class="ScenPart_PermaGameCondition">
+          <def>PermanentGameCondition</def>
+          <gameCondition>Flashstorm</gameCondition>
+          <visible>false</visible>
+        </li>
+        <li Class="ScenPart_CreateIncident">
+          <def>CreateIncident</def>
+          <incident>ManhunterPack</incident>
+          <intervalDays>3</intervalDays>
+          <repeat>True</repeat>
+          <visible>false</visible>
+        </li>
+        <li Class="ScenPart_CreateIncident">
+          <def>CreateIncident</def>
+          <incident>HerdMigration</incident>
+          <intervalDays>10</intervalDays>
+          <repeat>True</repeat>
+          <visible>false</visible>
+        </li>
+        <li Class="ScenPart_CreateIncident">
+          <def>CreateIncident</def>
+          <incident>MeteoriteImpact</incident>
+          <intervalDays>0.5</intervalDays>
+          <repeat>True</repeat>
+          <visible>false</visible>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>50</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Gun_ChargeRifle</thingDef>
         </li>
       </parts>
     </scenario>

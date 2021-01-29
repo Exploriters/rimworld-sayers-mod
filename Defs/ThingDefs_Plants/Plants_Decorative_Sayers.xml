@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Tenlacess_Sayers</defName>
+    <label>特拉克斯[Sayers]</label>
+    <description>一种漂亮但脆弱的，形似触手的蓝色观赏植物，没人知道它是从哪儿来的，甚至没人见过它们的种子……除了Sayers。</description>
+    <statBases>
+      <MaxHitPoints>42</MaxHitPoints>
+      <Beauty>36</Beauty>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Tenlacess</texPath>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <sowWork>270</sowWork>
+      <!-- 120 ticks per live day for beauty -->
+      <sowTags>
+        <li>Ground</li>
+        <li>Decorative</li>
+      </sowTags>
+      <growMinGlow>0.3</growMinGlow>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>1.5</growDays>
+      <lifespanDaysPerGrowDays>3</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(181,238,232,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

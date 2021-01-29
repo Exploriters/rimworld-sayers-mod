@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!--==== 可怜无比の木头  ====-->
-  <!--= 基础 =-->
+  <!--== 基础 ==-->
   <RecipeDef Name="SurgeryInstallWoodenPartBase" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
     <workAmount>1500</workAmount>
     <skillRequirements>
@@ -51,7 +51,7 @@
     <addsHediff>WoodenHand</addsHediff>
   </RecipeDef>
   <!--==== 简易  ====-->
-  <!--= 基础 =-->
+  <!--== 基础 ==-->
   <ThingDef Name="BodyPartProstheticBase" ParentName="BodyPartBase" Abstract="True">
     <techLevel>Industrial</techLevel>
     <thingCategories>
@@ -174,7 +174,7 @@
     <addsHediff>SimpleProstheticTentacle</addsHediff>
   </RecipeDef>
   <!--==== 仿生  ====-->
-  <!--= 基础 =-->
+  <!--== 基础 ==-->
   <ThingDef Name="BodyPartBionicBase" ParentName="BodyPartBase" Abstract="True">
     <techLevel>Spacer</techLevel>
     <thingCategories>
@@ -297,7 +297,7 @@
     <addsHediff>BionicTentacle</addsHediff>
   </RecipeDef>
   <!--==== 远古科技  ====-->
-  <!--= 基础 =-->
+  <!--== 基础 ==-->
   <ThingDef Name="BodyPartArchotechBase" ParentName="BodyPartBase" Abstract="True">
     <techLevel>Archotech</techLevel>
     <thingCategories>
@@ -395,5 +395,92 @@
       <li>Tentacles</li>
     </appliedOnFixedBodyParts>
     <addsHediff>ArchotechTentacle</addsHediff>
+  </RecipeDef>
+  <!--==== 其他稀奇古怪の玩意儿 ====-->
+  <!--= 挖掘触手 =-->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>DrillTentacle</defName>
+    <label>挖掘触手</label>
+    <labelNoun>挖掘触手</labelNoun>
+    <description>一条挖掘触手</description>
+    <descriptionHyperlinks>
+      <ThingDef>DrillTentacle</ThingDef>
+    </descriptionHyperlinks>
+    <addedPartProps>
+      <solid>true</solid>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MiningSpeed>3</MiningSpeed>
+          <DeepDrillingSpeed>0.7</DeepDrillingSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>drill</label>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>26</power>
+            <cooldownTime>1</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            <soundMeleeHit>MeleeHit_DrillArm</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_DrillArm</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>DrillTentacle</spawnThingOnRemoved>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartProstheticImperialBase">
+    <defName>DrillTentacle</defName>
+    <label>挖掘触手</label>
+    <description>一条挖掘触手</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallDrillTentacle</RecipeDef>
+    </descriptionHyperlinks>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>SpecializedLimbs</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>InstallDrillTentacle</defName>
+    <label>安装挖掘触手</label>
+    <description>安装挖掘触手</description>
+    <descriptionHyperlinks>
+      <ThingDef>DrillTentacle</ThingDef>
+      <HediffDef>DrillTentacle</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>正在安装挖掘触手</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DrillTentacle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>DrillTentacle</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Tentacles</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>DrillTentacle</addsHediff>
   </RecipeDef>
 </Defs>

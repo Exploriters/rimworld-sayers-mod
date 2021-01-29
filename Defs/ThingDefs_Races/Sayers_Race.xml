@@ -126,7 +126,7 @@
       <li>
         <label>触手注射头</label>
         <capacities>
-          <li>ToxicBite</li>
+          <li>ScratchToxic</li>
         </capacities>
         <power>24.6</power>
         <cooldownTime>1</cooldownTime>
@@ -136,7 +136,7 @@
       <li>
         <label>触手注射头</label>
         <capacities>
-          <li>ToxicBite</li>
+          <li>ScratchToxic</li>
         </capacities>
         <power>24.6</power>
         <cooldownTime>1</cooldownTime>
@@ -146,7 +146,7 @@
       <li>
         <label>触手注射头</label>
         <capacities>
-          <li>ToxicBite</li>
+          <li>ScratchToxic</li>
         </capacities>
         <power>24.6</power>
         <cooldownTime>1</cooldownTime>
@@ -156,7 +156,7 @@
       <li>
         <label>触手注射头</label>
         <capacities>
-          <li>ToxicBite</li>
+          <li>ScratchToxic</li>
         </capacities>
         <power>24.6</power>
         <cooldownTime>1</cooldownTime>
@@ -175,7 +175,8 @@
       <body>Body_Sayers</body>
       <baseBodySize>0.8</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
-      <foodType>OmnivoreHuman, CarnivoreAnimal, OvivoreAnimal</foodType>
+      <predator>true</predator>
+      <foodType>OmnivoreHuman, CarnivoreAnimal, OmnivoreAnimal</foodType>
       <gestationPeriodDays>45</gestationPeriodDays>
       <meatMarketValue>0.8</meatMarketValue>
       <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
@@ -806,8 +807,16 @@
           <li>Apparel_SayersParka</li>
           <li>Apparel_SayersDuster</li>
           <li>Apparel_SayersPlateArmor</li>
+          <li>Apparel_SayersFlakVest</li>
+          <li>Apparel_SayersFlakJacket</li>
+          <li>Apparel_SayersPlantsArmor</li>
+          <li>Apparel_SayersArmorReconPlants</li>
         </apparelList>
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+        <plantList>
+          <li>Plant_Tenlacess_Sayers</li>
+          <li>Plant_Fushrooy_Sayers</li>
+        </plantList>
       </raceRestriction>
     </alienRace>
   </AlienRace.ThingDef_AlienRace>

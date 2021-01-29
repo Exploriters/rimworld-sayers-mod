@@ -1,11 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Sayers</name>
-  <author>nope :3</author>
-  <description>nothing here! XD</description>
+  <author>Abrel</author>
+  <description>不知道该写点什么XD
+\n==主要内容==
+\n添加了一个名为“Sayers”的种族，杂食性，高强度且对环境与食物挑剔低，但是对环境要求较为苛刻（可接受温差仅15摄氏度）的人外种族。他们普遍善于种植与狩猎，但不善于挖掘。同时，Sayers出现“无性恋”特质的概率也更高。
+\n==次要内容==
+\n-增加了一个Sayers相关的剧本。
+\n-增加了一些Sayers专属的服装。
+\n-增加了一些植物。
+\n-增加了Sayers专属的科技树。</description>
   <supportedVersions>
     <li>1.0</li>
     <li>1.1</li>
     <li>1.2</li>
   </supportedVersions>
+  <loadAfter>
+    <li>erdelf.HumanoidAlienRaces</li>
+  </loadAfter>
 </ModMetaData>
