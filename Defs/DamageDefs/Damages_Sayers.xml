@@ -3,10 +3,11 @@
   <DamageDef>
     <defName>Injection</defName>
     <label>植物液注射</label>
-    <workerClass>DamageWorker_Stab</workerClass>
+    <workerClass>DamageWorker_AddInjury</workerClass>
     <externalViolence>true</externalViolence>
     <deathMessage>{0}被血管中的大量植物液夺去生命</deathMessage>
     <hediff>Injection</hediff>
+    <hediffSkin>Injection</hediffSkin>
     <hediffSolid>Crack</hediffSolid>
     <impactSoundType>Slice</impactSoundType>
     <armorCategory>Sharp</armorCategory>
