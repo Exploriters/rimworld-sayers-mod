@@ -43,6 +43,15 @@
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
+	
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="Sayers1.CompProperties_SelfHealOvertime">
+        <!-- <compClass>Sayers1.CompSelfHealOvertime</compClass> -->
+        <detlaHpPerSec>3</detlaHpPerSec>
+      </li>
+    </comps>
+	
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_SayersParka</defName>
