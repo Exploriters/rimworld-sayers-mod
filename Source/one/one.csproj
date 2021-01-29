@@ -7,8 +7,8 @@
     <ProjectGuid>{D03589ED-F1FE-4BC7-8DE3-7A401695BD60}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>one</RootNamespace>
-    <AssemblyName>one</AssemblyName>
+    <RootNamespace>Sayers</RootNamespace>
+    <AssemblyName>Sayers</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="CompSelfHealOvertime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -13,10 +13,7 @@ namespace Sayers
     {
         static HelloWorldLog()
         {
-            Log.Message("HELLO WORLD FROM ABREL!");
+        //    Log.Message("HELLO WORLD FROM ABREL!");
         }
-    }
-    public class Class1
-    {
     }
 }
