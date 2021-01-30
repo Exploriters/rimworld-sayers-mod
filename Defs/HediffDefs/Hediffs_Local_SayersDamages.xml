@@ -9,7 +9,7 @@
       <li Class="HediffCompProperties_TendDuration">
         <labelTendedWell>已包扎</labelTendedWell>
         <labelTendedWellInner>已缝合</labelTendedWellInner>
-        <labelSolidTendedWell>已简单止血</labelSolidTendedWell>
+        <labelSolidTendedWell>已固定</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
         <infectionChance>0.15</infectionChance>
@@ -19,10 +19,10 @@
       </li>
     </comps>
     <injuryProps>
-      <painPerSeverity>375</painPerSeverity>
-      <averagePainPerSeverityPermanent>0.01875</averagePainPerSeverityPermanent>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
       <bleedRate>0.06</bleedRate>
-      <canMerge>true</canMerge>
+      <canMerge>false</canMerge>
       <destroyedLabel>被腐蚀殆尽</destroyedLabel>
       <destroyedOutLabel>被腐蚀殆尽</destroyedOutLabel>
     </injuryProps>

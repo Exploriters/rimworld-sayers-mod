@@ -49,7 +49,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Initializer.cs" />
     <Compile Include="CompSelfHealOvertime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

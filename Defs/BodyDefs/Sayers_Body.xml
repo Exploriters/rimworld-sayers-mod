@@ -114,7 +114,7 @@
           <parts>
             <li>
               <def>Head</def>
-              <coverage>0.80</coverage>
+              <coverage>0.40</coverage>
               <groups>
                 <li>UpperHead</li>
                 <li>FullHead</li>
@@ -209,90 +209,90 @@
                     <li>FullHead</li>
                   </groups>
                 </li>
+              </parts>
+            </li>
+            <li>
+              <def>BornthroatFlowers</def>
+              <customLabel>喉生花</customLabel>
+              <coverage>0.45</coverage>
+              <groups>
+                <li>UpperHead</li>
+                <li>FullHead</li>
+              </groups>
+              <parts>
                 <li>
-                  <def>BornthroatFlowers</def>
-                  <customLabel>喉生花</customLabel>
-                  <coverage>0.85</coverage>
+                  <def>Tentacles</def>
+                  <customLabel>最左触手</customLabel>
+                  <coverage>0.12</coverage>
                   <groups>
-                    <li>UpperHead</li>
-                    <li>FullHead</li>
+                    <li>Tentacles</li>
+                    <li>TentacleLeft1</li>
                   </groups>
                   <parts>
                     <li>
-                      <def>Tentacles</def>
-                      <customLabel>最左触手</customLabel>
-                      <coverage>0.12</coverage>
+                      <def>TentaclesBone</def>
+                      <coverage>0.05</coverage>
                       <groups>
                         <li>Tentacles</li>
                         <li>TentacleLeft1</li>
                       </groups>
-                      <parts>
-                        <li>
-                          <def>TentaclesBone</def>
-                          <coverage>0.05</coverage>
-                          <groups>
-                            <li>Tentacles</li>
-                            <li>TentacleLeft1</li>
-                          </groups>
-                        </li>
-                      </parts>
                     </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Tentacles</def>
+                  <customLabel>左中触手</customLabel>
+                  <coverage>0.12</coverage>
+                  <groups>
+                    <li>Tentacles</li>
+                    <li>TentacleLeft2</li>
+                  </groups>
+                  <parts>
                     <li>
-                      <def>Tentacles</def>
-                      <customLabel>左中触手</customLabel>
-                      <coverage>0.12</coverage>
+                      <def>TentaclesBone</def>
+                      <coverage>0.05</coverage>
                       <groups>
                         <li>Tentacles</li>
                         <li>TentacleLeft2</li>
                       </groups>
-                      <parts>
-                        <li>
-                          <def>TentaclesBone</def>
-                          <coverage>0.05</coverage>
-                          <groups>
-                            <li>Tentacles</li>
-                            <li>TentacleLeft2</li>
-                          </groups>
-                        </li>
-                      </parts>
                     </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Tentacles</def>
+                  <customLabel>右中触手</customLabel>
+                  <coverage>0.12</coverage>
+                  <groups>
+                    <li>Tentacles</li>
+                    <li>TentacleRight2</li>
+                  </groups>
+                  <parts>
                     <li>
-                      <def>Tentacles</def>
-                      <customLabel>右中触手</customLabel>
-                      <coverage>0.12</coverage>
+                      <def>TentaclesBone</def>
+                      <coverage>0.05</coverage>
                       <groups>
                         <li>Tentacles</li>
                         <li>TentacleRight2</li>
                       </groups>
-                      <parts>
-                        <li>
-                          <def>TentaclesBone</def>
-                          <coverage>0.05</coverage>
-                          <groups>
-                            <li>Tentacles</li>
-                            <li>TentacleRight2</li>
-                          </groups>
-                        </li>
-                      </parts>
                     </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Tentacles</def>
+                  <customLabel>最右触手</customLabel>
+                  <coverage>0.12</coverage>
+                  <groups>
+                    <li>Tentacles</li>
+                    <li>TentacleRight1</li>
+                  </groups>
+                  <parts>
                     <li>
-                      <def>Tentacles</def>
-                      <customLabel>最右触手</customLabel>
-                      <coverage>0.12</coverage>
+                      <def>TentaclesBone</def>
+                      <coverage>0.05</coverage>
                       <groups>
                         <li>Tentacles</li>
                         <li>TentacleRight1</li>
                       </groups>
-                      <parts>
-                        <li>
-                          <def>TentaclesBone</def>
-                          <coverage>0.05</coverage>
-                          <groups>
-                            <li>Tentacles</li>
-                            <li>TentacleRight1</li>
-                          </groups>
-                        </li>
-                      </parts>
                     </li>
                   </parts>
                 </li>
