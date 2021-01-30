@@ -46,8 +46,8 @@
 	
     <tickerType>Normal</tickerType>
     <comps>
-      <li Class="Sayers1.CompProperties_SelfHealOvertime">
-        <!-- <compClass>Sayers1.CompSelfHealOvertime</compClass> -->
+      <li Class="Sayers.CompProperties_SelfHealOvertime">
+        <!-- <compClass>Sayers.CompSelfHealOvertime</compClass> -->
         <detlaHpPerSec>3</detlaHpPerSec>
       </li>
     </comps>
