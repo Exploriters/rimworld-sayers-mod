@@ -3,4 +3,8 @@
   <ResearchProjectTagDef>
     <defName>SayersStart</defName>
   </ResearchProjectTagDef>
+  
+  <ResearchProjectTagDef>
+    <defName>SayersStartTechprints</defName>
+  </ResearchProjectTagDef>
 </Defs>
