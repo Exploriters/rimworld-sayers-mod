@@ -45,27 +45,6 @@
           <text>随着砰的一声巨响，你的触手蜿蜒上了空投仓的舱门，从粘稠冰冷的液体中探出了头。这是你们的花组第一次接触到这个星球的空气——陌生而又令你们好奇。
 \n但问题也随之而来，这里的一切都是陌生的，对于三个在年幼之时就被宛如垃圾一般投放到另一个星球的，手无寸铁的幼崽来说，生存下去……是否会太困难了呢？</text>
         </li>
-        <!--== 开局科技 ==-->
-        <li Class="ScenPart_StartingResearch">
-          <def>StartingResearch</def>
-          <project>Pre_Plants</project>
-          <visible>false</visible>
-        </li>
-        <li Class="ScenPart_StartingResearch">
-          <def>StartingResearch</def>
-          <project>Cocoa</project>
-          <visible>false</visible>
-        </li>
-        <li Class="ScenPart_StartingResearch">
-          <def>StartingResearch</def>
-          <project>Devilstrand</project>
-          <visible>false</visible>
-        </li>
-        <li Class="ScenPart_StartingResearch">
-          <def>StartingResearch</def>
-          <project>Hydroponics</project>
-          <visible>false</visible>
-        </li>
         <!--==我是傻逼orz==-->
         <li Class="Sayers.ScenPart_ScatteredGarbage">
           <def>ScatteredGarbage</def>
@@ -105,26 +84,6 @@
           <text>无光之夜，电闪雷鸣。你的触手抚摸着花寄兽的头颅，但显然，这星球已经没法待了，随时可能分崩离析。
 \n而你能做的，就是跑，逃，带着花寄兽，离开这个是非之地。
 快点 跑吧。</text>
-        </li>
-        <li Class="ScenPart_StartingResearch">
-          <def>StartingResearch</def>
-          <project>Cocoa</project>
-          <visible>false</visible>
-        </li>
-        <li Class="ScenPart_StartingResearch">
-          <def>StartingResearch</def>
-          <project>Devilstrand</project>
-          <visible>false</visible>
-        </li>
-        <li Class="ScenPart_StartingResearch">
-          <def>StartingResearch</def>
-          <project>Hydroponics</project>
-          <visible>false</visible>
-        </li>
-        <li Class="ScenPart_StartingResearch">
-          <def>StartingResearch</def>
-          <project>Pre_Plants</project>
-          <visible>false</visible>
         </li>
         <li Class="ScenPart_GameCondition">
           <def>GameCondition_Planetkiller</def>

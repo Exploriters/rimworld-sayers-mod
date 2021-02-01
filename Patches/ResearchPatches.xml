@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ResearchProjectDef[(
+						defName="Cocoa" or 
+						defName="Devilstrand" or 
+						defName="Hydroponics") 
+					and not (tags)]</xpath>
+				<value>
+					<tags>
+					</tags>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ResearchProjectDef[
+						defName="Cocoa" or 
+						defName="Devilstrand" or 
+						defName="Hydroponics"]
+					/tags</xpath>
+				<value>
+					<li>SayersStart</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
