@@ -126,7 +126,7 @@
       <li>
         <label>触手注射头</label>
         <capacities>
-          <li>ScratchToxic</li>
+          <li>Injection</li>
         </capacities>
         <power>24.6</power>
         <cooldownTime>1</cooldownTime>
@@ -136,7 +136,7 @@
       <li>
         <label>触手注射头</label>
         <capacities>
-          <li>ScratchToxic</li>
+          <li>Injection</li>
         </capacities>
         <power>24.6</power>
         <cooldownTime>1</cooldownTime>
@@ -146,7 +146,7 @@
       <li>
         <label>触手注射头</label>
         <capacities>
-          <li>ScratchToxic</li>
+          <li>Injection</li>
         </capacities>
         <power>24.6</power>
         <cooldownTime>1</cooldownTime>
@@ -156,7 +156,7 @@
       <li>
         <label>触手注射头</label>
         <capacities>
-          <li>ScratchToxic</li>
+          <li>Injection</li>
         </capacities>
         <power>24.6</power>
         <cooldownTime>1</cooldownTime>

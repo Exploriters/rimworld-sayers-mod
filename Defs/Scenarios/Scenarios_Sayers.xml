@@ -66,6 +66,10 @@
           <project>Hydroponics</project>
           <visible>false</visible>
         </li>
+        <!--==我是傻逼orz==-->
+        <li Class="Sayers.ScenPart_ScatteredGarbage">
+          <def>ScatteredGarbage</def>
+        </li>
       </parts>
     </scenario>
   </ScenarioDef>

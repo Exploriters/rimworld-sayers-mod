@@ -2,7 +2,7 @@
 using Verse;
 using RimWorld;
 
-namespace Sayers1
+namespace Sayers
 {
     public class CompSelfHealOvertime : ThingComp
     {

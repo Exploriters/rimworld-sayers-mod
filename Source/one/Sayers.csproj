@@ -49,6 +49,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ScenParts.cs" />
     <Compile Include="Initializer.cs" />
     <Compile Include="CompSelfHealOvertime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
