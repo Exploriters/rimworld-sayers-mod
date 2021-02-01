@@ -1,56 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <FactionDef ParentName="FactionBase" Abstract="True" Name="PlayerFactionBase">
-    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
-    <colorSpectrum>
-      <li>(0.3,0.6,0.5)</li>
-    </colorSpectrum>
-  </FactionDef>
-  <FactionDef ParentName="PlayerFactionBase">
-    <defName>SayersClan</defName>
-    <label>Sayers聚落</label>
-    <description>由Sayers组成的聚落</description>
+  <FactionDef ParentName="PlayerFactionBase" Abstract="True" Name="SayersPlayerFactionBase">
     <isPlayer>true</isPlayer>
-    <basicMemberKind>SayersClanMember</basicMemberKind>
-    <pawnSingular>Sayers族员</pawnSingular>
-    <pawnsPlural>Sayers族员们</pawnsPlural>
-    <techLevel>Industrial</techLevel>
-    <backstoryFilters>
-      <li>
-        <categories>
-          <li>Tribal</li>
-        </categories>
-      </li>
-    </backstoryFilters>
     <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
     <factionNameMaker>NamerFactionOutlander</factionNameMaker>
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-    <geneticVariance>1</geneticVariance>
-    <startingResearchTags>
-      <li>ClassicStart</li>
-    </startingResearchTags>
-    <startingTechprintsResearchTags>
-      <li>ClassicStart</li>
-      <li>ClassicStartTechprints</li>
-    </startingTechprintsResearchTags>
-    <hairTags>
-      <li>Urban</li>
-    </hairTags>
-    <apparelStuffFilter>
-      <thingDefs>
-        <li>Synthread</li>
-      </thingDefs>
-    </apparelStuffFilter>
-  </FactionDef>
-  <FactionDef ParentName="PlayerFactionBase">
-    <defName>SayersRefugees</defName>
-    <label>Sayers逃难者</label>
-    <description>由Sayers组成的逃难者团队(或者孤身一人)</description>
-    <isPlayer>true</isPlayer>
-    <basicMemberKind>SayersRefugeesMember</basicMemberKind>
-    <pawnSingular>Sayers逃难者</pawnSingular>
-    <pawnsPlural>Sayers逃难者们</pawnsPlural>
     <techLevel>Industrial</techLevel>
     <backstoryFilters>
       <li>
@@ -59,10 +14,6 @@
         </categories>
       </li>
     </backstoryFilters>
-    <factionIconPath>World/WorldObjects/Expanding/Refugees</factionIconPath>
-    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
-    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
     <geneticVariance>1</geneticVariance>
     <startingResearchTags>
       <li>ClassicStart</li>
@@ -80,4 +31,25 @@
       </thingDefs>
     </apparelStuffFilter>
   </FactionDef>
+  
+  
+  <FactionDef ParentName="SayersPlayerFactionBase">
+    <defName>SayersClan</defName>
+    <label>Sayers聚落</label>
+    <description>由Sayers组成的聚落</description>
+    <basicMemberKind>SayersClanMember</basicMemberKind>
+    <pawnSingular>Sayers族员</pawnSingular>
+    <pawnsPlural>Sayers族员们</pawnsPlural>
+  </FactionDef>
+  <FactionDef ParentName="SayersPlayerFactionBase">
+    <defName>SayersRefugees</defName>
+    <label>Sayers逃难者</label>
+    <description>由Sayers组成的逃难者团队(或者孤身一人)</description>
+    <basicMemberKind>SayersRefugeesMember</basicMemberKind>
+    <pawnSingular>Sayers逃难者</pawnSingular>
+    <pawnsPlural>Sayers逃难者们</pawnsPlural>
+    <factionIconPath>World/WorldObjects/Expanding/Refugees</factionIconPath>
+  </FactionDef>
+  
+  
 </Defs>
