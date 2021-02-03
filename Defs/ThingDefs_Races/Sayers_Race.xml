@@ -21,7 +21,7 @@
       <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
       <PawnBeauty>2</PawnBeauty>
       <ImmunityGainSpeed>1.5</ImmunityGainSpeed>
-      <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+      <foodPoisoningChance>0</foodPoisoningChance>
       <!--== Attributes ==-->
       <MedicalOperationSpeed>2</MedicalOperationSpeed>
       <MedicalTendSpeed>2</MedicalTendSpeed>
