@@ -21,6 +21,7 @@
       <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
       <PawnBeauty>2</PawnBeauty>
       <ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+      <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
       <!--== Attributes ==-->
       <MedicalOperationSpeed>2</MedicalOperationSpeed>
       <MedicalTendSpeed>2</MedicalTendSpeed>
@@ -103,12 +104,12 @@
       <li>
         <label>牙齿</label>
         <capacities>
-          <li>Bite</li>
+          <li>ToxicBite</li>
         </capacities>
-        <power>16.4</power>
+        <power>20.4</power>
         <cooldownTime>1</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <chanceFactor>0.07</chanceFactor>
+        <chanceFactor>0.8</chanceFactor>
         <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
         <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
       </li>
@@ -253,6 +254,12 @@
         <allowHumanBios>true</allowHumanBios>
         <minAgeForAdulthood>0</minAgeForAdulthood>
         <humanRecipeImport>true</humanRecipeImport>
+        <forcedRaceTraitEntries>
+          <li>
+            <defName>Asexual</defName>
+            <chance>65</chance>
+          </li>
+        </forcedRaceTraitEntries>
         <alienPartGenerator>
           <aliencrowntypes>
             <li>Sayers_Head1</li>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>ParasiticStab_Sayers</defName>
+    <abilityClass>Ability</abilityClass>
+    <category>SayersRacal</category>
+    <label>寄生穿刺</label>
+    <description>用触手去攻击目标，并且往目标体内注入含有种子的植物液——即予以目标寄生状态，而被寄生者死亡后，一颗“可食用的”血肉之树将会破体而出。</description>
+    <level>0</level>
+    <iconPath>UI/Abilities/ParasiticStab</iconPath>
+    <hotKey>Misc12</hotKey>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <targetRequired>True</targetRequired>
+    <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+    <showPsycastEffects>False</showPsycastEffects>
+    <showCastingProgressBar>True</showCastingProgressBar>
+    <warmupStartSound>Pawn_Melee_Punch_HitPawn</warmupStartSound>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>True</disableGizmoWhileUndrafted>
+    <statBases>
+      <Ability_Duration>0</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0</warmupTime>
+      <range>-1</range>
+      <drawAimPie>True</drawAimPie>
+      <requireLineOfSight>false</requireLineOfSight>
+      <linkedBodyPartsGroup>
+        <li>Tentacles</li>
+      </linkedBodyPartsGroup>
+      <targetParams Inherit="False">
+        <canTargetSelf>false</canTargetSelf>
+        <canTargetHumans>true</canTargetHumans>
+        <canTargetAnimals>true</canTargetAnimals>
+        <canTargetMechs>false</canTargetMechs>
+      </targetParams>
+    </verbProperties>
+    <!--<comps><li Class="CompProperties_AbilityGiveHediff"><compClass>CentaurTheMagnuassembly.CompAbilityEffect_GiveHediff_WholeMap</compClass><hediffDef>PsychicDeafCentaur</hediffDef><durationMultiplier>PsychicSensitivity</durationMultiplier><psychic>True</psychic><applicableToMechs>True</applicableToMechs><screenShakeIntensity>2</screenShakeIntensity></li><li Class="CompProperties_AbilityMoteOnTarget"><moteDef>MotePsychicApplyNeuroquake</moteDef><sound>Psycast_Neuroquake_Effect</sound></li></comps>-->
+  </AbilityDef>
+</Defs>

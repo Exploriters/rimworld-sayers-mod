@@ -87,7 +87,7 @@
         </li>
         <li Class="ScenPart_GameCondition">
           <def>GameCondition_Planetkiller</def>
-          <durationDays>180</durationDays>
+          <durationDays>90</durationDays>
         </li>
         <li Class="ScenPart_StartingAnimal">
           <def>StartingAnimal</def>
