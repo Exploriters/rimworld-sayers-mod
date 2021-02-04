@@ -21,7 +21,6 @@
       <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
       <PawnBeauty>2</PawnBeauty>
       <ImmunityGainSpeed>1.5</ImmunityGainSpeed>
-      <foodPoisoningChance>0</foodPoisoningChance>
       <!--== Attributes ==-->
       <MedicalOperationSpeed>2</MedicalOperationSpeed>
       <MedicalTendSpeed>2</MedicalTendSpeed>
@@ -235,6 +234,7 @@
       <hediffGiverSets>
         <li>OrganicStandard</li>
         <li>Human</li>
+        <li>Sayers</li>
       </hediffGiverSets>
     </race>
     <recipes>

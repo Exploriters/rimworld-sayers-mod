@@ -7,13 +7,13 @@ namespace Sayers
     {
         public double detlaHpPerSec => ((CompProperties_SelfHealOvertime)props).detlaHpPerSec;
         public double detlaHpPerTick => detlaHpPerSec / 60;
-
         public int detlaHpPerTickInteger => (int)Math.Floor(detlaHpPerTick);
         public double detlaHpPerTickDecimal => detlaHpPerTick - detlaHpPerTickInteger;
-        public double exceedHealth = 0;
         public int ticksBetweenHeal => ((CompProperties_SelfHealOvertime)props).ticksBetweenHeal;
+        public bool Invalid => detlaHpPerSec == 0D;
 
-        public bool isNotValid => detlaHpPerSec == 0D;
+
+        public double exceedHealth = 0;
 
         public override void PostExposeData()
         {
@@ -26,7 +26,7 @@ namespace Sayers
         {
             base.CompTick();
 
-            if (isNotValid)
+            if (Invalid)
                 return;
 
             if (parent.HitPoints < parent.MaxHitPoints)

@@ -25,9 +25,9 @@
       <range>13.5</range>
       <drawAimPie>True</drawAimPie>
       <requireLineOfSight>false</requireLineOfSight>
-      <linkedBodyPartsGroup>
+      <!--<linkedBodyPartsGroup>
         <li>Tentacles</li>
-      </linkedBodyPartsGroup>
+      </linkedBodyPartsGroup>-->
       <targetParams Inherit="False">
         <canTargetSelf>false</canTargetSelf>
         <canTargetHumans>true</canTargetHumans>

@@ -13,7 +13,7 @@ namespace Sayers
     {
         static HelloWorldLog()
         {
-        Log.Message("[SayersMOD]Is it working? Did you see me? OuO");
+            Log.Message("[SayersMOD]Is it working? Did you see me? OuO");
         }
     }
 }
