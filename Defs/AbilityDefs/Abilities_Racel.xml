@@ -38,10 +38,10 @@
     <comps>
       <li Class="CompProperties_AbilityGiveHediff">
         <compClass>Sayers.CompAbilityEffect_GiveHediff_ParasiticStab</compClass>
-        <hediffDef>PsychicDeafCentaur</hediffDef>
+        <hediffDef>Stab</hediffDef>
         <durationMultiplier>ToxicSensitivity</durationMultiplier>
-        <psychic>True</psychic>
-        <applicableToMechs>false</applicableToMechs>
+        <psychic>false</psychic>
+        <applicableToMechs>true</applicableToMechs>
       </li>
       <li Class="CompProperties_AbilityMoteOnTarget">
         <moteDef>Mote_PsycastPsychicEffect</moteDef>
