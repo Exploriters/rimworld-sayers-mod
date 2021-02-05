@@ -31,7 +31,7 @@
     <label>植模块制作</label>
     <tab>Sayers</tab>
     <description>利用植模块制作东西的科技，显然，这依旧是Sayers掌握的独门科技不是吗？</description>
-    <baseCost>150</baseCost>
+    <baseCost>750</baseCost>
     <techLevel>Medieval</techLevel>
     <researchViewX>2</researchViewX>
     <researchViewY>0.5</researchViewY>

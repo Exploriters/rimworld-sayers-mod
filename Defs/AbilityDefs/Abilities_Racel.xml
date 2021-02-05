@@ -5,7 +5,7 @@
     <abilityClass>Sayers.AdditionalAbility</abilityClass>
     <category>SayersRacal</category>
     <label>寄生穿刺</label>
-    <description>用触手去攻击目标，并且往目标体内注入含有种子的植物液——即予以目标寄生状态，而被寄生者死亡后，一颗“可食用的”血肉之树将会破体而出。</description>
+    <description>用触手去攻击目标，并且往目标体内注入含有种子的植物液——即予以目标寄生状态，而被寄生者死亡后，一棵“可食用的”血肉之树将会破体而出。</description>
     <level>0</level>
     <iconPath>UI/Abilities/ParasiticStab</iconPath>
     <hotKey>Misc12</hotKey>
@@ -24,7 +24,7 @@
       <warmupTime>0</warmupTime>
       <range>13.5</range>
       <drawAimPie>True</drawAimPie>
-      <requireLineOfSight>false</requireLineOfSight>
+      <requireLineOfSight>True</requireLineOfSight>
       <!--<linkedBodyPartsGroup>
         <li>Tentacles</li>
       </linkedBodyPartsGroup>-->
