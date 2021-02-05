@@ -8,6 +8,13 @@
   </supportedVersions>
   <modDependencies>
     <li>
+        <packageId>Exploriters.ExploriteCore</packageId>
+        <displayName>Explorite Core</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/2384633508</steamWorkshopUrl>
+        <downloadUrl>https://github.com/Exploriters/explorite-core</downloadUrl>
+    </li>
+	
+    <li>
         <packageId>Ludeon.RimWorld</packageId>
         <displayName>Core</displayName>
         <steamWorkshopUrl isNull="True" />
@@ -27,6 +34,8 @@
     </li>
   </modDependencies>
   <loadAfter>
+	<li>Exploriters.ExploriteCore</li>
+	
     <li>brrainz.harmony</li>
     <li>Ludeon.RimWorld</li>
     <li>Ludeon.RimWorld.Royalty</li>
