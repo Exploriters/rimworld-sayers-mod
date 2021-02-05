@@ -4,7 +4,7 @@
   <HediffDef>
     <defName>SayersHiddenEffect</defName>
     <label>Sayers</label>
-    <description>Sayers.</description>
+    <description>Sayers hediff.</description>
     <descriptionHyperlinks>
       <ThingDef>Alien_Sayers</ThingDef>
     </descriptionHyperlinks>

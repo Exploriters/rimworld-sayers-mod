@@ -46,7 +46,7 @@
 \n但问题也随之而来，这里的一切都是陌生的，对于三个在年幼之时就被宛如垃圾一般投放到另一个星球的，手无寸铁的幼崽来说，生存下去……是否会太困难了呢？</text>
         </li>
         <!--==我是傻逼orz==-->
-        <li Class="Sayers.ScenPart_ScatteredGarbage">
+        <li Class="Explorite.ScenPart_ScatteredGarbage">
           <def>ScatteredGarbage</def>
         </li>
       </parts>
