@@ -2,8 +2,8 @@
 <Defs>
   <HediffDef>
     <defName>SayersHiddenEffect</defName>
-    <label>Sayers食物毒性免疫</label>
-    <description>Sayers食物毒性免疫.</description>
+    <label>Sayers</label>
+    <description>Sayers hediff.</description>
     <descriptionHyperlinks>
       <ThingDef>Alien_Sayers</ThingDef>
     </descriptionHyperlinks>

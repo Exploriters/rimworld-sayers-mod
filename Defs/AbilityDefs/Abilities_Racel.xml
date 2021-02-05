@@ -2,7 +2,7 @@
 <Defs>
   <AbilityDef ParentName="PsycastBase">
     <defName>ParasiticStab_Sayers</defName>
-    <abilityClass>Sayers.AdditionalAbility</abilityClass>
+    <abilityClass>Explorite.AdditionalAbility</abilityClass>
     <category>SayersRacal</category>
     <label>寄生穿刺</label>
     <description>用触手去攻击目标，并且往目标体内注入含有种子的植物液——即予以目标寄生状态，而被寄生者死亡后，一棵“可食用的”血肉之树将会破体而出。</description>
@@ -37,8 +37,8 @@
     </verbProperties>
     <comps>
       <li Class="CompProperties_AbilityGiveHediff">
-        <compClass>Sayers.CompAbilityEffect_GiveHediff_ParasiticStab</compClass>
-        <hediffDef>Stab</hediffDef>
+        <compClass>Explorite.CompAbilityEffect_GiveHediff_ParasiticStab</compClass>
+        <hediffDef>PsychicDeafCentaur</hediffDef>
         <durationMultiplier>ToxicSensitivity</durationMultiplier>
         <psychic>false</psychic>
         <applicableToMechs>true</applicableToMechs>

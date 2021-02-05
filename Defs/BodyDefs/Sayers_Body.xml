@@ -231,6 +231,7 @@
                   <parts>
                     <li>
                       <def>TentaclesBone</def>
+					  <customLabel>最左触手骨</customLabel>
                       <coverage>0.05</coverage>
                       <groups>
                         <li>Tentacles</li>
@@ -250,6 +251,7 @@
                   <parts>
                     <li>
                       <def>TentaclesBone</def>
+					  <customLabel>左中触手骨</customLabel>
                       <coverage>0.05</coverage>
                       <groups>
                         <li>Tentacles</li>
@@ -269,6 +271,7 @@
                   <parts>
                     <li>
                       <def>TentaclesBone</def>
+					  <customLabel>右中触手骨</customLabel>
                       <coverage>0.05</coverage>
                       <groups>
                         <li>Tentacles</li>
@@ -288,6 +291,7 @@
                   <parts>
                     <li>
                       <def>TentaclesBone</def>
+					  <customLabel>最右触手骨</customLabel>
                       <coverage>0.05</coverage>
                       <groups>
                         <li>Tentacles</li>
@@ -337,7 +341,7 @@
             </li>
             <li>
               <def>Foot</def>
-              <customLabel>左脚</customLabel>
+              <customLabel>左爪</customLabel>
               <coverage>0.1</coverage>
               <groups>
                 <li>Feet</li>
@@ -346,22 +350,6 @@
                 <li>
                   <def>Toe</def>
                   <customLabel>左小趾</customLabel>
-                  <coverage>0.06</coverage>
-                  <groups>
-                    <li>Feet</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>Toe</def>
-                  <customLabel>左第四脚趾</customLabel>
-                  <coverage>0.07</coverage>
-                  <groups>
-                    <li>Feet</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>Toe</def>
-                  <customLabel>左中趾</customLabel>
                   <coverage>0.08</coverage>
                   <groups>
                     <li>Feet</li>
@@ -369,8 +357,16 @@
                 </li>
                 <li>
                   <def>Toe</def>
-                  <customLabel>左第二脚趾</customLabel>
-                  <coverage>0.09</coverage>
+                  <customLabel>左中趾</customLabel>
+                  <coverage>0.10</coverage>
+                  <groups>
+                    <li>Feet</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>Toe</def>
+                  <customLabel>左二趾</customLabel>
+                  <coverage>0.11</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>
@@ -378,7 +374,7 @@
                 <li>
                   <def>Toe</def>
                   <customLabel>左大趾</customLabel>
-                  <coverage>0.09</coverage>
+                  <coverage>0.12</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>
@@ -416,7 +412,7 @@
             </li>
             <li>
               <def>Foot</def>
-              <customLabel>右脚</customLabel>
+              <customLabel>右爪</customLabel>
               <coverage>0.1</coverage>
               <groups>
                 <li>Feet</li>
@@ -425,22 +421,6 @@
                 <li>
                   <def>Toe</def>
                   <customLabel>右小趾</customLabel>
-                  <coverage>0.06</coverage>
-                  <groups>
-                    <li>Feet</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>Toe</def>
-                  <customLabel>右第四脚趾</customLabel>
-                  <coverage>0.07</coverage>
-                  <groups>
-                    <li>Feet</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>Toe</def>
-                  <customLabel>右中趾</customLabel>
                   <coverage>0.08</coverage>
                   <groups>
                     <li>Feet</li>
@@ -448,8 +428,16 @@
                 </li>
                 <li>
                   <def>Toe</def>
-                  <customLabel>右第二脚趾</customLabel>
-                  <coverage>0.09</coverage>
+                  <customLabel>右中趾</customLabel>
+                  <coverage>0.10</coverage>
+                  <groups>
+                    <li>Feet</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>Toe</def>
+                  <customLabel>右二趾</customLabel>
+                  <coverage>0.11</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>
@@ -457,7 +445,7 @@
                 <li>
                   <def>Toe</def>
                   <customLabel>右大趾</customLabel>
-                  <coverage>0.09</coverage>
+                  <coverage>0.12</coverage>
                   <groups>
                     <li>Feet</li>
                   </groups>
