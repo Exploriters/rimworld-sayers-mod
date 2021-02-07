@@ -296,6 +296,63 @@
     </appliedOnFixedBodyParts>
     <addsHediff>BionicTentacle</addsHediff>
   </RecipeDef>
+  <!--= 仿生耳朵 =-->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BionicEar_Sayers</defName>
+    <label>仿生耳朵</label>
+    <labelNoun>一只仿生耳朵</labelNoun>
+    <description>一只已安装的仿生耳朵</description>
+    <descriptionHyperlinks>
+      <ThingDef>BionicEar_Sayers</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>BionicEar_Sayers</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>BionicEar_Sayers</defName>
+    <label>仿生耳朵</label>
+    <description>一只仿生耳朵</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallBionicEar_Sayers</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>10</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+  </ThingDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallBionicEar_Sayers</defName>
+    <label>安装仿生耳朵</label>
+    <description>安装仿生耳朵</description>
+    <descriptionHyperlinks>
+      <ThingDef>BionicEar_Sayers</ThingDef>
+      <HediffDef>BionicEar_Sayers</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>正在安装仿生耳朵</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BionicEar_Sayers</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BionicEar_Sayers</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>SayersEar</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BionicEar_Sayers</addsHediff>
+  </RecipeDef>
   <!--==== 远古科技  ====-->
   <!--== 基础 ==-->
   <ThingDef Name="BodyPartArchotechBase" ParentName="BodyPartBase" Abstract="True">
@@ -395,6 +452,66 @@
       <li>Tentacles</li>
     </appliedOnFixedBodyParts>
     <addsHediff>ArchotechTentacle</addsHediff>
+  </RecipeDef>
+  <!--= 远古科技耳朵 =-->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ArchotechEar_Sayers</defName>
+    <label>远古科技耳朵</label>
+    <labelNoun>一只远古科技耳朵</labelNoun>
+    <description>一只已安装的远古科技耳朵</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechEar_Sayers</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>ArchotechEar_Sayers</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.50</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartArchotechBase">
+    <defName>ArchotechEar_Sayers</defName>
+    <label>远古科技耳朵</label>
+    <description>一只远古科技耳朵</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallArchotechEar_Sayers</RecipeDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallArchotechEar_Sayers</defName>
+    <label>安装远古科技耳朵</label>
+    <description>安装远古科技耳朵</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechEar_Sayers</ThingDef>
+      <HediffDef>ArchotechEar_Sayers</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>正在安装远古科技耳朵</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechEar_Sayers</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ArchotechEar_Sayers</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>SayersEar</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArchotechEar_Sayers</addsHediff>
   </RecipeDef>
   <!--==== 其他稀奇古怪の玩意儿 ====-->
   <!--= 挖掘触手 =-->

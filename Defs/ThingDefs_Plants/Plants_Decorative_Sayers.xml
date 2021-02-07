@@ -21,7 +21,6 @@
       <dieIfLeafless>true</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
       <sowWork>270</sowWork>
-      <!-- 120 ticks per live day for beauty -->
       <sowTags>
         <li>Ground</li>
         <li>Decorative</li>

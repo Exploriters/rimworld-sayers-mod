@@ -2,7 +2,7 @@
 <Defs>
   <FactionDef ParentName="PlayerFactionBase" Abstract="True" Name="SayersPlayerFactionBase">
     <isPlayer>true</isPlayer>
-    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <factionIconPath>World/WorldObjects/Expanding/Member</factionIconPath>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
     <factionNameMaker>NamerFactionOutlander</factionNameMaker>
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
@@ -37,8 +37,6 @@
       </thingDefs>
     </apparelStuffFilter>
   </FactionDef>
-  
-  
   <FactionDef ParentName="SayersPlayerFactionBase">
     <defName>SayersClan</defName>
     <label>Sayers聚落</label>
@@ -56,6 +54,4 @@
     <pawnsPlural>Sayers逃难者们</pawnsPlural>
     <factionIconPath>World/WorldObjects/Expanding/Refugees</factionIconPath>
   </FactionDef>
-  
-  
 </Defs>

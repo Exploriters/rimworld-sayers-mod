@@ -1,15 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <HediffGiverSetDef>
-    <defName>Sayers</defName>
+    <defName>Sayers食物毒性免疫</defName>
     <hediffGivers>
-      
       <li Class="Explorite.HediffGiver_EnsureForAlways">
         <hediff>SayersHiddenEffect</hediff>
       </li>
-	  
     </hediffGivers>
   </HediffGiverSetDef>
-
 </Defs>

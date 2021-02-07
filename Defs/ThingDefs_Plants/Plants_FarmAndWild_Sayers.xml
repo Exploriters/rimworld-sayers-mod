@@ -43,17 +43,5 @@
       <wildOrder>2</wildOrder>
       <purpose>Food</purpose>
     </plant>
-    <comps>
-      <li Class="CompProperties_Glower">
-        <glowRadius>2</glowRadius>
-        <overlightRadius>7.0</overlightRadius>
-        <glowColor>(181,238,232,0)</glowColor>
-      </li>
-      <li Class="CompProperties_HeatPusher">
-        <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>3.5</heatPerSecond>
-        <heatPushMaxTemperature>23</heatPushMaxTemperature>
-      </li>
-    </comps>
   </ThingDef>
 </Defs>
