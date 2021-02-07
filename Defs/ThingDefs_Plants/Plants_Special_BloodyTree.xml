@@ -64,6 +64,7 @@
         <volume>(0.15, 0.3, 0.1)</volume>
         <offset>(-0.03,0,-0.44)</offset>
       </shadowData>
+      <drawOffset>(0,1,0)</drawOffset>
     </graphicData>
     <statBases>
       <Beauty>2</Beauty>
