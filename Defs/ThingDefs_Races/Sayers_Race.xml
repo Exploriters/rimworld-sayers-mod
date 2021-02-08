@@ -40,6 +40,8 @@
       <MiningSpeed>0.95</MiningSpeed>
       <DeepDrillingSpeed>0.7</DeepDrillingSpeed>
       <SmoothingSpeed>0.5</SmoothingSpeed>
+      <PawnShieldRechargeRate>0</PawnShieldRechargeRate>
+      <PawnShieldEnergyMax>0</PawnShieldEnergyMax>
     </statBases>
     <tools>
       <li>
@@ -178,7 +180,7 @@
       <thinkTreeMain>Humanlike</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
-      <makesFootprints>true</makesFootprints>
+      <makesFootprints>false</makesFootprints>
       <lifeExpectancy>80</lifeExpectancy>
       <leatherDef>Leather_Fox</leatherDef>
       <nameCategory>HumanStandard</nameCategory>
