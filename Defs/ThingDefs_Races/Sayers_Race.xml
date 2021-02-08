@@ -7,16 +7,14 @@
 \nSayers最大的特征为分别从左眼眼眶和喉部生长出来的“眼生花”和“喉生花”，统称为“花组”。大量事迹表明“眼生花”可以承担丢失的左眼的工作，而“花组”均承担着部分呼吸工作。
 \nSayers没有前肢，前肢所承担的所有工作由连接在“喉生花”上的四条触手代替。
 \n更多的触手让Sayers有着更高的工作效率，但是显然触手相较于肢体来说要更加软弱些，因此难以挖动石块。另外，虽然很难以置信，但Sayers似乎有着极.其.惊.人的种植天赋，这是人类极难或者说几乎不可能达到的。</description>
-
     <comps>
       <li Class="Explorite.CompProperties_PawnShield" />
       <li Class="Explorite.CompProperties_EnsureAbility">
         <abilities>
           <li>ParasiticStab_Sayers</li>
-		</abilities>
-	  </li>
-	</comps>
-	
+        </abilities>
+      </li>
+    </comps>
     <statBases>
       <MarketValue>5150</MarketValue>
       <MoveSpeed>13.8</MoveSpeed>
@@ -934,6 +932,15 @@
         </cannotReceiveThoughts>
       </thoughtSettings>
       <raceRestriction>
+        <researchList>
+          <li>
+            <projects>
+              <li>Pre_Plants</li>
+              <li>PlantElementRefining</li>
+              <li>PlantModuleMakeing</li>
+            </projects>
+          </li>
+        </researchList>
         <apparelList>
           <li>Apparel_SayersBasic</li>
           <li>Apparel_SayersParka</li>
@@ -944,6 +951,24 @@
           <li>Apparel_SayersPlantsArmor</li>
           <li>Apparel_SayersArmorReconPlants</li>
         </apparelList>
+        <whiteApparelList>
+          <li>Apparel_CowboyHat</li>
+          <li>Apparel_BowlerHat</li>
+          <li>Apparel_TribalHeaddress</li>
+          <li>Apparel_Tuque</li>
+          <li>Apparel_WarMask</li>
+          <li>Apparel_WarVeil</li>
+          <li>Apparel_SimpleHelmet</li>
+          <li>Apparel_AdvancedHelmet</li>
+          <li>Apparel_PowerArmorHelmet</li>
+          <li>Apparel_ArmorHelmetRecon</li>
+          <li>Apparel_PsychicFoilHelmet</li>
+          <li>Apparel_ShieldBelt</li>
+          <li>Apparel_SmokepopBelt</li>
+          <li>Apparel_PackJump</li>
+          <li>Apparel_PackBroadshield</li>
+          <li>Apparel_Gunlink</li>
+        </whiteApparelList>
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
         <plantList>
           <li>Plant_Tenlacess_Sayers</li>
