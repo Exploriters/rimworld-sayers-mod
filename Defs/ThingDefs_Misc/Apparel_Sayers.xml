@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+  <!--==身体部分==-->
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_SayersBasic</defName>
     <label>织布斗篷[Sayers]</label>

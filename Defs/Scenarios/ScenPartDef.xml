@@ -2,7 +2,7 @@
 <Defs>
   <ScenPartDef>
     <defName>ScatteredGarbage</defName>
-    <label>散落物</label>
+    <label>散落粘液[Sayers]</label>
     <category>Misc</category>
     <scenPartClass>Explorite.ScenPart_ScatteredGarbage</scenPartClass>
     <maxUses>1</maxUses>
