@@ -175,7 +175,7 @@
       </li>
     </tools>
     <race>
-      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeMain>Sayers</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
       <makesFootprints>false</makesFootprints>
@@ -185,7 +185,7 @@
       <body>Body_Sayers</body>
       <baseBodySize>0.8</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
-      <predator>true</predator>
+      <predator>false</predator>
       <foodType>OmnivoreHuman, CarnivoreAnimal, OmnivoreAnimal</foodType>
       <gestationPeriodDays>45</gestationPeriodDays>
       <meatMarketValue>0.8</meatMarketValue>
@@ -891,6 +891,25 @@
           </li>
         </replacerList>
         <cannotReceiveThoughts>
+          <li>AteAwfulMeal</li>
+          <li>AteRawFood</li>
+          <li>AteKibble</li>
+          <li>AteCorpse</li>
+          <li>AteHumanlikeMeatDirect</li>
+          <li>AteHumanlikeMeatDirectCannibal</li>
+          <li>AteHumanlikeMeatAsIngredient</li>
+          <li>AteHumanlikeMeatAsIngredientCannibal</li>
+          <li>AteInsectMeatDirect</li>
+          <li>AteRottenFood</li>
+          <li>SleptInBedroom</li>
+          <li>SleptInBarracks</li>
+          <li>NeedJoy</li>
+          <li>NeedComfort</li>
+          <li>NeedBeauty</li>
+          <li>NeedRoomSize</li>
+          <li>NeedOutdoors</li>
+          <li>BondedAnimalDied</li>
+		  
           <li>EnvironmentDark</li>
           <li>ApparelDamaged</li>
           <li>WrongApparelGender</li>
