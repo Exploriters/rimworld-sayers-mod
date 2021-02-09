@@ -17,8 +17,11 @@
       <preferability>RawBad</preferability>
     </ingestible>
     <plant>
+      <growMinGlow>0</growMinGlow>
+      <growOptimalGlow>0</growOptimalGlow>
+      <fertilityMin>0</fertilityMin>
+      <fertilitySensitivity>0</fertilitySensitivity>
       <lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
-      <fertilitySensitivity>0.5</fertilitySensitivity>
       <soundHarvesting>Harvest_Tree</soundHarvesting>
       <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
       <sowWork>4000</sowWork>
@@ -42,7 +45,7 @@
       <wildClusterRadius>8</wildClusterRadius>
       <wildClusterWeight>24</wildClusterWeight>
       <wildOrder>3</wildOrder>
-      <interferesWithRoof>true</interferesWithRoof>
+      <interferesWithRoof>false</interferesWithRoof>
       <dieIfNoSunlight>False</dieIfNoSunlight>
     </plant>
     <graphicData>
@@ -53,6 +56,11 @@
         <_FallBehaviorEnabled>1</_FallBehaviorEnabled>
       </shaderParameters>
     </graphicData>
+    <comps>
+      <li>
+        <compClass>Explorite.CompThingHolder</compClass>
+      </li>
+    </comps>
   </ThingDef>
   <ThingDef ParentName="BloodyTreeBase">
     <defName>Plant_BloodyTree</defName>

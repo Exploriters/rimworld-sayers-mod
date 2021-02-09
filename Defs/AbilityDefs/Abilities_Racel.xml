@@ -10,45 +10,51 @@
     <iconPath>UI/Abilities/ParasiticStab</iconPath>
     <hotKey>Misc12</hotKey>
     <jobDef>CastAbilityOnThing</jobDef>
-    <targetRequired>True</targetRequired>
-    <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+    <targetRequired>false</targetRequired>
+    <canUseAoeToGetTargets>True</canUseAoeToGetTargets>
     <showPsycastEffects>False</showPsycastEffects>
     <showCastingProgressBar>False</showCastingProgressBar>
-    <warmupStartSound>Pawn_Melee_Punch_HitPawn</warmupStartSound>
+    <warmupStartSound>DeathAcidifier</warmupStartSound>
     <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>True</disableGizmoWhileUndrafted>
 	
     <sendLetterOnCooldownComplete>false</sendLetterOnCooldownComplete>
-    <cooldownTicksRange>0~0</cooldownTicksRange>
+    <cooldownTicksRange>1200~1200</cooldownTicksRange>
     <statBases>
       <Ability_Duration>40</Ability_Duration>
+      <Ability_EffectRadius>1.5</Ability_EffectRadius>
     </statBases>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
-      <warmupTime>0.01666666666666666666666666666667</warmupTime>
-      <range>13.5</range>
-      <drawAimPie>True</drawAimPie>
-      <requireLineOfSight>True</requireLineOfSight>
+      <warmupTime>0.05</warmupTime>
+      <range>1.5</range>
+      <drawAimPie>False</drawAimPie>
+      <requireLineOfSight>False</requireLineOfSight>
       <!--<linkedBodyPartsGroup>
         <li>Tentacles</li>
       </linkedBodyPartsGroup>-->
       <targetParams Inherit="False">
-        <canTargetSelf>false</canTargetSelf>
+        <canTargetSelf>true</canTargetSelf>
         <canTargetHumans>true</canTargetHumans>
         <canTargetAnimals>true</canTargetAnimals>
-        <canTargetMechs>false</canTargetMechs>
+        <canTargetMechs>true</canTargetMechs>
       </targetParams>
     </verbProperties>
     <comps>
-      <li Class="CompProperties_AbilityGiveHediff">
-        <compClass>Explorite.CompAbilityEffect_GiveHediff_ParasiticStab</compClass>
+      <li Class="CompProperties_AbilityMoteOnTarget">
+        <compClass>Explorite.CompAbilityEffect_MoteOnTarget_ParasiticStab</compClass>
+        <moteDef>Mote_AcidCloud</moteDef>
+      </li>
+      <li Class="Explorite.CompProperties_AbilityGiveHediff_ParasiticStab">
         <hediffDef>FleshSeedParasitized</hediffDef>
         <!--<durationMultiplier>ToxicSensitivity</durationMultiplier>-->
         <psychic>false</psychic>
         <applicableToMechs>false</applicableToMechs>
-      </li>
-      <li Class="CompProperties_AbilityMoteOnTarget">
-        <moteDef>Mote_PsycastPsychicEffect</moteDef>
+        <goodwillImpact>-5</goodwillImpact>
+		
+        <injuryOnHit>Injection</injuryOnHit>
+        <injuryCount>3~6</injuryCount>
+        <injuryDamage>3~6</injuryDamage>
       </li>
     </comps>
   </AbilityDef>
