@@ -312,6 +312,21 @@
                     <weight>5</weight>
                     <only>RGBA(0.196,0.196,0.196,1)</only>
                   </li>
+                  <!--Gray Blue-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.420,0.494,0.533,1)</only>
+                  </li>
+                  <!--Gray-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.392,0.392,0.392,1)</only>
+                  </li>
+                  <!--Dark Blue(玄青)-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.145,0.149,0.188,1)</only>
+                  </li>
                 </options>
               </first>
             </li>
@@ -343,6 +358,21 @@
                   <li>
                     <weight>5</weight>
                     <only>RGBA(0.741,0.686,0.769,1)</only>
+                  </li>
+                  <!--Gray Blue-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.420,0.494,0.533,1)</only>
+                  </li>
+                  <!--Gray-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.392,0.392,0.392,1)</only>
+                  </li>
+                  <!--Dark Blue(玄青)-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.145,0.149,0.188,1)</only>
                   </li>
                 </options>
               </first>

@@ -48,7 +48,7 @@
     <appliedOnFixedBodyParts>
       <li>Tentacles</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>WoodenHand</addsHediff>
+    <addsHediff>WoodenTentacle</addsHediff>
   </RecipeDef>
   <!--==== 简易  ====-->
   <!--== 基础 ==-->

@@ -43,6 +43,7 @@
       <wildClusterWeight>24</wildClusterWeight>
       <wildOrder>3</wildOrder>
       <interferesWithRoof>true</interferesWithRoof>
+      <dieIfNoSunlight>False</dieIfNoSunlight>
     </plant>
     <graphicData>
       <shaderParameters>
