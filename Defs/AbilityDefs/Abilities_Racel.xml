@@ -11,13 +11,12 @@
     <hotKey>Misc12</hotKey>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>false</targetRequired>
-    <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+    <canUseAoeToGetTargets>True</canUseAoeToGetTargets>
     <showPsycastEffects>False</showPsycastEffects>
     <showCastingProgressBar>False</showCastingProgressBar>
     <warmupStartSound>DeathAcidifier</warmupStartSound>
     <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>True</disableGizmoWhileUndrafted>
-    <canUseAoeToGetTargets>True</canUseAoeToGetTargets>
 	
     <sendLetterOnCooldownComplete>false</sendLetterOnCooldownComplete>
     <cooldownTicksRange>1200~1200</cooldownTicksRange>
