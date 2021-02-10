@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThinkTreeDef>
+    <defName>Sayers</defName>
+    <thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Humanlike</treeDef>
+        </li>
+        <!--<li Class="Explorite.JobGiver_GetFood_Sayers"/>-->
+      </subNodes>
+	</thinkRoot>
+  </ThinkTreeDef>
+  
+</Defs>
