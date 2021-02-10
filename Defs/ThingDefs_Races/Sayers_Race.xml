@@ -201,23 +201,23 @@
       </litterSizeCurve>
       <lifeStageAges>
         <li>
-          <def>HumanlikeBaby</def>
+          <def>SayersBaby</def>
           <minAge>0</minAge>
         </li>
         <li>
-          <def>HumanlikeToddler</def>
+          <def>SayersToddler</def>
           <minAge>1.2</minAge>
         </li>
         <li>
-          <def>HumanlikeChild</def>
+          <def>SayersChild</def>
           <minAge>4</minAge>
         </li>
         <li>
-          <def>HumanlikeTeenager</def>
+          <def>SayersTeenager</def>
           <minAge>13</minAge>
         </li>
         <li>
-          <def>HumanlikeAdult</def>
+          <def>SayersAdult</def>
           <minAge>18</minAge>
         </li>
       </lifeStageAges>
