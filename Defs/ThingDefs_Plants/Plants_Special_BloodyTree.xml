@@ -5,7 +5,7 @@
       <MaxHitPoints>200</MaxHitPoints>
       <Flammability>0.8</Flammability>
       <Nutrition>1.7</Nutrition>
-      <MeditationFocusStrength>0.19</MeditationFocusStrength>
+      <MeditationFocusStrength>0.2</MeditationFocusStrength>
     </statBases>
     <altitudeLayer>Building</altitudeLayer>
     <selectable>true</selectable>
