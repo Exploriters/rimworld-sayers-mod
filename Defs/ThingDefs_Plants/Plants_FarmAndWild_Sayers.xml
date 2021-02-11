@@ -42,12 +42,12 @@
       <topWindExposure>0.3</topWindExposure>
       <wildOrder>2</wildOrder>
       <purpose>Food</purpose>
-      <comps>
-        <li Class="CompProperties_Glower">
-          <glowRadius>2</glowRadius>
-          <glowColor>(181,238,232,0)</glowColor>
-        </li>
-      </comps>
     </plant>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(181,238,232,0)</glowColor>
+      </li>
+    </comps>
   </ThingDef>
 </Defs>

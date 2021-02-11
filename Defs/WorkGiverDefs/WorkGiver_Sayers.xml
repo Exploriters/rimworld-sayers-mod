@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoBillsUsePlantReactionTable</defName>
+    <label>在植物反应桌制作东西</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>PlantReactionTable</li>
+    </fixedBillGiverDefs>
+    <verb>制作</verb>
+    <gerund>制作于</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  <!--==Herbs Plan==-->
+  <WorkGiverDef>
+    <defName>DoBillsUseHerbProcessingSpot</defName>
+    <label>在药草加工点制作东西</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>HerbProcessingSpot</li>
+    </fixedBillGiverDefs>
+    <verb>制作</verb>
+    <gerund>制作于</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+</Defs>
