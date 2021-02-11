@@ -867,6 +867,11 @@
             <replacer>SleptInBarracks_Sayers</replacer>
           </li>
           <li>
+            <original>BondedAnimalDied</original>
+            <replacer>BondedAnimalDied_Sayers</replacer>
+          </li>
+		  <!-- 非计时的状况性想法不使用replacer
+          <li>
             <original>NeedJoy</original>
             <replacer>NeedJoy_Sayers</replacer>
           </li>
@@ -886,10 +891,7 @@
             <original>NeedOutdoors</original>
             <replacer>NeedOutdoors_Sayers</replacer>
           </li>
-          <li>
-            <original>BondedAnimalDied</original>
-            <replacer>BondedAnimalDied_Sayers</replacer>
-          </li>
+		  -->
         </replacerList>
         <cannotReceiveThoughts>
           <li>AteAwfulMeal</li>

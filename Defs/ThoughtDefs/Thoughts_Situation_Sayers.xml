@@ -5,7 +5,6 @@
     <defName>NeedJoy_Sayers</defName>
     <workerClass>ThoughtWorker_NeedJoy</workerClass>
     <validWhileDespawned>true</validWhileDespawned>
-    <stackLimit>1</stackLimit>
     <stages>
       <li>
         <label>完全没有娱乐活动</label>
@@ -38,7 +37,6 @@
     <defName>NeedComfort_Sayers</defName>
     <workerClass>ThoughtWorker_NeedComfort</workerClass>
     <validWhileDespawned>true</validWhileDespawned>
-    <stackLimit>1</stackLimit>
     <stages>
       <li IsNull="True" />
       <!--<li>
@@ -72,7 +70,6 @@
   <ThoughtDef>
     <defName>NeedBeauty_Sayers</defName>
     <workerClass>ThoughtWorker_NeedBeauty</workerClass>
-    <stackLimit>1</stackLimit>
     <stages>
       <li>
         <label>极其丑陋的环境</label>
@@ -111,7 +108,6 @@
   <ThoughtDef>
     <defName>NeedRoomSize_Sayers</defName>
     <workerClass>ThoughtWorker_NeedRoomSize</workerClass>
-    <stackLimit>1</stackLimit>
     <stages>
       <li>
         <label>非常狭窄的室内</label>
@@ -135,7 +131,6 @@
   <ThoughtDef>
     <defName>NeedOutdoors_Sayers</defName>
     <workerClass>ThoughtWorker_NeedOutdoors</workerClass>
-    <stackLimit>1</stackLimit>
     <stages>
       <li>
         <visible>false</visible>
