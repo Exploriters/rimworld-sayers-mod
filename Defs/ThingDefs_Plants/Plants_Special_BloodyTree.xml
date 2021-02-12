@@ -87,7 +87,7 @@
   <ThingDef ParentName="BloodyTreeBase">
     <defName>Plant_BloodyTree</defName>
     <label>血肉树</label>
-    <description>由某些特殊攻击而导致被寄生的生物死后破体而出长成的猩红树木，由骨肉与交错的植物触须组成。虽然很恶心，但是这玩意儿收割之后竟然能吃</description>
+    <description>由某些特殊攻击而导致被寄生的生物死后破体而出长成的猩红树木，由骨肉与交错的植物触须组成。虽然很恶心，但是这玩意儿收割之后竟然能吃。</description>
     <graphicData>
       <texPath>Things/Plant/BloodyTree</texPath>
       <graphicClass>Graphic_Random</graphicClass>

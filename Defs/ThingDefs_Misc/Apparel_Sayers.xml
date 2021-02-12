@@ -5,6 +5,11 @@
     <defName>Apparel_SayersBasic</defName>
     <label>织布斗篷[Sayers]</label>
     <description>由布料或者皮革制成的斗篷，对于Sayers来说是件很不错的轻柔的服装，但是对于人类来说无法理解。</description>
+    <recipeMaker>
+      <researchPrerequisites>
+        <li>SayersRestrictedThings</li>
+      </researchPrerequisites>
+    </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/SayersItems/Apparel/SayersBasic/SayersBasic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -49,6 +54,11 @@
     <defName>Apparel_SayersParka</defName>
     <label>风雪外覆斗篷[Sayers]</label>
     <description>一件比较厚重的外覆斗篷，保暖效果很不错。</description>
+    <recipeMaker>
+      <researchPrerequisites>
+        <li>SayersRestrictedThings</li>
+      </researchPrerequisites>
+    </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/SayersItems/Apparel/SayersParka/SayersParka</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -123,7 +133,11 @@
     <label>防尘外覆斗篷[Sayers]</label>
     <description>一件加长的防尘外覆斗篷，可以在一定程度上抵御沙尘和阳光。</description>
     <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <researchPrerequisite Inherit="False" />
+      <researchPrerequisites>
+        <li>SayersRestrictedThings</li>
+        <li>ComplexClothing</li>
+      </researchPrerequisites>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/SayersItems/Apparel/SayersDuster/SayersDuster</texPath>
@@ -198,7 +212,11 @@
     <description>一套坚固的微重型类板甲外覆斗篷，但是如果人类看见了，可能…会以为是什么奇怪的中型生物褪下来的带着鳞片的皮肤？</description>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <researchPrerequisite Inherit="False" />
+      <researchPrerequisites>
+        <li>SayersRestrictedThings</li>
+        <li>PlateArmor</li>
+      </researchPrerequisites>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -274,7 +292,11 @@
     <description>一件在胸口和背部插有轻薄装甲板的外覆斗篷。主要用于保护躯干和主要脏器，触手？谁管得着啊！</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
+      <researchPrerequisite Inherit="False" />
+      <researchPrerequisites>
+        <li>SayersRestrictedThings</li>
+        <li>FlakArmor</li>
+      </researchPrerequisites>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>4</Crafting>
@@ -344,7 +366,11 @@
     <label>中型防弹外覆斗篷[Sayers]</label>
     <description>一件近全身包覆了装甲板的坚韧的织物外覆斗篷，虽然没有全身盔甲严密，但也提供了强大的防护(除了触手)，同时兼顾了舒适性。</description>
     <recipeMaker>
-      <researchPrerequisite>FlakArmor</researchPrerequisite>
+      <researchPrerequisite Inherit="False" />
+      <researchPrerequisites>
+        <li>SayersRestrictedThings</li>
+        <li>FlakArmor</li>
+      </researchPrerequisites>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>4</Crafting>
@@ -410,7 +436,11 @@
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-      <researchPrerequisite>ReconArmor</researchPrerequisite>
+      <researchPrerequisite Inherit="False" />
+      <researchPrerequisites>
+        <li>SayersRestrictedThings</li>
+        <li>ReconArmor</li>
+      </researchPrerequisites>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -496,7 +526,11 @@
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+      <researchPrerequisite Inherit="False" />
+      <researchPrerequisites>
+        <li>SayersRestrictedThings</li>
+        <li>PoweredArmor</li>
+      </researchPrerequisites>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>

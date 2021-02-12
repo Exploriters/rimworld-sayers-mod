@@ -62,7 +62,7 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
     <researchPrerequisites>
-      <li>Pre_Plants</li>
+      <li>SayersPlantElementRefining</li>
     </researchPrerequisites>
     <stuffCategories>
       <li>Metallic</li>

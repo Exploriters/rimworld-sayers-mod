@@ -3,7 +3,7 @@
   <RecipeDef>
     <defName>Make_PlantElement</defName>
     <label>提炼植元素</label>
-    <description>从植物——尤其是木材中提炼植元素。</description>
+    <description>从木本植物中提炼植元素。</description>
     <jobString>正在提炼植元素</jobString>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
@@ -28,7 +28,7 @@
       <PlantElement>17</PlantElement>
     </products>
     <researchPrerequisites>
-      <li>PlantElementRefining</li>
+      <li>SayersPlantElementRefining</li>
     </researchPrerequisites>
     <recipeUsers>
       <li>PlantReactionTable</li>
@@ -75,7 +75,7 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <researchPrerequisites>
-      <li>PlantModuleMakeing</li>
+      <li>SayersPlantModuleMakeing</li>
     </researchPrerequisites>
     <recipeUsers>
       <li>PlantReactionTable</li>

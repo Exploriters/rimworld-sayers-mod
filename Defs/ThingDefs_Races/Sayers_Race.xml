@@ -956,7 +956,8 @@
         </cannotReceiveThoughts>
       </thoughtSettings>
       <raceRestriction>
-        <researchList>
+        <!-- 功能性故障
+		<researchList>
           <li>
             <projects>
               <li>Pre_Plants</li>
@@ -964,7 +965,7 @@
               <li>PlantModuleMakeing</li>
             </projects>
           </li>
-        </researchList>
+        </researchList>-->
         <apparelList>
           <li>Apparel_SayersBasic</li>
           <li>Apparel_SayersParka</li>
