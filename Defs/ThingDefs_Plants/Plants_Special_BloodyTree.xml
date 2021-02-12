@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="TreeBase" Name="BloodyTreeBase" Abstract="True">
+    <thingClass>Explorite.Plant_FleshTree</thingClass>
     <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
+      <MaxHitPoints>300</MaxHitPoints>
       <Flammability>0.8</Flammability>
       <Nutrition>1.7</Nutrition>
       <MeditationFocusStrength>0.2</MeditationFocusStrength>
@@ -106,7 +107,7 @@
       <growDays>3</growDays>
       <harvestWork>400</harvestWork>
       <harvestYield>27</harvestYield>
-      <leaflessGraphicPath>Things/Plant/BloodyTree_Leafless</leaflessGraphicPath>
+      <immatureGraphicPath>Things/Plant/BloodyTree_Leafless</immatureGraphicPath>
     </plant>
   </ThingDef>
 </Defs>
