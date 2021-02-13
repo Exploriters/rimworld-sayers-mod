@@ -5,6 +5,7 @@
       <MaxHitPoints>200</MaxHitPoints>
       <Flammability>0.8</Flammability>
       <Nutrition>1.7</Nutrition>
+      <MeditationFocusStrength>0.2</MeditationFocusStrength>
     </statBases>
     <altitudeLayer>Building</altitudeLayer>
     <selectable>true</selectable>
@@ -21,7 +22,7 @@
       <growOptimalGlow>0</growOptimalGlow>
       <fertilityMin>0</fertilityMin>
       <fertilitySensitivity>0</fertilitySensitivity>
-      <lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
+      <lifespanDaysPerGrowDays>0</lifespanDaysPerGrowDays>
       <soundHarvesting>Harvest_Tree</soundHarvesting>
       <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
       <sowWork>4000</sowWork>
@@ -46,7 +47,9 @@
       <wildClusterWeight>24</wildClusterWeight>
       <wildOrder>3</wildOrder>
       <interferesWithRoof>false</interferesWithRoof>
-      <dieIfNoSunlight>False</dieIfNoSunlight>
+      <neverBlightable>false</neverBlightable>
+      <dieIfLeafless>false</dieIfLeafless>
+      <dieFromToxicFallout>false</dieFromToxicFallout>
     </plant>
     <graphicData>
       <shaderParameters>
@@ -59,6 +62,25 @@
     <comps>
       <li>
         <compClass>Explorite.CompThingHolder</compClass>
+      </li>
+      <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+          <li>Morbid</li>
+        </focusTypes>
+        <offsets>
+          <li Class="FocusStrengthOffset_BuildingDefs">
+            <defs><Plant_BloodyTree>0.05</Plant_BloodyTree></defs>
+            <radius>9.9</radius>
+            <maxBuildings>3</maxBuildings>
+            <explanationKey>MeditationFocusPerBloodyTree</explanationKey>
+            <explanationKeyAbstract>MeditationFocusPerBloodyTreeAbstract</explanationKeyAbstract>
+          </li>
+        </offsets>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3.75</glowRadius>
+        <glowColor>(125,110,110,0)</glowColor>
       </li>
     </comps>
   </ThingDef>

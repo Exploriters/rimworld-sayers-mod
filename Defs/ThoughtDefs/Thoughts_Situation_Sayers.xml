@@ -38,11 +38,13 @@
     <workerClass>ThoughtWorker_NeedComfort</workerClass>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
-      <li>
+      <li IsNull="True" />
+      <!--<li>
+        <visible>false</visible>
         <label>不够舒适</label>
         <description>我不是温室里的花朵，兄弟。</description>
         <baseMoodEffect>0</baseMoodEffect>
-      </li>
+      </li>-->
       <li>
         <label>舒适</label>
         <description>最近我过得还挺舒服的。</description>
@@ -79,11 +81,13 @@
         <description>这地方让我不舒服，但没事的，习惯它吧。</description>
         <baseMoodEffect>-1</baseMoodEffect>
       </li>
-      <li>
+      <li IsNull="True" />
+      <!--<li>
+        <visible>false</visible>
         <label>丑陋的环境</label>
         <description>这地方看起来还行。</description>
         <baseMoodEffect>0</baseMoodEffect>
-      </li>
+      </li>-->
       <li>
         <label>美丽的环境</label>
         <description>这个地方不错。</description>
@@ -110,11 +114,13 @@
         <description>这里是花盆吗？</description>
         <baseMoodEffect>-1</baseMoodEffect>
       </li>
-      <li>
+      <li IsNull="True" />
+      <!--<li>
+        <visible>false</visible>
         <label>狭窄的室内</label>
         <description>还行吧，这种空间。</description>
         <baseMoodEffect>0</baseMoodEffect>
-      </li>
+      </li>-->
       <li>
         <label>宽敞的室内</label>
         <description>这真是一间让人感到舒服的大房间。</description>
@@ -127,26 +133,31 @@
     <workerClass>ThoughtWorker_NeedOutdoors</workerClass>
     <stages>
       <li>
+        <visible>false</visible>
         <label>无需外出</label>
         <description>无需外出</description>
         <baseMoodEffect>0</baseMoodEffect>
       </li>
       <li>
+        <visible>false</visible>
         <label>无需外出</label>
         <description>无需外出</description>
         <baseMoodEffect>0</baseMoodEffect>
       </li>
       <li>
+        <visible>false</visible>
         <label>无需外出</label>
         <description>无需外出</description>
         <baseMoodEffect>0</baseMoodEffect>
       </li>
       <li>
+        <visible>false</visible>
         <label>无需外出</label>
         <description>无需外出</description>
         <baseMoodEffect>0</baseMoodEffect>
       </li>
       <li>
+        <visible>false</visible>
         <label>无需外出</label>
         <description>无需外出</description>
         <baseMoodEffect>0</baseMoodEffect>

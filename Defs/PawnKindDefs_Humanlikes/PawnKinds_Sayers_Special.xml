@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <PawnKindDef ParentName="PirateBase">
+    <race>Alien_Sayers</race>
     <defName>SayersDrifter</defName>
     <label>流浪的Sayers</label>
     <combatPower>35</combatPower>

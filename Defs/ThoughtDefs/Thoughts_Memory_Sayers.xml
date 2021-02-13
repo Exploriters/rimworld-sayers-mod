@@ -19,6 +19,7 @@
     <durationDays>1</durationDays>
     <stages>
       <li>
+        <visible>false</visible>
         <label>吃了生食</label>
         <description>动物不会介意你食物熟了没的，傻瓜。</description>
         <baseMoodEffect>0</baseMoodEffect>
@@ -32,6 +33,7 @@
     <durationDays>1</durationDays>
     <stages>
       <li>
+        <visible>false</visible>
         <label>吃了饲料</label>
         <description>显然 这种动物不会介意吃饲料。</description>
         <baseMoodEffect>0</baseMoodEffect>
@@ -259,7 +261,7 @@
       <li>
         <label>奇迹非凡的营房</label>
         <description>这也许就是我能想到的叫做'天堂'的地方了。</description>
-        <baseMoodEffect>4</baseMoodEffect>
+        <baseMoodEffect>8</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

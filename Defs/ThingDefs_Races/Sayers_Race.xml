@@ -191,6 +191,7 @@
       <meatMarketValue>0.8</meatMarketValue>
       <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+      <nuzzleMtbHours>12</nuzzleMtbHours>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -201,23 +202,23 @@
       </litterSizeCurve>
       <lifeStageAges>
         <li>
-          <def>HumanlikeBaby</def>
+          <def>SayersBaby</def>
           <minAge>0</minAge>
         </li>
         <li>
-          <def>HumanlikeToddler</def>
+          <def>SayersToddler</def>
           <minAge>1.2</minAge>
         </li>
         <li>
-          <def>HumanlikeChild</def>
+          <def>SayersChild</def>
           <minAge>4</minAge>
         </li>
         <li>
-          <def>HumanlikeTeenager</def>
+          <def>SayersTeenager</def>
           <minAge>13</minAge>
         </li>
         <li>
-          <def>HumanlikeAdult</def>
+          <def>SayersAdult</def>
           <minAge>18</minAge>
         </li>
       </lifeStageAges>
@@ -896,6 +897,11 @@
             <replacer>SleptInBarracks_Sayers</replacer>
           </li>
           <li>
+            <original>BondedAnimalDied</original>
+            <replacer>BondedAnimalDied_Sayers</replacer>
+          </li>
+		  <!-- 非计时的状况性想法不使用replacer
+          <li>
             <original>NeedJoy</original>
             <replacer>NeedJoy_Sayers</replacer>
           </li>
@@ -915,10 +921,7 @@
             <original>NeedOutdoors</original>
             <replacer>NeedOutdoors_Sayers</replacer>
           </li>
-          <li>
-            <original>BondedAnimalDied</original>
-            <replacer>BondedAnimalDied_Sayers</replacer>
-          </li>
+		  -->
         </replacerList>
         <cannotReceiveThoughts>
           <li>AteAwfulMeal</li>

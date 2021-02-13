@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <FactionDef ParentName="PlayerFactionBase" Abstract="True" Name="SayersPlayerFactionBase">
+    <colorSpectrum Inherit="False">
+      <li>(0.518, 1, 0.769)</li>
+    </colorSpectrum>
     <isPlayer>true</isPlayer>
     <factionIconPath>World/WorldObjects/Expanding/Member</factionIconPath>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>

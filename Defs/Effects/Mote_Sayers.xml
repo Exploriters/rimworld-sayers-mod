@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_Footprint_Sayers</defName>
+    <graphicData>
+      <texPath>Things/Mote/Footprint_Sayers</texPath>
+    </graphicData>
+    <altitudeLayer>MoteLow</altitudeLayer>
+    <mote>
+      <fadeInTime>0.08</fadeInTime>
+      <solidTime>2.2</solidTime>
+      <fadeOutTime>2.6</fadeOutTime>
+    </mote>
+  </ThingDef>
+</Defs>

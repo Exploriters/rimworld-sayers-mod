@@ -15,7 +15,7 @@
       <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
-      <li>Apparel</li>
+      <li>SayersApparels</li>
     </thingCategories>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
@@ -61,7 +61,7 @@
       <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
-      <li>Apparel</li>
+      <li>SayersApparels</li>
     </thingCategories>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
@@ -136,7 +136,7 @@
       <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
-      <li>Apparel</li>
+      <li>SayersApparels</li>
     </thingCategories>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
@@ -229,7 +229,7 @@
       <MoveSpeed>-0.2</MoveSpeed>
     </equippedStatOffsets>
     <thingCategories>
-      <li>ApparelArmor</li>
+      <li>SayersApparels</li>
     </thingCategories>
     <apparel>
       <bodyPartGroups>
@@ -300,7 +300,7 @@
       <MoveSpeed>-0.6</MoveSpeed>
     </equippedStatOffsets>
     <thingCategories>
-      <li>ApparelArmor</li>
+      <li>SayersApparels</li>
     </thingCategories>
     <costList>
       <Cloth>30</Cloth>
@@ -361,7 +361,7 @@
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <thingCategories>
-      <li>ApparelArmor</li>
+      <li>SayersApparels</li>
     </thingCategories>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
@@ -439,7 +439,7 @@
       <EquipDelay>11</EquipDelay>
     </statBases>
     <thingCategories>
-      <li>ApparelArmor</li>
+      <li>SayersApparels</li>
     </thingCategories>
     <costList>
       <ComponentSpacer>3</ComponentSpacer>
@@ -525,7 +525,7 @@
       <MoveSpeed>-0.2</MoveSpeed>
     </equippedStatOffsets>
     <thingCategories>
-      <li>ApparelArmor</li>
+      <li>SayersApparels</li>
     </thingCategories>
     <tradeTags>
       <li>HiTechArmor</li>
