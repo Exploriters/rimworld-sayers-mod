@@ -80,7 +80,11 @@
         <Crafting>5</Crafting>
       </skillRequirements>
       <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
-      <researchPrerequisite>Prosthetics</researchPrerequisite>
+      <researchPrerequisite Inherit="False" />
+      <researchPrerequisites>
+        <li>SayersRestrictedThings</li>
+        <li>Prosthetics</li>
+      </researchPrerequisites>
     </recipeMaker>
   </ThingDef>
   <RecipeDef Name="SurgeryInstallBodyPartProstheticBase" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
@@ -204,7 +208,11 @@
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
-      <researchPrerequisite>Bionics</researchPrerequisite>
+      <researchPrerequisite Inherit="False" />
+      <researchPrerequisites>
+        <li>SayersRestrictedThings</li>
+        <li>Bionics</li>
+      </researchPrerequisites>
       <recipeUsers>
         <li>FabricationBench</li>
       </recipeUsers>
@@ -568,7 +576,11 @@
       <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>SpecializedLimbs</researchPrerequisite>
+      <researchPrerequisite Inherit="False" />
+      <researchPrerequisites>
+        <li>SayersRestrictedThings</li>
+        <li>SpecializedLimbs</li>
+      </researchPrerequisites>
     </recipeMaker>
   </ThingDef>
   <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">

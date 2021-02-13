@@ -2,7 +2,11 @@
 <Defs>
   <FactionDef ParentName="PlayerFactionBase" Abstract="True" Name="SayersPlayerFactionBase">
     <colorSpectrum Inherit="False">
+<<<<<<< HEAD
       <li>(0.518, 1, 0.769)</li>
+=======
+      <li>(0.847, 0.541, 0)</li>
+>>>>>>> aca291d0b49c4b65aa560981ed4eb6896b967d07
     </colorSpectrum>
     <isPlayer>true</isPlayer>
     <factionIconPath>World/WorldObjects/Expanding/Member</factionIconPath>
@@ -43,18 +47,33 @@
   <FactionDef ParentName="SayersPlayerFactionBase">
     <defName>SayersClan</defName>
     <label>Sayers聚落</label>
-    <description>由Sayers组成的聚落</description>
+    <description>由Sayers组成的聚落。</description>
     <basicMemberKind>SayersClanMember</basicMemberKind>
     <pawnSingular>Sayers族员</pawnSingular>
-    <pawnsPlural>Sayers族员们</pawnsPlural>
+    <pawnsPlural>Sayers族员</pawnsPlural>
   </FactionDef>
   <FactionDef ParentName="SayersPlayerFactionBase">
     <defName>SayersRefugees</defName>
     <label>Sayers逃难者</label>
-    <description>由Sayers组成的逃难者团队(或者孤身一人)</description>
+    <description>由Sayers组成的逃难者团队(或者孤身一人)。</description>
     <basicMemberKind>SayersRefugeesMember</basicMemberKind>
     <pawnSingular>Sayers逃难者</pawnSingular>
-    <pawnsPlural>Sayers逃难者们</pawnsPlural>
-    <factionIconPath>World/WorldObjects/Expanding/Refugees</factionIconPath>
+    <pawnsPlural>Sayers逃难者</pawnsPlural>
   </FactionDef>
+
+  <FactionDef ParentName="FactionBase">
+    <colorSpectrum Inherit="False">
+      <li>(0.847, 0.541, 0)</li>
+    </colorSpectrum>
+    <defName>SayersFactionDummy</defName>
+    <categoryTag>SayersFactionDummy</categoryTag>
+    <label>Sayers</label>
+    <fixedName>Sayers</fixedName>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <techLevel>Archotech</techLevel>
+    <factionIconPath>World/WorldObjects/Expanding/Member</factionIconPath>
+    <hidden>true</hidden>
+    <humanlikeFaction>false</humanlikeFaction>
+  </FactionDef>
+  
 </Defs>

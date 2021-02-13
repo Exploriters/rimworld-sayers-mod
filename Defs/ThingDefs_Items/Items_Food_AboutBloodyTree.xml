@@ -3,7 +3,7 @@
   <ThingDef ParentName="OrganicProductBase">
     <defName>BloodyTree_Meat</defName>
     <label>血肉木段</label>
-    <description>想啥呢，它是吃的</description>
+    <description>想啥呢，它是吃的。</description>
     <thingClass>ThingWithComps</thingClass>
     <thingCategories>
       <li>Foods</li>
