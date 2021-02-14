@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+    <defName>Alien_Michelles</defName>
+    <label>Michelles</label>
+    <description>Michelles是一种形似犬科的生物，直立趾行，带有暗色斑纹，且尾尖天生呈截断样，断口处皮毛朝外蓬松开，而断口上悬浮着的荧色小球则是科技的杰作——尽管那颗球没有什么实质的、增强型的用处，但对他们来说它对外貌的影响甚至比他们的脸还要重要。
+\nMichelles的科技发展速度在绝大部分外星种族中都可以说是令人惊叹——从它们成为基本的智慧种族到发展到近乎全民仿生部件增强的盛况，仅用了几百年，且仍然呈现继续进步的趋势。
+\n如此快的进步速度让他们得到了许多种族的赞叹，但显然，这些赞叹成为了阻止他们继续进步的一部分…他们由领导人开始，逐渐养成了一种骄傲自满、目中无人、狂妄自大的性格，并且顺着教育，慢慢在每一个人脑海中根深蒂固……这在他们同族之间也许不太明显，但当他们面对的是异族之时，那种不屑与傲慢便直接写在了脸上。
+\n
+\n当Michelles变得傲慢的那一刻，便丧失了本应有的对察觉潜在危险的敏锐性，于是，在他们以为他们所创造的Sayers只是一种原始而又愚昧的低级生物的时候，他们并没有意识到，在他们把那几只Sayers幼体装进空投仓时，一个对他们来说，潜在的，无比巨大的威胁出现了。</description>
+    <statBases>
+      <MarketValue>20600</MarketValue>
+      <MoveSpeed>10</MoveSpeed>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <ComfyTemperatureMax>55</ComfyTemperatureMax>
+      <LeatherAmount>85</LeatherAmount>
+      <RoyalFavorValue>6</RoyalFavorValue>
+      <Flammability>0.8</Flammability>
+      <PawnBeauty>2</PawnBeauty>
+      <!--== Attributes ==-->
+      <WorkSpeedGlobal>3</WorkSpeedGlobal>
+      <DeepDrillingSpeed>1.5</DeepDrillingSpeed>
+      <ResearchSpeed>2.5</ResearchSpeed>
+      <ConstructionSpeed>2</ConstructionSpeed>
+      <ConstructSuccessChance>3</ConstructSuccessChance>
+      <FixBrokenDownBuildingSuccessChance>3</FixBrokenDownBuildingSuccessChance>
+    </statBases>
+    <tools>
+      <li>
+        <label>头</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+      <li>
+        <label>獠牙</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>25.4</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>左爪</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>29.6</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.8</chanceFactor>
+      </li>
+      <li>
+        <label>右爪</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>29.6</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.8</chanceFactor>
+      </li>
+      <li>
+        <label>尾巴</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>21.4</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>MichellesTail</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>false</makesFootprints>
+      <lifeExpectancy>200</lifeExpectancy>
+      <leatherDef>Leather_Fox</leatherDef>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Body_Michelles</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <foodType>OmnivoreHuman, CarnivoreAnimal, OmnivoreAnimal</foodType>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <meatMarketValue>0.8</meatMarketValue>
+      <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>MichellesBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>MichellesToddler</def>
+          <minAge>1.2</minAge>
+        </li>
+        <li>
+          <def>MichellesChild</def>
+          <minAge>4</minAge>
+        </li>
+        <li>
+          <def>MichellesTeenager</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>MichellesAdult</def>
+          <minAge>18</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      <ageGenerationCurve>
+        <points>
+          <li>(14,0)</li>
+          <li>(16,100)</li>
+          <li>(50,100)</li>
+          <li>(60,30)</li>
+          <li>(70,18)</li>
+          <li>(80,10)</li>
+          <li>(90,3)</li>
+          <li>(100,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicStandard</li>
+        <li>Human</li>
+      </hediffGiverSets>
+    </race>
+    <recipes>
+      <li>ExciseCarcinoma</li>
+      <li>AdministerMechSerumHealer</li>
+      <li>RemoveBodyPart</li>
+      <li>Euthanize</li>
+      <li>Anesthetize</li>
+      <li>CureScaria</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
+    </recipes>
+    <alienRace>
+      <generalSettings>
+        <maleGenderProbability>0.65</maleGenderProbability>
+        <immuneToAge>false</immuneToAge>
+        <allowHumanBios>true</allowHumanBios>
+        <minAgeForAdulthood>0</minAgeForAdulthood>
+        <humanRecipeImport>true</humanRecipeImport>
+        <forcedRaceTraitEntries>
+          <li>
+            <defName>Xenophobia</defName>
+            <degree>1</degree>
+            <chance>100</chance>
+          </li>
+        </forcedRaceTraitEntries>
+        <alienPartGenerator>
+          <aliencrowntypes>
+            <li>Michelles_Head1</li>
+          </aliencrowntypes>
+          <alienbodytypes>
+            <li>MichellesBody</li>
+          </alienbodytypes>
+          <useGenderedHeads>false</useGenderedHeads>
+          <useGenderedBodies>false</useGenderedBodies>
+          <colorChannels>
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <!--= Red Brown =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.525,0.396,0.396,1)</only>
+                  </li>
+                  <!--= Brown =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.384,0.310,0.275,1)</only>
+                  </li>
+                  <!--= White =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(1,1,1,1)</only>
+                  </li>
+                  <!--= Black =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.2,0.2,0.2,1)</only>
+                  </li>
+                </options>
+              </first>
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <!--= White =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(1,1,1,1)</only>
+                  </li>
+                  <!--= Black =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.2,0.2,0.2,1)</only>
+                  </li>
+                  <!--= Red =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.769,0,0,1)</only>
+                  </li>
+                  <!--= Blue =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.624,0.894,0.894,1)</only>
+                  </li>
+                  <!--= Green =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.498,0.925,0.498,1)</only>
+                  </li>
+                  <!--= Yellow =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.925,0.925,0.502,1)</only>
+                  </li>
+                </options>
+              </second>
+            </li>
+            <li>
+              <name>hair</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <!--= White =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(1,1,1,1)</only>
+                  </li>
+                  <!--= Black =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.2,0.2,0.2,1)</only>
+                  </li>
+                </options>
+              </first>
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <!--= White =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(1,1,1,1)</only>
+                  </li>
+                  <!--= Black =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.2,0.2,0.2,1)</only>
+                  </li>
+                  <!--= Red =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.769,0,0,1)</only>
+                  </li>
+                  <!--= Blue =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.624,0.894,0.894,1)</only>
+                  </li>
+                  <!--= Green =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.498,0.925,0.498,1)</only>
+                  </li>
+                  <!--= Yellow =-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.925,0.925,0.502,1)</only>
+                  </li>
+                </options>
+              </second>
+            </li>
+          </colorChannels>
+          <bodyAddons>
+            <li>
+              <path>Things/Pawn/Michelles/Ears/LEar</path>
+              <bodyPart>左耳</bodyPart>
+              <colorChannel>skin</colorChannel>
+              <inFrontOfBody>true</inFrontOfBody>
+              <drawnInBed>true</drawnInBed>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Michelles_Head1>(-0.4,0.55)</Michelles_Head1>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Michelles_Head1>(0,0.85)</Michelles_Head1>
+                  </crownTypes>
+                </north>
+                <east>
+                  <crownTypes>
+                    <Michelles_Head1>(-0.5,0.5)</Michelles_Head1>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <path>Things/Pawn/Michelles/Ears/REar</path>
+              <bodyPart>右耳</bodyPart>
+              <colorChannel>skin</colorChannel>
+              <inFrontOfBody>true</inFrontOfBody>
+              <drawnInBed>true</drawnInBed>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Michelles_Head1>(-0.44,0.55)</Michelles_Head1>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Michelles_Head1>(0.02,0.85)</Michelles_Head1>
+                  </crownTypes>
+                </north>
+                <east>
+                  <crownTypes>
+                    <Michelles_Head1>(-0.6,0.55)</Michelles_Head1>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <path>Things/Pawn/Michelles/Goggles/GogglesNothing</path>
+              <bodyPart>护目镜</bodyPart>
+              <colorChannel>hair</colorChannel>
+              <inFrontOfBody>true</inFrontOfBody>
+              <drawnInBed>false</drawnInBed>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Michelles_Head1>(-0.42,0.55)</Michelles_Head1>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Michelles_Head1>(0.02,0.85)</Michelles_Head1>
+                  </crownTypes>
+                </north>
+                <east>
+                  <crownTypes>
+                    <Michelles_Head1>(-0.5,0.55)</Michelles_Head1>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hediffGraphics>
+                <Goggles>Things/Pawn/Michelles/Goggles/Goggles</Goggles>
+              </hediffGraphics>
+              <layerOffset>0.1</layerOffset>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      <graphicPaths>
+        <li>
+          <head>Things/Pawn/Michelles/Heads/</head>
+          <body>Things/Pawn/Michelles/Bodies/</body>
+        </li>
+      </graphicPaths>
+      <hairSettings>
+        <hasHair>false</hasHair>
+      </hairSettings>
+      <raceRestriction>
+        <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+      </raceRestriction>
+      <thoughtSettings>
+        <cannotReceiveThoughts>
+          <li>Naked</li>
+        </cannotReceiveThoughts>
+      </thoughtSettings>
+    </alienRace>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

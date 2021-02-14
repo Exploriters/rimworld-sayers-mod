@@ -35,5 +35,26 @@
       <li Class="CompProperties_Ingredients" />
       <li Class="CompProperties_FoodPoisonable" />
     </comps>
+    <stuffProps>
+      <stuffAdjective>血肉</stuffAdjective>
+      <categories>
+        <li>Woody</li>
+      </categories>
+      <commonality>1.00</commonality>
+      <color>(190,0,0)</color>
+      <constructEffect>ConstructWood</constructEffect>
+      <appearance>Planks</appearance>
+      <soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>1.25</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <Flammability>0.5</Flammability>
+        <WorkToMake>0.7</WorkToMake>
+        <WorkToBuild>0.7</WorkToBuild>
+        <DoorOpenSpeed>0.6</DoorOpenSpeed>
+      </statFactors>
+    </stuffProps>
   </ThingDef>
 </Defs>

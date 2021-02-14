@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartGroupDef>
+    <defName>MichellesTail</defName>
+    <label>尾巴</label>
+    <listOrder>5</listOrder>
+  </BodyPartGroupDef>
+</Defs>

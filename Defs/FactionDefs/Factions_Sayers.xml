@@ -2,11 +2,7 @@
 <Defs>
   <FactionDef ParentName="PlayerFactionBase" Abstract="True" Name="SayersPlayerFactionBase">
     <colorSpectrum Inherit="False">
-<<<<<<< HEAD
       <li>(0.518, 1, 0.769)</li>
-=======
-      <li>(0.847, 0.541, 0)</li>
->>>>>>> aca291d0b49c4b65aa560981ed4eb6896b967d07
     </colorSpectrum>
     <isPlayer>true</isPlayer>
     <factionIconPath>World/WorldObjects/Expanding/Member</factionIconPath>
@@ -60,11 +56,7 @@
     <pawnSingular>Sayers逃难者</pawnSingular>
     <pawnsPlural>Sayers逃难者</pawnsPlural>
   </FactionDef>
-
   <FactionDef ParentName="FactionBase">
-    <colorSpectrum Inherit="False">
-      <li>(0.847, 0.541, 0)</li>
-    </colorSpectrum>
     <defName>SayersFactionDummy</defName>
     <categoryTag>SayersFactionDummy</categoryTag>
     <label>Sayers</label>
@@ -75,5 +67,4 @@
     <hidden>true</hidden>
     <humanlikeFaction>false</humanlikeFaction>
   </FactionDef>
-  
 </Defs>

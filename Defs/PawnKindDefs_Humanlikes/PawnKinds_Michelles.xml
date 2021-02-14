@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef Name="MichellesOutlanderBase">
+    <defName>MichellesMember</defName>
+    <label>Michelles成员</label>
+    <race>Alien_Michelles</race>
+    <defaultFactionType>MichellesFaction</defaultFactionType>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+    <invNutrition>2.55</invNutrition>
+    <combatPower>35</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.2~2.0</gearHealthRange>
+    <weaponMoney>1010~100000</weaponMoney>
+    <apparelMoney>200~400</apparelMoney>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+    <techHediffsChance>0.06</techHediffsChance>
+    <techHediffsMoney>50~600</techHediffsMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+    </apparelTags>
+    <weaponTags>
+      <li>SpacerGun</li>
+    </weaponTags>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="MichellesOutlanderBase">
+    <defName>MichellesLeader</defName>
+    <label>Michelles掌权者</label>
+    <factionLeader>true</factionLeader>
+    <isFighter>false</isFighter>
+  </PawnKindDef>
+</Defs>

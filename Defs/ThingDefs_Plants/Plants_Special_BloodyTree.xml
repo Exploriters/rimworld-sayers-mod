@@ -71,7 +71,9 @@
         </focusTypes>
         <offsets>
           <li Class="FocusStrengthOffset_BuildingDefs">
-            <defs><Plant_BloodyTree>0.05</Plant_BloodyTree></defs>
+            <defs>
+              <Plant_BloodyTree>0.05</Plant_BloodyTree>
+            </defs>
             <radius>9.9</radius>
             <maxBuildings>3</maxBuildings>
             <explanationKey>MeditationFocusPerBloodyTree</explanationKey>

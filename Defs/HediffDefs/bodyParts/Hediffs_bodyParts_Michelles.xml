@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Goggles</defName>
+    <label>护目镜</label>
+    <labelNoun>一副护目镜</labelNoun>
+    <description>一副护目镜</description>
+    <descriptionHyperlinks>
+      <ThingDef>Goggles</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>Goggles</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>Goggles</defName>
+    <label>护目镜</label>
+    <description>一副护目镜</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallGoggles</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>
+    <statBases>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallGoggles</defName>
+    <label>同步护目镜</label>
+    <description>同步护目镜</description>
+    <descriptionHyperlinks>
+      <ThingDef>Goggles</ThingDef>
+      <HediffDef>Goggles</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>正在同步护目镜</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Goggles</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Goggles</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Goggles</addsHediff>
+  </RecipeDef>
+</Defs>
