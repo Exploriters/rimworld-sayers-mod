@@ -23,7 +23,7 @@
     <factionIconPath>World/WorldObjects/Expanding/Michelles</factionIconPath>
     <factionNameMaker>NamerFactionOutlander</factionNameMaker>
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Ultra</techLevel>
     <backstoryFilters>
       <li>
         <categories>

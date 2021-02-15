@@ -28,10 +28,19 @@
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <plant>
-      <wildClusterRadius>4</wildClusterRadius>
+      <sowWork>800</sowWork>
+      <sowMinSkill>8</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <fertilityMin>0.05</fertilityMin>
+      <wildClusterRadius>8</wildClusterRadius>
       <wildClusterWeight>80</wildClusterWeight>
       <harvestedThingDef>Herb_Broom</harvestedThingDef>
       <harvestYield>5</harvestYield>
+      <sowResearchPrerequisites>
+      </sowResearchPrerequisites>
     </plant>
   </ThingDef>
 </Defs>

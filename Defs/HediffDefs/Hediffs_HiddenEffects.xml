@@ -10,7 +10,9 @@
     <isBad>false</isBad>
     <everCurableByItem>false</everCurableByItem>
     <hediffClass>HediffWithComps</hediffClass>
-    <comps></comps>
+    <comps>
+      <li Class="Explorite.HediffCompProperties_HediffGiverEnsureForAlwaysRequired" />
+	</comps>
     <stages>
       <li>
         <becomeVisible>false</becomeVisible>

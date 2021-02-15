@@ -26,6 +26,9 @@
         <li>Ground</li>
         <li>Hydroponic</li>
       </sowTags>
+      <sowResearchPrerequisites>
+        <li>SayersRestrictedThings</li>
+      </sowResearchPrerequisites>
       <fertilityMin>0.5</fertilityMin>
       <fertilitySensitivity>0.5</fertilitySensitivity>
       <growDays>3</growDays>
