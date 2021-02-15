@@ -34,6 +34,5 @@
     <defName>MichellesLeader</defName>
     <label>Michelles掌权者</label>
     <factionLeader>true</factionLeader>
-    <isFighter>false</isFighter>
   </PawnKindDef>
 </Defs>

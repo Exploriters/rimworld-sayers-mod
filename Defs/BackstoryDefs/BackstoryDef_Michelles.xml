@@ -1,6 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef Name="MichellesStartHediffsBase" Abstract="True">
+    <spawnCategories>
+      <li>MichellesBackstories</li>
+    </spawnCategories>
+    <forcedHediffs>
+      <li>BionicLeg</li>
+      <li>BionicLeg</li>
+      <li>Goggles</li>
+      <li>Receiver</li>
+      <li>Receiver</li>
+      <li>BionicArm_Michelles</li>
+      <li>BionicArm_Michelles</li>
+      <li>MichellesTailBall</li>
+    </forcedHediffs>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="MichellesStartHediffsBase">
     <defName>Michelles_Base</defName>
     <title>Michelles</title>
     <titleShort>Michelles</titleShort>
@@ -59,11 +74,6 @@
         <amount>3</amount>
       </li>
     </skillGains>
-    <forcedHediffs>
-      <li>BionicLeg</li>
-      <li>BionicLeg</li>
-      <li>Goggles</li>
-    </forcedHediffs>
   </AlienRace.BackstoryDef>
   <AlienRace.BackstoryDef>
     <defName>Michelles_BaseAdult</defName>

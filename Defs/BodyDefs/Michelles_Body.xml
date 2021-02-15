@@ -149,27 +149,52 @@
                   </parts>
                 </li>
                 <li>
-                  <def>Eye</def>
-                  <customLabel>眼</customLabel>
-                  <coverage>0.07</coverage>
+                  <def>MichellesEye</def>
+                  <customLabel>左眼</customLabel>
+                  <coverage>0.15</coverage>
                   <groups>
                     <li>FullHead</li>
                     <li>Eyes</li>
                   </groups>
-                  <parts>
-                    <li>
-                      <def>Eye</def>
-                      <customLabel>护目镜</customLabel>
-                      <coverage>0</coverage>
-                      <groups>
-                        <li>FullHead</li>
-                        <li>Eyes</li>
-                      </groups>
-                    </li>
-                  </parts>
                 </li>
                 <li>
-                  <def>Ear</def>
+                  <def>MichellesEye</def>
+                  <customLabel>右眼</customLabel>
+                  <coverage>0.15</coverage>
+                  <groups>
+                    <li>FullHead</li>
+                    <li>Eyes</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>Receiver</def>
+                  <customLabel>右接收器</customLabel>
+                  <coverage>0.1</coverage>
+                  <groups>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>Receiver</def>
+                  <customLabel>左接收器</customLabel>
+                  <coverage>0.1</coverage>
+                  <groups>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>Goggles</def>
+                  <customLabel>护目镜</customLabel>
+                  <coverage>0.2</coverage>
+                  <groups>
+                    <li>FullHead</li>
+                    <li>Eyes</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>MichellesEar</def>
                   <customLabel>左耳</customLabel>
                   <coverage>0.07</coverage>
                   <groups>
@@ -178,7 +203,7 @@
                   </groups>
                 </li>
                 <li>
-                  <def>Ear</def>
+                  <def>MichellesEar</def>
                   <customLabel>右耳</customLabel>
                   <coverage>0.07</coverage>
                   <groups>
@@ -187,14 +212,14 @@
                   </groups>
                 </li>
                 <li>
-                  <def>Nose</def>
+                  <def>MichellesNose</def>
                   <coverage>0.10</coverage>
                   <groups>
                     <li>FullHead</li>
                   </groups>
                 </li>
                 <li>
-                  <def>Jaw</def>
+                  <def>MichellesJaw</def>
                   <coverage>0.15</coverage>
                   <groups>
                     <li>Teeth</li>
@@ -206,7 +231,7 @@
           </parts>
         </li>
         <li>
-          <def>Shoulder</def>
+          <def>MichellesShoulder</def>
           <customLabel>左肩膀</customLabel>
           <coverage>0.12</coverage>
           <groups>
@@ -302,7 +327,7 @@
           </parts>
         </li>
         <li>
-          <def>Shoulder</def>
+          <def>MichellesShoulder</def>
           <customLabel>右肩膀</customLabel>
           <coverage>0.12</coverage>
           <groups>
@@ -562,6 +587,162 @@
               <groups>
                 <li>MichellesTail</li>
               </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>MechanicalLimb</def>
+          <customLabel>左机械节肢</customLabel>
+          <coverage>0.14</coverage>
+          <groups>
+            <li>MechanicalLimb</li>
+          </groups>
+          <parts>
+            <li>
+              <def>MechanicalLimb</def>
+              <customLabel>左机械节肢中节</customLabel>
+              <coverage>0.07</coverage>
+              <groups>
+                <li>MechanicalLimb</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>MechanicalLimb</def>
+                  <customLabel>左机械节肢尖端</customLabel>
+                  <coverage>0.07</coverage>
+                  <groups>
+                    <li>MechanicalLimb</li>
+                    <li>LeftMechanicalLimb</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>MechanicalLimb</def>
+          <customLabel>右机械节肢</customLabel>
+          <coverage>0.14</coverage>
+          <groups>
+            <li>MechanicalLimb</li>
+          </groups>
+          <parts>
+            <li>
+              <def>MechanicalLimb</def>
+              <customLabel>右机械节肢中节</customLabel>
+              <coverage>0.07</coverage>
+              <groups>
+                <li>MechanicalLimb</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>MechanicalLimb</def>
+                  <customLabel>右机械节肢尖端</customLabel>
+                  <coverage>0.07</coverage>
+                  <groups>
+                    <li>MechanicalLimb</li>
+                    <li>RightMechanicalLimb</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>SuspendedFort</def>
+          <customLabel>左磁悬浮炮台底座</customLabel>
+          <coverage>0.07</coverage>
+          <groups>
+            <li>SuspendedFort</li>
+          </groups>
+          <parts>
+            <li>
+              <def>SuspendedFort</def>
+              <customLabel>左磁悬浮炮台第一阶</customLabel>
+              <coverage>0.0175</coverage>
+              <groups>
+                <li>SuspendedFort</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>SuspendedFort</def>
+                  <customLabel>左磁悬浮炮台第二阶</customLabel>
+                  <coverage>0.0175</coverage>
+                  <groups>
+                    <li>SuspendedFort</li>
+                  </groups>
+                  <parts>
+                    <li>
+                      <def>SuspendedFort</def>
+                      <customLabel>左磁悬浮炮台第三阶</customLabel>
+                      <coverage>0.0175</coverage>
+                      <groups>
+                        <li>SuspendedFort</li>
+                      </groups>
+                      <parts>
+                        <li>
+                          <def>SuspendedFort</def>
+                          <customLabel>左磁悬浮炮台发射器</customLabel>
+                          <coverage>0.0175</coverage>
+                          <groups>
+                            <li>SuspendedFort</li>
+                            <li>LeftSuspendedFort</li>
+                          </groups>
+                        </li>
+                      </parts>
+                    </li>
+                  </parts>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>SuspendedFort</def>
+          <customLabel>右磁悬浮炮台底座</customLabel>
+          <coverage>0.07</coverage>
+          <groups>
+            <li>SuspendedFort</li>
+          </groups>
+          <parts>
+            <li>
+              <def>SuspendedFort</def>
+              <customLabel>右磁悬浮炮台第一阶</customLabel>
+              <coverage>0.0175</coverage>
+              <groups>
+                <li>SuspendedFort</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>SuspendedFort</def>
+                  <customLabel>右磁悬浮炮台第二阶</customLabel>
+                  <coverage>0.0175</coverage>
+                  <groups>
+                    <li>SuspendedFort</li>
+                  </groups>
+                  <parts>
+                    <li>
+                      <def>SuspendedFort</def>
+                      <customLabel>右磁悬浮炮台第三阶</customLabel>
+                      <coverage>0.0175</coverage>
+                      <groups>
+                        <li>SuspendedFort</li>
+                      </groups>
+                      <parts>
+                        <li>
+                          <def>SuspendedFort</def>
+                          <customLabel>右磁悬浮炮台发射器</customLabel>
+                          <coverage>0.0175</coverage>
+                          <groups>
+                            <li>SuspendedFort</li>
+                            <li>RightSuspendedFort</li>
+                          </groups>
+                        </li>
+                      </parts>
+                    </li>
+                  </parts>
+                </li>
+              </parts>
             </li>
           </parts>
         </li>

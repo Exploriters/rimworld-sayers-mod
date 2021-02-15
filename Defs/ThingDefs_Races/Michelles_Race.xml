@@ -81,6 +81,28 @@
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.5</chanceFactor>
       </li>
+      <li>
+        <label>左机械节肢尖端</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>34.6</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>LeftMechanicalLimb</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+      <li>
+        <label>右机械节肢尖端</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>34.6</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>RightMechanicalLimb</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
     </tools>
     <race>
       <thinkTreeMain>Humanlike</thinkTreeMain>

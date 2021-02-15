@@ -57,6 +57,9 @@
     <pawnsPlural>Sayers逃难者</pawnsPlural>
   </FactionDef>
   <FactionDef ParentName="FactionBase">
+    <colorSpectrum Inherit="False">
+      <li>(0.518, 1, 0.769)</li>
+    </colorSpectrum>
     <defName>SayersFactionDummy</defName>
     <categoryTag>SayersFactionDummy</categoryTag>
     <label>Sayers</label>

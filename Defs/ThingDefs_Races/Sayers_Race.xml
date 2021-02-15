@@ -6,7 +6,12 @@
     <description>Sayers看起来似乎是一种被植物所寄生的哺乳类动物，但是却有着可以与人类媲美乃至超越的智力。同时，他们也没有因为智力的发展而对生活以及饮食变得挑剔，这也让他们有着更高的生存能力。
 \nSayers最大的特征为分别从左眼眼眶和喉部生长出来的“眼生花”和“喉生花”，统称为“花组”。大量事迹表明“眼生花”可以承担丢失的左眼的工作，而“花组”均承担着部分呼吸工作。
 \nSayers没有前肢，前肢所承担的所有工作由连接在“喉生花”上的四条触手代替。
-\n更多的触手让Sayers有着更高的工作效率，但是显然触手相较于肢体来说要更加软弱些，因此难以挖动石块。另外，虽然很难以置信，但Sayers似乎有着极.其.惊.人的种植天赋，这是人类极难或者说几乎不可能达到的。</description>
+\n更多的触手让Sayers有着更高的工作效率，但是显然触手相较于肢体来说要更加软弱些，因此难以挖动石块。另外，虽然很难以置信，但Sayers似乎有着极.其.惊.人的种植天赋，这是人类极难或者说几乎不可能达到的。
+\n
+\nSayers显然不是自然进化出来的物种，而现在存在的所有Sayers也对他们的身世几乎没有任何记忆——包括父母的记忆，他们根本不知道自己的父母是谁。与他们身世相关的记忆，估计只有从实验室里出来的，意识短暂清醒的那一瞬间，所看到的景象。
+\n在他们像垃圾一样被扔到这个边缘世界之后，的确，短期内他们的确什么都不知道。直到他们中有哪怕一个发现，这个星球上除了自己、人类，还有另外的智慧生物时。
+\n
+\n他们也许已然准备好去面对自己的身世。</description>
     <comps>
       <li Class="Explorite.CompProperties_PawnShield" />
       <li Class="Explorite.CompProperties_EnsureAbility">
@@ -216,10 +221,18 @@
         <li>
           <def>SayersTeenager</def>
           <minAge>13</minAge>
+          <soundWounded>Pawn_Cat_Injured</soundWounded>
+          <soundDeath>Pawn_Cat_Death</soundDeath>
+          <soundCall>Pawn_Cat_Call</soundCall>
+          <soundAngry>Pawn_Cat_Angry</soundAngry>
         </li>
         <li>
           <def>SayersAdult</def>
           <minAge>18</minAge>
+          <soundWounded>Pawn_Cat_Injured</soundWounded>
+          <soundDeath>Pawn_Cat_Death</soundDeath>
+          <soundCall>Pawn_Cat_Call</soundCall>
+          <soundAngry>Pawn_Cat_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
