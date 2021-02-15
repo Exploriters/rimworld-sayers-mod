@@ -26,11 +26,11 @@
       <lifespanDaysPerGrowDays>0</lifespanDaysPerGrowDays>
       <soundHarvesting>Harvest_Tree</soundHarvesting>
       <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
-      <sowWork>4000</sowWork>
+      <!--<sowWork>4000</sowWork>
       <sowMinSkill>6</sowMinSkill>
       <sowResearchPrerequisites>
-        <li>TreeSowing</li>
-      </sowResearchPrerequisites>
+        <li>SayersRestrictedThings</li>
+      </sowResearchPrerequisites>-->
       <mustBeWildToSow>true</mustBeWildToSow>
       <harvestWork>800</harvestWork>
       <harvestedThingDef>BloodyTree_Meat</harvestedThingDef>

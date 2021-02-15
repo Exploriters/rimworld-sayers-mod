@@ -32,6 +32,7 @@
     </researchPrerequisites>
     <recipeUsers>
       <li>HerbProcessingSpot</li>
+      <li>PlantReactionTable</li>
     </recipeUsers>
   </RecipeDef>
 </Defs>
