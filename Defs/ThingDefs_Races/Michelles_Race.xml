@@ -395,7 +395,7 @@
                 </east>
               </offsets>
               <hediffGraphics>
-                <Goggles>Things/Pawn/Michelles/Goggles/Goggles</Goggles>
+                <Goggles_normal>Things/Pawn/Michelles/Goggles/Goggles</Goggles_normal>
               </hediffGraphics>
               <layerOffset>0.1</layerOffset>
             </li>

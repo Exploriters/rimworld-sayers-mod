@@ -1,43 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <FactionDef ParentName="HumanFactionBase">
+  <FactionDef>
     <defName>MichellesFaction</defName>
     <label>BE-M实验基地</label>
     <description>由Michelles创立的实验基地分部，以生物实验——BE-M实验为主。多种迹象表明Sayers就是这个实验的产物。</description>
     <colorSpectrum Inherit="False">
       <li>(1, 1, 1)</li>
     </colorSpectrum>
-    <basicMemberKind>MichellesMember</basicMemberKind>
-    <startingGoodwill>0</startingGoodwill>
-    <naturalColonyGoodwill>-50~50</naturalColonyGoodwill>
     <pawnSingular>Michelles</pawnSingular>
     <pawnsPlural>Michelles</pawnsPlural>
-    <categoryTag>Outlander</categoryTag>
-    <listOrderPriority>30</listOrderPriority>
     <settlementGenerationWeight>1</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>3</maxCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>掌权者</leaderTitle>
-    <factionIconPath>World/WorldObjects/Expanding/Michelles</factionIconPath>
+    <startingGoodwill>0</startingGoodwill>
     <factionNameMaker>NamerFactionOutlander</factionNameMaker>
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-    <techLevel>Ultra</techLevel>
-    <backstoryFilters>
-      <li>
-        <categories>
-          <li>MichellesBackstories</li>
-        </categories>
-      </li>
-    </backstoryFilters>
-    <geneticVariance>0.8</geneticVariance>
     <hairTags>
-      <li>Rural</li>
+      <li>Urban</li>
     </hairTags>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategories>
+      <li>MichellesBackstories</li>
+    </backstoryCategories>
+    <geneticVariance>0.8</geneticVariance>
+    <naturalColonyGoodwill>-50~50</naturalColonyGoodwill>
     <allowedArrivalTemperatureRange>-40~55</allowedArrivalTemperatureRange>
-    <raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
-    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     <maxPawnCostPerTotalPointsCurve>
       <points>
         <li>(0,35)</li>
@@ -49,17 +40,28 @@
     </maxPawnCostPerTotalPointsCurve>
     <pawnGroupMakers>
       <li>
-        <kindDef>Settlement</kindDef>
+        <kindDef>Combat</kindDef>
         <options>
-          <MichellesLeader>10</MichellesLeader>
+          <MichellesMember>10</MichellesMember>
+          <MichellesLeader>5</MichellesLeader>
         </options>
       </li>
       <li>
-        <kindDef>Combat</kindDef>
+        <kindDef>Peaceful</kindDef>
         <options>
+          <MichellesMember>10</MichellesMember>
+          <MichellesLeader>5</MichellesLeader>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <MichellesLeader>5</MichellesLeader>
           <MichellesMember>10</MichellesMember>
         </options>
       </li>
     </pawnGroupMakers>
+    <factionIconPath>World/WorldObjects/Expanding/Michelles</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
   </FactionDef>
 </Defs>

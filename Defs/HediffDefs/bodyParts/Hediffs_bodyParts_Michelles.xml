@@ -3,14 +3,14 @@
   <!--=== 护目镜 ===-->
   <!--= 显现式 =-->
   <HediffDef ParentName="AddedBodyPartBase">
-    <defName>Goggles</defName>
+    <defName>Goggles_normal</defName>
     <label>护目镜</label>
     <labelNoun>一副护目镜</labelNoun>
     <description>一副已同步的护目镜</description>
     <descriptionHyperlinks>
-      <ThingDef>Goggles</ThingDef>
+      <ThingDef>Goggles_normal</ThingDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>Goggles</spawnThingOnRemoved>
+    <spawnThingOnRemoved>Goggles_normal</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>1.25</partEfficiency>
@@ -18,11 +18,11 @@
     </addedPartProps>
   </HediffDef>
   <ThingDef ParentName="BodyPartBionicBase">
-    <defName>Goggles</defName>
+    <defName>Goggles_normal</defName>
     <label>护目镜</label>
     <description>一副护目镜</description>
     <descriptionHyperlinks>
-      <RecipeDef>InstallGoggles</RecipeDef>
+      <RecipeDef>InstallGoggles_normal</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
@@ -36,19 +36,19 @@
     </statBases>
   </ThingDef>
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
-    <defName>InstallGoggles</defName>
+    <defName>InstallGoggles_normal</defName>
     <label>同步护目镜</label>
     <description>同步护目镜</description>
     <descriptionHyperlinks>
-      <ThingDef>Goggles</ThingDef>
-      <HediffDef>Goggles</HediffDef>
+      <ThingDef>Goggles_normal</ThingDef>
+      <HediffDef>Goggles_normal</HediffDef>
     </descriptionHyperlinks>
     <jobString>正在同步护目镜</jobString>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>Goggles</li>
+            <li>Goggles_normal</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -56,13 +56,13 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Goggles</li>
+        <li>Goggles_normal</li>
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Goggles</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Goggles</addsHediff>
+    <addsHediff>Goggles_normal</addsHediff>
   </RecipeDef>
   <!--= 隐藏式 =-->
   <HediffDef ParentName="AddedBodyPartBase">
@@ -103,8 +103,8 @@
     <label>同步隐藏式护目镜</label>
     <description>同步隐藏式护目镜</description>
     <descriptionHyperlinks>
-      <ThingDef>Goggles</ThingDef>
-      <HediffDef>Goggles</HediffDef>
+      <ThingDef>Goggles_Hide</ThingDef>
+      <HediffDef>Goggles_Hide</HediffDef>
     </descriptionHyperlinks>
     <jobString>正在同步护目镜，并调整至隐藏模式</jobString>
     <ingredients>
