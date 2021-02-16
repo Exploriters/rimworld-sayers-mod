@@ -399,6 +399,108 @@
               </hediffGraphics>
               <layerOffset>0.1</layerOffset>
             </li>
+            <li>
+              <path>Things/Pawn/Michelles/Tail/Tail</path>
+              <bodyPart>尾巴</bodyPart>
+              <colorChannel>skin</colorChannel>
+              <inFrontOfBody>false</inFrontOfBody>
+              <drawnInBed>false</drawnInBed>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <MichellesBody>(-0.4,0.25)</MichellesBody>
+                  </bodyTypes>
+                </south>
+                <north>
+                  <bodyTypes>
+                    <MichellesBody>(0,0.55)</MichellesBody>
+                  </bodyTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <MichellesBody>(-0.25,0.25)</MichellesBody>
+                  </bodyTypes>
+                </east>
+              </offsets>
+              <layerOffset>0.1</layerOffset>
+              <drawSize>(1, 1.5625)</drawSize>
+            </li>
+            <li>
+              <path>Things/Pawn/Michelles/Tail/BTail</path>
+              <bodyPart>尾部科技球</bodyPart>
+              <colorChannel>hair</colorChannel>
+              <inFrontOfBody>false</inFrontOfBody>
+              <drawnInBed>false</drawnInBed>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <MichellesBody>(-0.4,0.25)</MichellesBody>
+                  </bodyTypes>
+                </south>
+                <north>
+                  <bodyTypes>
+                    <MichellesBody>(0,0.55)</MichellesBody>
+                  </bodyTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <MichellesBody>(-0.25,0.25)</MichellesBody>
+                  </bodyTypes>
+                </east>
+              </offsets>
+              <layerOffset>0.1</layerOffset>
+              <drawSize>(1, 1.5625)</drawSize>
+            </li>
+            <li>
+              <path>Things/Pawn/Michelles/Legs/LLeg</path>
+              <bodyPart>左机械腿</bodyPart>
+              <colorChannel>skin</colorChannel>
+              <inFrontOfBody>true</inFrontOfBody>
+              <drawnInBed>false</drawnInBed>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <MichellesBody>(-0.4,0.25)</MichellesBody>
+                  </bodyTypes>
+                </south>
+                <north>
+                  <bodyTypes>
+                    <MichellesBody>(0,0.55)</MichellesBody>
+                  </bodyTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <MichellesBody>(-0.45,0.22)</MichellesBody>
+                  </bodyTypes>
+                </east>
+              </offsets>
+              <layerOffset>0.1</layerOffset>
+            </li>
+            <li>
+              <path>Things/Pawn/Michelles/Legs/RLeg</path>
+              <bodyPart>右机械腿</bodyPart>
+              <colorChannel>skin</colorChannel>
+              <inFrontOfBody>true</inFrontOfBody>
+              <drawnInBed>false</drawnInBed>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <MichellesBody>(-0.4,0.25)</MichellesBody>
+                  </bodyTypes>
+                </south>
+                <north>
+                  <bodyTypes>
+                    <MichellesBody>(0,0.55)</MichellesBody>
+                  </bodyTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <MichellesBody>(-0.45,0.22)</MichellesBody>
+                  </bodyTypes>
+                </east>
+              </offsets>
+              <layerOffset>0.1</layerOffset>
+            </li>
           </bodyAddons>
         </alienPartGenerator>
       </generalSettings>
@@ -415,9 +517,64 @@
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
       </raceRestriction>
       <thoughtSettings>
+        <replacerList>
+          <li>
+            <original>AteAwfulMeal</original>
+            <replacer>AteAwfulMeal_Michelles</replacer>
+          </li>
+          <li>
+            <original>AteRawFood</original>
+            <replacer>AteRawFood_Michelles</replacer>
+          </li>
+          <li>
+            <original>AteKibble</original>
+            <replacer>AteKibble_Michelles</replacer>
+          </li>
+          <li>
+            <original>AteCorpse</original>
+            <replacer>AteCorpse_Michelles</replacer>
+          </li>
+          <li>
+            <original>AteHumanlikeMeatDirect</original>
+            <replacer>AteHumanlikeMeatDirect_Michelles</replacer>
+          </li>
+          <li>
+            <original>Disfigured</original>
+            <replacer>Disfigured_Michelles</replacer>
+          </li>
+          <li>
+            <original>BodyPuristDisgust</original>
+            <replacer>BodyPuristDisgust_Michelles</replacer>
+          </li>
+        </replacerList>
         <cannotReceiveThoughts>
           <li>Naked</li>
+          <li>AteRawHumanlikeMeat</li>
+          <li>SoldPrisoner</li>
+          <li>ButcheredHumanlikeCorpseOpinion</li>
+          <li>ExecutedPrisoner</li>
+          <li>KilledColonist</li>
+          <li>KilledColonyAnimal</li>
+          <li>AteHumanlikeMeatAsIngredient</li>
         </cannotReceiveThoughts>
+        <butcherThoughtSpecific>
+          <li>
+            <raceList>
+              <li>Alien_Michelles</li>
+            </raceList>
+            <thought>ButcheredMichelles_Michelles</thought>
+            <knowThought>KnowButcheredMichelles_Michelles</knowThought>
+          </li>
+        </butcherThoughtSpecific>
+        <ateThoughtSpecific>
+          <li>
+            <raceList>
+              <li>Alien_Michelles</li>
+            </raceList>
+            <thought>AteMichellesMeatDirect_Michelles</thought>
+            <ingredientThought>AteMichellesMeatIngredient_Michelles</ingredientThought>
+          </li>
+        </ateThoughtSpecific>
       </thoughtSettings>
     </alienRace>
   </AlienRace.ThingDef_AlienRace>

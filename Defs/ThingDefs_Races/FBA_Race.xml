@@ -117,10 +117,6 @@
         <li>
           <def>AnimalAdult</def>
           <minAge>0.4</minAge>
-          <soundWounded>Pawn_Cat_Injured</soundWounded>
-          <soundDeath>Pawn_Cat_Death</soundDeath>
-          <soundCall>Pawn_Cat_Call</soundCall>
-          <soundAngry>Pawn_Cat_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>

@@ -432,7 +432,7 @@
         </li>
         <li>
           <def>Leg</def>
-          <customLabel>左腿</customLabel>
+          <customLabel>左机械腿</customLabel>
           <coverage>0.035</coverage>
           <height>Bottom</height>
           <groups>
@@ -503,7 +503,7 @@
         </li>
         <li>
           <def>Leg</def>
-          <customLabel>右腿</customLabel>
+          <customLabel>右机械腿</customLabel>
           <coverage>0.035</coverage>
           <height>Bottom</height>
           <groups>
@@ -574,6 +574,7 @@
         </li>
         <li>
           <def>MichellesTail</def>
+          <customLabel>尾巴</customLabel>
           <coverage>0.14</coverage>
           <height>Bottom</height>
           <groups>
@@ -582,6 +583,7 @@
           <parts>
             <li>
               <def>MichellesTailBall</def>
+              <customLabel>尾部科技球</customLabel>
               <coverage>0.001</coverage>
               <height>Bottom</height>
               <groups>
