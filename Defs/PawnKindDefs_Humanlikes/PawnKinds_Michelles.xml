@@ -25,10 +25,21 @@
       <li>SpacerGun</li>
     </weaponTags>
     <techHediffsTags>
-      <li>Poor</li>
-      <li>Simple</li>
-      <li>ImplantEmpireCommon</li>
+      <li>Michelles</li>
     </techHediffsTags>
+    <techHediffsDisallowTags>
+      <li>PainCauser</li>
+    </techHediffsDisallowTags>
+    <techHediffsRequired>
+      <li>BionicLeg</li>
+      <li>BionicLeg</li>
+      <li>Goggles_normal</li>
+      <li>Receiver</li>
+      <li>Receiver</li>
+      <li>BionicArm_Michelles</li>
+      <li>BionicArm_Michelles</li>
+      <li>MichellesTailBall</li>
+    </techHediffsRequired>
   </PawnKindDef>
   <PawnKindDef ParentName="MichellesOutlanderBase">
     <defName>MichellesLeader</defName>

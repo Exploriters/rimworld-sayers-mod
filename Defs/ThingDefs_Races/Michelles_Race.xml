@@ -517,6 +517,27 @@
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
       </raceRestriction>
       <thoughtSettings>
+        <cannotReceiveThoughts>
+          <li>Naked</li>
+          <li>AteRawHumanlikeMeat</li>
+          <li>SoldPrisoner</li>
+          <li>ButcheredHumanlikeCorpse</li>
+          <li>ButcheredHumanlikeCorpseOpinion</li>
+          <li>KnowButcheredHumanlikeCorpse</li>
+          <li>ExecutedPrisoner</li>
+          <li>KilledColonist</li>
+          <li>KilledColonyAnimal</li>
+          <li>AteHumanlikeMeatAsIngredient</li>
+		  
+          <li>Disfigured</li>
+          <li>BodyPuristDisgust</li>
+          <li>HoldingMePrisoner</li>
+        </cannotReceiveThoughts>
+        <restrictedThoughts>
+          <li>Disfigured_Michelles</li>
+          <li>BodyPuristDisgust_Michelles</li>
+          <li>HoldingMePrisoner_Michelles</li>
+        </restrictedThoughts>
         <replacerList>
           <li>
             <original>AteAwfulMeal</original>
@@ -538,7 +559,10 @@
             <original>AteHumanlikeMeatDirect</original>
             <replacer>AteHumanlikeMeatDirect_Michelles</replacer>
           </li>
-          <li>
+          <!--
+		    不要在replacer中加入situation类型的thought
+			使用restrictedThoughts
+		  <li>
             <original>Disfigured</original>
             <replacer>Disfigured_Michelles</replacer>
           </li>
@@ -546,17 +570,8 @@
             <original>BodyPuristDisgust</original>
             <replacer>BodyPuristDisgust_Michelles</replacer>
           </li>
+		  -->
         </replacerList>
-        <cannotReceiveThoughts>
-          <li>Naked</li>
-          <li>AteRawHumanlikeMeat</li>
-          <li>SoldPrisoner</li>
-          <li>ButcheredHumanlikeCorpseOpinion</li>
-          <li>ExecutedPrisoner</li>
-          <li>KilledColonist</li>
-          <li>KilledColonyAnimal</li>
-          <li>AteHumanlikeMeatAsIngredient</li>
-        </cannotReceiveThoughts>
         <butcherThoughtSpecific>
           <li>
             <raceList>

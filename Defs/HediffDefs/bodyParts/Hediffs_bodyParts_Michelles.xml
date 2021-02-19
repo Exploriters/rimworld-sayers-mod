@@ -1,12 +1,83 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
+  <ThingCategoryDef>
+	<defName>BodyPartsMichelles</defName>
+	<label>michelles</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+	  
+  <HediffDef ParentName="AddedBodyPartBase" Name="MichellesBodyPartBase" Abstract="True">
+  </HediffDef>
+  
+  <ThingDef ParentName="BodyPartBase" Name="BodyPartMichellesBase" Abstract="True">
+    <tradeability>Sellable</tradeability>
+    <techLevel>Ultra</techLevel>
+    <thingCategories>
+      <li>BodyPartsMichelles</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem_Sayers</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+      <!--<color>(255,255,255)</color>-->
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0</DeteriorationRate>
+      <WorkToMake>26000</WorkToMake>
+    </statBases>
+    <tradeTags /><!-- TechHediff -->
+    <techHediffsTags Inherit="false">
+      <li>Michelles</li>
+    </techHediffsTags>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite Inherit="false" />
+      <researchPrerequisites>
+	    <li>Bionics</li>
+	    <li>SayersRestrictedThings</li>
+	  </researchPrerequisites>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+  
   <!--=== 护目镜 ===-->
   <!--= 显现式 =-->
-  <HediffDef ParentName="AddedBodyPartBase">
+  <ThingDef ParentName="BodyPartMichellesBase">
+    <defName>Goggles_normal</defName>
+    <label>护目镜</label>
+    <description>一副护目镜。</description>
+    <descriptionHyperlinks>
+      <HediffDef>Goggles_normal</HediffDef>
+      <HediffDef>Goggles_Hide</HediffDef>
+      <RecipeDef>InstallGoggles_normal</RecipeDef>
+      <RecipeDef>InstallGoggles_Hide</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <thingSetMakerTags>
+    </thingSetMakerTags>
+    <statBases>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <HediffDef ParentName="MichellesBodyPartBase">
     <defName>Goggles_normal</defName>
     <label>护目镜</label>
     <labelNoun>一副护目镜</labelNoun>
-    <description>一副已同步的护目镜</description>
+    <description>一副已同步的护目镜。</description>
     <descriptionHyperlinks>
       <ThingDef>Goggles_normal</ThingDef>
     </descriptionHyperlinks>
@@ -17,28 +88,10 @@
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
-  <ThingDef ParentName="BodyPartBionicBase">
-    <defName>Goggles_normal</defName>
-    <label>护目镜</label>
-    <description>一副护目镜</description>
-    <descriptionHyperlinks>
-      <RecipeDef>InstallGoggles_normal</RecipeDef>
-    </descriptionHyperlinks>
-    <costList>
-      <Plasteel>15</Plasteel>
-      <ComponentSpacer>4</ComponentSpacer>
-    </costList>
-    <thingSetMakerTags>
-      <li>RewardStandardMidFreq</li>
-    </thingSetMakerTags>
-    <statBases>
-      <Mass>0.3</Mass>
-    </statBases>
-  </ThingDef>
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallGoggles_normal</defName>
     <label>同步护目镜</label>
-    <description>同步护目镜</description>
+    <description>同步护目镜。</description>
     <descriptionHyperlinks>
       <ThingDef>Goggles_normal</ThingDef>
       <HediffDef>Goggles_normal</HediffDef>
@@ -65,25 +118,25 @@
     <addsHediff>Goggles_normal</addsHediff>
   </RecipeDef>
   <!--= 隐藏式 =-->
-  <HediffDef ParentName="AddedBodyPartBase">
+  <HediffDef ParentName="MichellesBodyPartBase">
     <defName>Goggles_Hide</defName>
     <label>护目镜[隐藏式]</label>
     <labelNoun>一副隐藏式护目镜</labelNoun>
-    <description>一副已同步的隐藏式护目镜</description>
+    <description>一副已同步的隐藏式护目镜。</description>
     <descriptionHyperlinks>
-      <ThingDef>Goggles_Hide</ThingDef>
+      <ThingDef>Goggles_normal</ThingDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>Goggles_Hide</spawnThingOnRemoved>
+    <spawnThingOnRemoved>Goggles_normal</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>1.25</partEfficiency>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
-  <ThingDef ParentName="BodyPartBionicBase">
+  <!--<ThingDef ParentName="BodyPartMichellesBase">
     <defName>Goggles_Hide</defName>
     <label>护目镜[隐藏式]</label>
-    <description>一副隐藏式护目镜</description>
+    <description>一副隐藏式护目镜。</description>
     <descriptionHyperlinks>
       <RecipeDef>InstallGoggles_Hide</RecipeDef>
     </descriptionHyperlinks>
@@ -92,18 +145,17 @@
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
     <thingSetMakerTags>
-      <li>RewardStandardMidFreq</li>
     </thingSetMakerTags>
     <statBases>
       <Mass>0.3</Mass>
     </statBases>
-  </ThingDef>
+  </ThingDef>-->
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallGoggles_Hide</defName>
     <label>同步隐藏式护目镜</label>
-    <description>同步隐藏式护目镜</description>
+    <description>同步隐藏式护目镜。</description>
     <descriptionHyperlinks>
-      <ThingDef>Goggles_Hide</ThingDef>
+      <ThingDef>Goggles_normal</ThingDef>
       <HediffDef>Goggles_Hide</HediffDef>
     </descriptionHyperlinks>
     <jobString>正在同步护目镜，并调整至隐藏模式</jobString>
@@ -111,7 +163,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Goggles_Hide</li>
+            <li>Goggles_normal</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -119,7 +171,7 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Goggles_Hide</li>
+        <li>Goggles_normal</li>
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
@@ -128,11 +180,11 @@
     <addsHediff>Goggles_Hide</addsHediff>
   </RecipeDef>
   <!--=== 接收器 ===-->
-  <HediffDef ParentName="AddedBodyPartBase">
+  <HediffDef ParentName="MichellesBodyPartBase">
     <defName>Receiver</defName>
     <label>接收器</label>
     <labelNoun>一个接收器</labelNoun>
-    <description>一个已同步的接收器</description>
+    <description>一个已同步的接收器。</description>
     <descriptionHyperlinks>
       <ThingDef>Receiver</ThingDef>
     </descriptionHyperlinks>
@@ -143,10 +195,10 @@
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
-  <ThingDef ParentName="BodyPartBionicBase">
+  <ThingDef ParentName="BodyPartMichellesBase">
     <defName>Receiver</defName>
     <label>接收器</label>
-    <description>一个接收器</description>
+    <description>一个接收器。</description>
     <descriptionHyperlinks>
       <RecipeDef>InstallReceiver</RecipeDef>
     </descriptionHyperlinks>
@@ -158,7 +210,7 @@
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallReceiver</defName>
     <label>同步接收器</label>
-    <description>同步接收器</description>
+    <description>同步接收器。</description>
     <descriptionHyperlinks>
       <ThingDef>Receiver</ThingDef>
       <HediffDef>Receiver</HediffDef>
@@ -185,11 +237,11 @@
     <addsHediff>Receiver</addsHediff>
   </RecipeDef>
   <!--=== 仿生臂 ===-->
-  <HediffDef ParentName="AddedBodyPartBase">
+  <HediffDef ParentName="MichellesBodyPartBase">
     <defName>BionicArm_Michelles</defName>
     <label>Michelles仿生臂</label>
     <labelNoun>一条仿生臂</labelNoun>
-    <description>一条已安装的仿生臂</description>
+    <description>一条已安装的仿生臂。</description>
     <descriptionHyperlinks>
       <ThingDef>BionicArm_Michelles</ThingDef>
     </descriptionHyperlinks>
@@ -216,10 +268,10 @@
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
-  <ThingDef ParentName="BodyPartBionicBase">
+  <ThingDef ParentName="BodyPartMichellesBase">
     <defName>BionicArm_Michelles</defName>
     <label>Michelles仿生臂</label>
-    <description>一条仿生臂</description>
+    <description>一条仿生臂。</description>
     <descriptionHyperlinks>
       <RecipeDef>InstallBionicArm_Michelles</RecipeDef>
     </descriptionHyperlinks>
@@ -228,7 +280,6 @@
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
     <thingSetMakerTags>
-      <li>RewardStandardMidFreq</li>
     </thingSetMakerTags>
     <statBases>
       <Mass>5</Mass>
@@ -237,7 +288,7 @@
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallBionicArm_Michelles</defName>
     <label>安装Michelles仿生臂</label>
-    <description>安装Michelles仿生臂</description>
+    <description>安装Michelles仿生臂。</description>
     <descriptionHyperlinks>
       <ThingDef>BionicArm</ThingDef>
       <HediffDef>BionicArm</HediffDef>
@@ -264,11 +315,11 @@
     <addsHediff>BionicArm_Michelles</addsHediff>
   </RecipeDef>
   <!--=== 科技球 ===-->
-  <HediffDef ParentName="AddedBodyPartBase">
+  <HediffDef ParentName="MichellesBodyPartBase">
     <defName>MichellesTailBall</defName>
     <label>科技球</label>
     <labelNoun>一颗科技球</labelNoun>
-    <description>一颗已启动的科技球</description>
+    <description>一颗已启动的科技球。</description>
     <descriptionHyperlinks>
       <ThingDef>MichellesTailBall</ThingDef>
     </descriptionHyperlinks>
@@ -287,25 +338,28 @@
   <ThingDef ParentName="BodyPartBionicImperialBase">
     <defName>MichellesTailBall</defName>
     <label>科技球</label>
-    <description>一颗科技球</description>
+    <description>一颗科技球。</description>
     <descriptionHyperlinks>
       <RecipeDef>InstallMichellesTailBall</RecipeDef>
     </descriptionHyperlinks>
     <thingSetMakerTags>
-      <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>
     <costList>
       <Plasteel>10</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>FleshShaping</researchPrerequisite>
+      <researchPrerequisite Inherit="False" />
+      <researchPrerequisites>
+        <li>SayersRestrictedThings</li>
+        <li>FleshShaping</li>
+      </researchPrerequisites>
     </recipeMaker>
   </ThingDef>
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallMichellesTailBall</defName>
     <label>启动科技球</label>
-    <description>启动科技球</description>
+    <description>启动科技球。</description>
     <descriptionHyperlinks>
       <ThingDef>MichellesTailBall</ThingDef>
       <HediffDef>MichellesTailBall</HediffDef>
