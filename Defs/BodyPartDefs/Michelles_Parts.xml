@@ -17,7 +17,6 @@
     <hitPoints>5</hitPoints>
     <skinCovered>false</skinCovered>
     <beautyRelated>true</beautyRelated>
-    <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
     <canSuggestAmputation>true</canSuggestAmputation>
     <bleedRate>0</bleedRate>
   </BodyPartDef>
@@ -41,7 +40,6 @@
     <hitPoints>150</hitPoints>
     <skinCovered>false</skinCovered>
     <beautyRelated>false</beautyRelated>
-    <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
     <canSuggestAmputation>true</canSuggestAmputation>
     <bleedRate>0</bleedRate>
     <permanentInjuryChanceFactor>9999999</permanentInjuryChanceFactor>
@@ -55,7 +53,6 @@
     <hitPoints>150</hitPoints>
     <skinCovered>false</skinCovered>
     <beautyRelated>false</beautyRelated>
-    <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
     <canSuggestAmputation>true</canSuggestAmputation>
     <bleedRate>0</bleedRate>
     <permanentInjuryChanceFactor>9999999</permanentInjuryChanceFactor>
@@ -66,7 +63,6 @@
     <hitPoints>50</hitPoints>
     <skinCovered>false</skinCovered>
     <beautyRelated>false</beautyRelated>
-    <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
     <canSuggestAmputation>true</canSuggestAmputation>
     <bleedRate>0</bleedRate>
     <permanentInjuryChanceFactor>9999999</permanentInjuryChanceFactor>
@@ -80,7 +76,6 @@
     <hitPoints>35</hitPoints>
     <skinCovered>false</skinCovered>
     <beautyRelated>false</beautyRelated>
-    <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
     <canSuggestAmputation>true</canSuggestAmputation>
     <bleedRate>0</bleedRate>
     <permanentInjuryChanceFactor>9999999</permanentInjuryChanceFactor>

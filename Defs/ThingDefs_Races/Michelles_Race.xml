@@ -418,7 +418,7 @@
                 </north>
                 <east>
                   <bodyTypes>
-                    <MichellesBody>(-0.25,0.25)</MichellesBody>
+                    <MichellesBody>(-0.05,0.25)</MichellesBody>
                   </bodyTypes>
                 </east>
               </offsets>
@@ -444,7 +444,7 @@
                 </north>
                 <east>
                   <bodyTypes>
-                    <MichellesBody>(-0.25,0.25)</MichellesBody>
+                    <MichellesBody>(-0.05,0.25)</MichellesBody>
                   </bodyTypes>
                 </east>
               </offsets>
@@ -454,7 +454,7 @@
             <li>
               <path>Things/Pawn/Michelles/Legs/LLeg</path>
               <bodyPart>左机械腿</bodyPart>
-              <colorChannel>skin</colorChannel>
+              <colorChannel>hair</colorChannel>
               <inFrontOfBody>true</inFrontOfBody>
               <drawnInBed>false</drawnInBed>
               <offsets>
@@ -479,7 +479,7 @@
             <li>
               <path>Things/Pawn/Michelles/Legs/RLeg</path>
               <bodyPart>右机械腿</bodyPart>
-              <colorChannel>skin</colorChannel>
+              <colorChannel>hair</colorChannel>
               <inFrontOfBody>true</inFrontOfBody>
               <drawnInBed>false</drawnInBed>
               <offsets>
@@ -517,6 +517,24 @@
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
       </raceRestriction>
       <thoughtSettings>
+        <butcherThoughtSpecific>
+          <li>
+            <raceList>
+              <li>Alien_Michelles</li>
+            </raceList>
+            <thought>ButcheredMichelles_Michelles</thought>
+            <knowThought>KnowButcheredMichelles_Michelles</knowThought>
+          </li>
+        </butcherThoughtSpecific>
+        <ateThoughtSpecific>
+          <li>
+            <raceList>
+              <li>Alien_Michelles</li>
+            </raceList>
+            <thought>AteMichellesMeatDirect_Michelles</thought>
+            <ingredientThought>AteMichellesMeatIngredient_Michelles</ingredientThought>
+          </li>
+        </ateThoughtSpecific>
         <replacerList>
           <li>
             <original>AteAwfulMeal</original>
@@ -557,24 +575,6 @@
           <li>KilledColonyAnimal</li>
           <li>AteHumanlikeMeatAsIngredient</li>
         </cannotReceiveThoughts>
-        <butcherThoughtSpecific>
-          <li>
-            <raceList>
-              <li>Alien_Michelles</li>
-            </raceList>
-            <thought>ButcheredMichelles_Michelles</thought>
-            <knowThought>KnowButcheredMichelles_Michelles</knowThought>
-          </li>
-        </butcherThoughtSpecific>
-        <ateThoughtSpecific>
-          <li>
-            <raceList>
-              <li>Alien_Michelles</li>
-            </raceList>
-            <thought>AteMichellesMeatDirect_Michelles</thought>
-            <ingredientThought>AteMichellesMeatIngredient_Michelles</ingredientThought>
-          </li>
-        </ateThoughtSpecific>
       </thoughtSettings>
     </alienRace>
   </AlienRace.ThingDef_AlienRace>

@@ -345,6 +345,50 @@
                   </li>
                 </options>
               </first>
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <!--Blue-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.710,0.933,0.910,1)</only>
+                  </li>
+                  <!--Red-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.486,0.137,0.137,1)</only>
+                  </li>
+                  <!--White-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(1,1,1,1)</only>
+                  </li>
+                  <!--Black-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.196,0.196,0.196,1)</only>
+                  </li>
+                  <!--Light purple-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.741,0.686,0.769,1)</only>
+                  </li>
+                  <!--Gray Blue-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.420,0.494,0.533,1)</only>
+                  </li>
+                  <!--Gray-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.392,0.392,0.392,1)</only>
+                  </li>
+                  <!--Dark Blue(玄青)-->
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.145,0.149,0.188,1)</only>
+                  </li>
+                </options>
+              </second>
             </li>
             <li>
               <name>hair</name>

@@ -15,8 +15,9 @@
     <weaponMoney>1010~100000</weaponMoney>
     <apparelMoney>200~400</apparelMoney>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
-    <techHediffsChance>0.06</techHediffsChance>
-    <techHediffsMoney>50~600</techHediffsMoney>
+    <techHediffsChance>1</techHediffsChance>
+    <techHediffsMoney>10~10000</techHediffsMoney>
+    <techHediffsMaxAmount>10</techHediffsMaxAmount>
     <apparelTags>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
@@ -25,9 +26,7 @@
       <li>SpacerGun</li>
     </weaponTags>
     <techHediffsTags>
-      <li>Poor</li>
-      <li>Simple</li>
-      <li>ImplantEmpireCommon</li>
+      <li>MichellesBodyPartBase</li>
     </techHediffsTags>
   </PawnKindDef>
   <PawnKindDef ParentName="MichellesOutlanderBase">

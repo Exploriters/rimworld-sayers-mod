@@ -34,6 +34,9 @@
     <statBases>
       <Mass>0.3</Mass>
     </statBases>
+    <techHediffsTags>
+      <li>MichellesBodyPartBase</li>
+    </techHediffsTags>
   </ThingDef>
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallGoggles_normal</defName>
@@ -97,6 +100,9 @@
     <statBases>
       <Mass>0.3</Mass>
     </statBases>
+    <techHediffsTags>
+      <li>MichellesBodyPartBase</li>
+    </techHediffsTags>
   </ThingDef>
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallGoggles_Hide</defName>
@@ -154,6 +160,9 @@
       <Plasteel>10</Plasteel>
       <ComponentSpacer>3</ComponentSpacer>
     </costList>
+    <techHediffsTags>
+      <li>MichellesBodyPartBase</li>
+    </techHediffsTags>
   </ThingDef>
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallReceiver</defName>
@@ -233,6 +242,9 @@
     <statBases>
       <Mass>5</Mass>
     </statBases>
+    <techHediffsTags>
+      <li>MichellesBodyPartBase</li>
+    </techHediffsTags>
   </ThingDef>
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallBionicArm_Michelles</defName>
@@ -301,6 +313,9 @@
     <recipeMaker>
       <researchPrerequisite>FleshShaping</researchPrerequisite>
     </recipeMaker>
+    <techHediffsTags>
+      <li>MichellesBodyPartBase</li>
+    </techHediffsTags>
   </ThingDef>
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallMichellesTailBall</defName>
