@@ -4,7 +4,8 @@
     <spawnCategories>
       <li>MichellesBackstories</li>
     </spawnCategories>
-    <!--<forcedHediffs><li>BionicLeg</li><li>BionicLeg</li><li>Goggles_normal</li><li>Receiver</li><li>Receiver</li><li>BionicArm_Michelles</li><li>BionicArm_Michelles</li><li>MichellesTailBall</li></forcedHediffs>-->
+    <forcedHediffs>
+    </forcedHediffs>
   </AlienRace.BackstoryDef>
   <AlienRace.BackstoryDef ParentName="MichellesStartHediffsBase">
     <defName>Michelles_Base</defName>

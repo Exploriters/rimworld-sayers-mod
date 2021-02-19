@@ -49,6 +49,7 @@
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <tradeability>Sellable</tradeability>
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_SayersParka</defName>
@@ -127,6 +128,7 @@
         </li>
       </options>
     </colorGenerator>
+    <tradeability>Sellable</tradeability>
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_SayersDuster</defName>
@@ -205,6 +207,7 @@
         </li>
       </options>
     </colorGenerator>
+    <tradeability>Sellable</tradeability>
   </ThingDef>
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>Apparel_SayersPlateArmor</defName>
@@ -240,8 +243,6 @@
       <EquipDelay>7.5</EquipDelay>
     </statBases>
     <thingSetMakerTags>
-      <li>RewardStandardLowFreq</li>
-      <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.2</MoveSpeed>
@@ -285,6 +286,7 @@
         </li>
       </options>
     </colorGenerator>
+    <tradeability>Sellable</tradeability>
   </ThingDef>
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_SayersFlakVest</defName>
@@ -360,6 +362,7 @@
         </li>
       </options>
     </colorGenerator>
+    <tradeability>Sellable</tradeability>
   </ThingDef>
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_SayersFlakJacket</defName>
@@ -430,6 +433,7 @@
         </li>
       </options>
     </colorGenerator>
+    <tradeability>Sellable</tradeability>
   </ThingDef>
   <!--=植模块装甲=-->
   <ThingDef Name="ApparelArmorReconPlantsBase" ParentName="ArmorMachineableBase" Abstract="True">
@@ -516,11 +520,11 @@
       </options>
     </colorGenerator>
     <thingSetMakerTags>
-      <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>
     <comps>
       <li Class="CompProperties_BiocodableApparel" />
     </comps>
+    <tradeability>Sellable</tradeability>
   </ThingDef>
   <ThingDef Name="ApparelArmorPlantsBase" ParentName="ArmorMachineableBase" Abstract="True">
     <techLevel>Spacer</techLevel>
@@ -609,11 +613,11 @@
       </options>
     </colorGenerator>
     <thingSetMakerTags>
-      <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>
     <comps>
       <li Class="CompProperties_BiocodableApparel" />
     </comps>
+    <tradeability>Sellable</tradeability>
   </ThingDef>
   <ThingDef ParentName="ApparelArmorPlantsBase">
     <defName>Apparel_SayersPlantsArmor</defName>
@@ -624,6 +628,7 @@
         <li>SpacerMilitary</li>
       </tags>
     </apparel>
+    <tradeability>Sellable</tradeability>
   </ThingDef>
   <ThingDef ParentName="ApparelArmorReconPlantsBase">
     <defName>Apparel_SayersArmorReconPlants</defName>
@@ -634,5 +639,6 @@
         <li>SpacerMilitary</li>
       </tags>
     </apparel>
+    <tradeability>Sellable</tradeability>
   </ThingDef>
 </Defs>

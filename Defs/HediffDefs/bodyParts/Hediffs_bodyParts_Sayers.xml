@@ -1,34 +1,72 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!--==== 可怜无比の木头  ====-->
+
+  <ThingCategoryDef>
+	<defName>BodyPartsSayers</defName>
+	<label>sayers</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+  
   <!--== 基础 ==-->
-  <RecipeDef Name="SurgeryInstallWoodenPartBase" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
-    <workAmount>1500</workAmount>
-    <skillRequirements>
-      <Medicine>3</Medicine>
-    </skillRequirements>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>WoodLog</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>WoodLog</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-  </RecipeDef>
+  <ThingDef Name="BodyPartProstheticSayersBase" ParentName="BodyPartProstheticBase" Abstract="True">
+    <tradeability>Sellable</tradeability>
+    <thingCategories Inherit="false">
+      <li>BodyPartsSayers</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem_Sayers</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+      <color>(154,124,104)</color>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite Inherit="False" />
+      <researchPrerequisites>
+        <li>SayersRestrictedThings</li>
+        <li>Prosthetics</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef Name="BodyPartBionicSayersBase" ParentName="BodyPartBionicBase" Abstract="True">
+    <tradeability>Sellable</tradeability>
+    <thingCategories Inherit="false">
+      <li>BodyPartsSayers</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem_Sayers</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+      <color>(189,169,118)</color>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite Inherit="False" />
+      <researchPrerequisites>
+        <li>SayersRestrictedThings</li>
+        <li>Bionics</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef Name="BodyPartArchotechSayersBase" ParentName="BodyPartArchotechBase" Abstract="True">
+    <tradeability>Sellable</tradeability>
+    <thingCategories Inherit="false">
+      <li>BodyPartsSayers</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem_Sayers</texPath>
+      <color>(155,165,148)</color>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <!--==== 可怜无比の木头  ====-->
   <!--= 木触手 =-->
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>WoodenTentacle</defName>
     <label>木触手</label>
     <labelNoun>一条木触手</labelNoun>
-    <description>一条已安装的木触手</description>
+    <description>一条已安装的木触手。</description>
     <priceImpact>false</priceImpact>
     <addedPartProps>
       <solid>true</solid>
@@ -39,7 +77,7 @@
   <RecipeDef ParentName="SurgeryInstallWoodenPartBase">
     <defName>InstallWoodenTentacle</defName>
     <label>安装木触手</label>
-    <description>安装木触手</description>
+    <description>安装木触手。</description>
     <descriptionHyperlinks>
       <ThingDef>WoodLog</ThingDef>
       <HediffDef>WoodenTentacle</HediffDef>
@@ -51,53 +89,13 @@
     <addsHediff>WoodenTentacle</addsHediff>
   </RecipeDef>
   <!--==== 简易  ====-->
-  <!--== 基础 ==-->
-  <ThingDef Name="BodyPartProstheticBase" ParentName="BodyPartBase" Abstract="True">
-    <techLevel>Industrial</techLevel>
-    <thingCategories>
-      <li>BodyPartsProsthetic</li>
-    </thingCategories>
-    <graphicData>
-      <texPath>Things/Item/Health/HealthItem_Sayers</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.80</drawSize>
-      <color>(154,124,104)</color>
-    </graphicData>
-    <statBases>
-      <WorkToMake>15000</WorkToMake>
-    </statBases>
-  </ThingDef>
-  <ThingDef Name="BodyPartProstheticMakeableBase" ParentName="BodyPartProstheticBase" Abstract="True">
-    <recipeMaker>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Smith</soundWorking>
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-      <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
-      <researchPrerequisite Inherit="False" />
-      <researchPrerequisites>
-        <li>SayersRestrictedThings</li>
-        <li>Prosthetics</li>
-      </researchPrerequisites>
-    </recipeMaker>
-  </ThingDef>
-  <RecipeDef Name="SurgeryInstallBodyPartProstheticBase" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
-    <skillRequirements>
-      <Medicine>4</Medicine>
-    </skillRequirements>
-  </RecipeDef>
+  
   <!--= 假触手 =-->
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>SimpleProstheticTentacle</defName>
     <label>假触手</label>
     <labelNoun>一条假触手</labelNoun>
-    <description>一条已安装的简易假触手</description>
+    <description>一条已安装的简易假触手。</description>
     <descriptionHyperlinks>
       <ThingDef>SimpleProstheticTentacle</ThingDef>
     </descriptionHyperlinks>
@@ -133,7 +131,7 @@
   <ThingDef ParentName="BodyPartProstheticMakeableBase">
     <defName>SimpleProstheticTentacle</defName>
     <label>假触手</label>
-    <description>一条假触手</description>
+    <description>一条假触手。</description>
     <descriptionHyperlinks>
       <RecipeDef>InstallSimpleProstheticTentacle</RecipeDef>
     </descriptionHyperlinks>
@@ -151,7 +149,7 @@
   <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
     <defName>InstallSimpleProstheticTentacle</defName>
     <label>安装假触手</label>
-    <description>安装假触手</description>
+    <description>安装假触手。</description>
     <descriptionHyperlinks>
       <ThingDef>SimpleProstheticTentacle</ThingDef>
       <HediffDef>SimpleProstheticTentacle</HediffDef>
@@ -178,52 +176,12 @@
     <addsHediff>SimpleProstheticTentacle</addsHediff>
   </RecipeDef>
   <!--==== 仿生  ====-->
-  <!--== 基础 ==-->
-  <ThingDef Name="BodyPartBionicBase" ParentName="BodyPartBase" Abstract="True">
-    <techLevel>Spacer</techLevel>
-    <thingCategories>
-      <li>BodyPartsBionic</li>
-    </thingCategories>
-    <graphicData>
-      <texPath>Things/Item/Health/HealthItem_Sayers</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.80</drawSize>
-      <color>(189,169,118)</color>
-    </graphicData>
-    <tradeTags>
-      <li>Bionic</li>
-    </tradeTags>
-    <techHediffsTags>
-      <li>Advanced</li>
-    </techHediffsTags>
-    <statBases>
-      <WorkToMake>26000</WorkToMake>
-    </statBases>
-    <recipeMaker>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Smith</soundWorking>
-      <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
-      <skillRequirements>
-        <Crafting>8</Crafting>
-      </skillRequirements>
-      <researchPrerequisite Inherit="False" />
-      <researchPrerequisites>
-        <li>SayersRestrictedThings</li>
-        <li>Bionics</li>
-      </researchPrerequisites>
-      <recipeUsers>
-        <li>FabricationBench</li>
-      </recipeUsers>
-    </recipeMaker>
-  </ThingDef>
   <!--= 仿生触手 =-->
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>BionicTentacle</defName>
     <label>仿生触手</label>
     <labelNoun>一条仿生触手</labelNoun>
-    <description>一条已安装的仿生触手</description>
+    <description>一条已安装的仿生触手。</description>
     <descriptionHyperlinks>
       <ThingDef>BionicTentacle</ThingDef>
     </descriptionHyperlinks>
@@ -257,10 +215,10 @@
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
-  <ThingDef ParentName="BodyPartBionicBase">
+  <ThingDef ParentName="BodyPartBionicSayersBase">
     <defName>BionicTentacle</defName>
     <label>仿生触手</label>
-    <description>一条仿生触手</description>
+    <description>一条仿生触手。</description>
     <descriptionHyperlinks>
       <RecipeDef>InstallBionicTentacle</RecipeDef>
     </descriptionHyperlinks>
@@ -269,7 +227,6 @@
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
     <thingSetMakerTags>
-      <li>RewardStandardMidFreq</li>
     </thingSetMakerTags>
     <statBases>
       <Mass>5</Mass>
@@ -278,7 +235,7 @@
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallBionicTentacle</defName>
     <label>安装仿生触手</label>
-    <description>安装仿生触手</description>
+    <description>安装仿生触手。</description>
     <descriptionHyperlinks>
       <ThingDef>BionicTentacle</ThingDef>
       <HediffDef>BionicTentacle</HediffDef>
@@ -309,7 +266,7 @@
     <defName>BionicEar_Sayers</defName>
     <label>仿生耳朵</label>
     <labelNoun>一只仿生耳朵</labelNoun>
-    <description>一只已安装的仿生耳朵</description>
+    <description>一只已安装的仿生耳朵。</description>
     <descriptionHyperlinks>
       <ThingDef>BionicEar_Sayers</ThingDef>
     </descriptionHyperlinks>
@@ -320,10 +277,10 @@
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
-  <ThingDef ParentName="BodyPartBionicBase">
+  <ThingDef ParentName="BodyPartBionicSayersBase">
     <defName>BionicEar_Sayers</defName>
     <label>仿生耳朵</label>
-    <description>一只仿生耳朵</description>
+    <description>一只仿生耳朵。</description>
     <descriptionHyperlinks>
       <RecipeDef>InstallBionicEar_Sayers</RecipeDef>
     </descriptionHyperlinks>
@@ -335,7 +292,7 @@
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallBionicEar_Sayers</defName>
     <label>安装仿生耳朵</label>
-    <description>安装仿生耳朵</description>
+    <description>安装仿生耳朵。</description>
     <descriptionHyperlinks>
       <ThingDef>BionicEar_Sayers</ThingDef>
       <HediffDef>BionicEar_Sayers</HediffDef>
@@ -362,28 +319,12 @@
     <addsHediff>BionicEar_Sayers</addsHediff>
   </RecipeDef>
   <!--==== 远古科技  ====-->
-  <!--== 基础 ==-->
-  <ThingDef Name="BodyPartArchotechBase" ParentName="BodyPartBase" Abstract="True">
-    <techLevel>Archotech</techLevel>
-    <thingCategories>
-      <li>BodyPartsArchotech</li>
-    </thingCategories>
-    <graphicData>
-      <texPath>Things/Item/Health/HealthItem_Sayers</texPath>
-      <color>(155,165,148)</color>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.80</drawSize>
-    </graphicData>
-    <statBases>
-      <DeteriorationRate>0</DeteriorationRate>
-    </statBases>
-  </ThingDef>
   <!--= 远古科技触手 =-->
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>ArchotechTentacle</defName>
     <label>远古科技触手</label>
     <labelNoun>一条远古科技触手</labelNoun>
-    <description>一条已安装的远古科技触手</description>
+    <description>一条已安装的远古科技触手。</description>
     <descriptionHyperlinks>
       <ThingDef>ArchotechTentacle</ThingDef>
     </descriptionHyperlinks>
@@ -417,10 +358,10 @@
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
-  <ThingDef ParentName="BodyPartArchotechBase">
+  <ThingDef ParentName="BodyPartArchotechSayersBase">
     <defName>ArchotechTentacle</defName>
     <label>远古科技触手</label>
-    <description>一条远古科技触手</description>
+    <description>一条远古科技触手。</description>
     <descriptionHyperlinks>
       <RecipeDef>InstallArchotechTentacle</RecipeDef>
     </descriptionHyperlinks>
@@ -429,13 +370,12 @@
       <Mass>4</Mass>
     </statBases>
     <thingSetMakerTags>
-      <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>
   </ThingDef>
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallArchotechTentacle</defName>
     <label>安装远古科技触手</label>
-    <description>安装远古科技触手</description>
+    <description>安装远古科技触手。</description>
     <descriptionHyperlinks>
       <ThingDef>ArchotechTentacle</ThingDef>
       <HediffDef>ArchotechTentacle</HediffDef>
@@ -466,7 +406,7 @@
     <defName>ArchotechEar_Sayers</defName>
     <label>远古科技耳朵</label>
     <labelNoun>一只远古科技耳朵</labelNoun>
-    <description>一只已安装的远古科技耳朵</description>
+    <description>一只已安装的远古科技耳朵。</description>
     <descriptionHyperlinks>
       <ThingDef>ArchotechEar_Sayers</ThingDef>
     </descriptionHyperlinks>
@@ -477,10 +417,10 @@
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
-  <ThingDef ParentName="BodyPartArchotechBase">
+  <ThingDef ParentName="BodyPartArchotechSayersBase">
     <defName>ArchotechEar_Sayers</defName>
     <label>远古科技耳朵</label>
-    <description>一只远古科技耳朵</description>
+    <description>一只远古科技耳朵。</description>
     <descriptionHyperlinks>
       <RecipeDef>InstallArchotechEar_Sayers</RecipeDef>
     </descriptionHyperlinks>
@@ -489,13 +429,12 @@
       <Mass>4</Mass>
     </statBases>
     <thingSetMakerTags>
-      <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>
   </ThingDef>
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallArchotechEar_Sayers</defName>
     <label>安装远古科技耳朵</label>
-    <description>安装远古科技耳朵</description>
+    <description>安装远古科技耳朵。</description>
     <descriptionHyperlinks>
       <ThingDef>ArchotechEar_Sayers</ThingDef>
       <HediffDef>ArchotechEar_Sayers</HediffDef>
@@ -527,7 +466,7 @@
     <defName>DrillTentacle</defName>
     <label>挖掘触手</label>
     <labelNoun>挖掘触手</labelNoun>
-    <description>一条挖掘触手</description>
+    <description>一条挖掘触手。</description>
     <descriptionHyperlinks>
       <ThingDef>DrillTentacle</ThingDef>
     </descriptionHyperlinks>
@@ -564,12 +503,11 @@
   <ThingDef ParentName="BodyPartProstheticImperialBase">
     <defName>DrillTentacle</defName>
     <label>挖掘触手</label>
-    <description>一条挖掘触手</description>
+    <description>一条挖掘触手。</description>
     <descriptionHyperlinks>
       <RecipeDef>InstallDrillTentacle</RecipeDef>
     </descriptionHyperlinks>
     <thingSetMakerTags>
-      <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>
     <costList>
       <Steel>60</Steel>
@@ -586,7 +524,7 @@
   <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
     <defName>InstallDrillTentacle</defName>
     <label>安装挖掘触手</label>
-    <description>安装挖掘触手</description>
+    <description>安装挖掘触手。</description>
     <descriptionHyperlinks>
       <ThingDef>DrillTentacle</ThingDef>
       <HediffDef>DrillTentacle</HediffDef>
