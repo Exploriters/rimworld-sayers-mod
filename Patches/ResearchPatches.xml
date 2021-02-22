@@ -7,7 +7,19 @@
 				<xpath>Defs/ResearchProjectDef[(
 						defName="Cocoa" or 
 						defName="Devilstrand" or 
-						defName="Hydroponics") 
+						defName="Brewing" or 
+						defName="Greatbow" or 
+						defName="Stonecutting" or 
+						defName="ComplexFurniture" or 
+						defName="ComplexClothing" or 
+						defName="PlateArmor" or 
+						defName="LongBlades" or 
+						defName="Piano" or 
+						defName="CarpetMaking" or 
+						defName="PsychiteRefining" or 
+						defName="WakeUpProduction" or 
+						defName="GoJuiceProduction" or 
+						defName="PenoxycylineProduction") 
 					and not (tags)]</xpath>
 				<value>
 					<tags>
@@ -18,7 +30,19 @@
 				<xpath>Defs/ResearchProjectDef[
 						defName="Cocoa" or 
 						defName="Devilstrand" or 
-						defName="Hydroponics"]
+						defName="Brewing" or 
+						defName="Greatbow" or 
+						defName="Stonecutting" or 
+						defName="ComplexFurniture" or 
+						defName="ComplexClothing" or 
+						defName="PlateArmor" or 
+						defName="LongBlades" or 
+						defName="Piano" or 
+						defName="CarpetMaking" or 
+						defName="PsychiteRefining" or 
+						defName="WakeUpProduction" or 
+						defName="GoJuiceProduction" or 
+						defName="PenoxycylineProduction"]
 					/tags</xpath>
 				<value>
 					<li>SayersStart</li>

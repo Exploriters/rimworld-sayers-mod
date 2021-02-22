@@ -41,6 +41,7 @@
         <li>OnSkin</li>
       </layers>
       <tags>
+        <li>SayersBodyFit</li>
         <li>SayersBasic</li>
       </tags>
       <defaultOutfitTags>
@@ -94,6 +95,7 @@
         <li>Shell</li>
       </layers>
       <tags>
+        <li>SayersBodyFit</li>
         <li>IndustrialBasic</li>
         <li>Neolithic</li>
       </tags>
@@ -175,6 +177,7 @@
         <li>Shell</li>
       </layers>
       <tags>
+        <li>SayersBodyFit</li>
         <li>IndustrialAdvanced</li>
       </tags>
       <defaultOutfitTags>
@@ -263,6 +266,7 @@
         <li>Shell</li>
       </layers>
       <tags>
+        <li>SayersBodyFit</li>
         <li>MedievalMilitary</li>
       </tags>
       <defaultOutfitTags>
@@ -341,6 +345,7 @@
         <li>Middle</li>
       </layers>
       <tags>
+        <li>SayersBodyFit</li>
         <li>IndustrialMilitaryBasic</li>
       </tags>
       <defaultOutfitTags>
@@ -417,6 +422,7 @@
         <li>Shell</li>
       </layers>
       <tags>
+        <li>SayersBodyFit</li>
         <li>IndustrialAdvanced</li>
       </tags>
       <defaultOutfitTags>
@@ -482,6 +488,9 @@
       <PlantModule>5</PlantModule>
     </costList>
     <apparel>
+      <tags>
+        <li>SayersBodyFit</li>
+      </tags>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Neck</li>
@@ -575,6 +584,9 @@
       <PlantModule>8</PlantModule>
     </costList>
     <apparel>
+      <tags>
+        <li>SayersBodyFit</li>
+      </tags>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Neck</li>
@@ -625,6 +637,7 @@
     <description>一件强调机动性的植模块装甲斗篷。从颈部到脚爪都覆盖玻璃钢纤维编制的装甲片，能够十分有效地防御攻击。神经模因机械让Sayers在穿着重型装甲斗篷时仍然能够轻松行动。</description>
     <apparel>
       <tags>
+        <li>SayersBodyFit</li>
         <li>SpacerMilitary</li>
       </tags>
     </apparel>
@@ -636,6 +649,7 @@
     <description>轻量化的阉割版植模块装甲斗篷，但轻量化的设计也使其相较于其他植模块装甲斗篷具备更优越的机动性，配置的轻型玻璃钢装甲可以在不影响穿戴者灵活性的情况下提供可靠的防护，位于装甲中段的神经模因装置可以让使用者更容易地穿戴和使用它。</description>
     <apparel>
       <tags>
+        <li>SayersBodyFit</li>
         <li>SpacerMilitary</li>
       </tags>
     </apparel>
