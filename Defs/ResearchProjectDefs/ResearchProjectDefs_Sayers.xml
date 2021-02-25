@@ -12,7 +12,7 @@
     <hiddenPrerequisites>
     </hiddenPrerequisites>
     <researchViewX>0</researchViewX>
-    <researchViewY>0.7</researchViewY>
+    <researchViewY>0</researchViewY>
     <techprintCount>1</techprintCount>
     <techprintCommonality>0</techprintCommonality>
     <techprintMarketValue>20000</techprintMarketValue>
@@ -28,7 +28,7 @@
     <description>利用人类生产设施和制造技术来制作Sayers的限定装备。</description>
     <baseCost>100</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewX>1</researchViewX>
+    <researchViewX>0</researchViewX>
     <researchViewY>0.7</researchViewY>
     <prerequisites>
       <li>SayersTechRootProject</li>
@@ -45,7 +45,7 @@
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>1</researchViewX>
-    <researchViewY>1.4</researchViewY>
+    <researchViewY>0.7</researchViewY>
     <prerequisites>
       <li>SayersTechRootProject</li>
     </prerequisites>
@@ -76,7 +76,7 @@
       <li>SayersPlantElementRefining</li>
     </prerequisites>
   </ResearchProjectDef>
-  <ResearchProjectDef>
+  <!--<ResearchProjectDef>
     <defName>SayersPlantElectricity</defName>
     <label>植物电力</label>
     <tab>Explorite</tab>
@@ -88,18 +88,19 @@
     <prerequisites>
       <li>SayersPlantModuleMakeing</li>
     </prerequisites>
-  </ResearchProjectDef>
+  </ResearchProjectDef>-->
   <ResearchProjectDef>
     <defName>SayersPlantReactionComputer</defName>
     <label>植物反应计算机</label>
     <tab>Explorite</tab>
     <description>解锁「植物反应计算机」，一种集成了多元分析仪和粒子操作矩阵的智能系统，通过对人类先进科技的利用将植物反应作业速度提升到全新水平。</description>
-    <baseCost>1200</baseCost>
-    <techLevel>Spacer</techLevel>
-    <researchViewX>4</researchViewX>
+    <baseCost>2400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>3</researchViewX>
     <researchViewY>0</researchViewY>
     <prerequisites>
-      <li>SayersPlantElectricity</li>
+      <li>Electricity</li>
+      <li>SayersPlantModuleMakeing</li>
     </prerequisites>
   </ResearchProjectDef>
   <!--==HerbsPlan==-->
@@ -111,7 +112,7 @@
     <baseCost>100</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>0</researchViewX>
-    <researchViewY>2.1</researchViewY>
+    <researchViewY>1.4</researchViewY>
     <tags>
       <li>SayersStart</li>
     </tags>
