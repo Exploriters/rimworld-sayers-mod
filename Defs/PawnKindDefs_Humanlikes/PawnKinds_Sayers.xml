@@ -25,6 +25,14 @@
       <li>Simple</li>
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>SayersBackstory</li>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
   </PawnKindDef>
   <PawnKindDef ParentName="BasePlayerPawnKind">
     <defName>SayersRefugeesMember</defName>
@@ -48,6 +56,7 @@
       <li>
         <categories>
           <li>SayersRefugeesBackstory</li>
+          <li>Tribal</li>
         </categories>
       </li>
     </backstoryFiltersOverride>

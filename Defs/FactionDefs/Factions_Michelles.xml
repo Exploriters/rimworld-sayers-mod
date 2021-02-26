@@ -3,7 +3,10 @@
   <FactionDef>
     <defName>MichellesFaction</defName>
     <label>BE-M实验基地</label>
-    <description>由Michelles创立的实验基地分部，以生物实验——BE-M实验为主。多种迹象表明Sayers就是这个实验的产物。</description>
+    <description>由Michelles创立的实验基地分部，以生物实验——BE-M实验为主。多种迹象表明Sayers就是这个实验的产物。
+\n显然，这个星球上遍布的各个基地都不过是他们微小的一部分，就算摧毁殆尽，对他们来说，这损失根本微不足道，甚至也许就在这个星球之上，他们巨大的空间站就在上面监视着这一切。
+\n他们的隐蔽工作做的很好，除了你们以外，其他种族就算发现了他们，也只不过是将他们当成奇怪的生物占领了人类基地而已。当然了，妄图侵略他们的生命体，已然被他们在暗中全部抹杀。
+\n有些时候，他们会作为“都市传说”出现在人类的故事中，而他们对此根本不屑一顾。</description>
     <colorSpectrum Inherit="False">
       <li>(1, 1, 1)</li>
     </colorSpectrum>
@@ -17,15 +20,12 @@
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>掌权者</leaderTitle>
     <startingGoodwill>0</startingGoodwill>
-    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
-    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <factionNameMaker>NamerFactionMichelles</factionNameMaker>
+    <settlementNameMaker>NamerSettlementMichelles</settlementNameMaker>
     <hairTags>
       <li>Urban</li>
     </hairTags>
     <techLevel>Ultra</techLevel>
-    <backstoryCategories>
-      <li>MichellesBackstories</li>
-    </backstoryCategories>
     <geneticVariance>0.8</geneticVariance>
     <naturalColonyGoodwill>-50~50</naturalColonyGoodwill>
     <allowedArrivalTemperatureRange>-40~55</allowedArrivalTemperatureRange>
@@ -63,5 +63,12 @@
     </pawnGroupMakers>
     <factionIconPath>World/WorldObjects/Expanding/Michelles</factionIconPath>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+      </li>
+    </backstoryFilters>
   </FactionDef>
 </Defs>

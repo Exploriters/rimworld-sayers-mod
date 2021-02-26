@@ -173,4 +173,37 @@
       </li>
     </stages>
   </ThoughtDef>
+  <!--- AlienRace - -->
+  <ThoughtDef>
+    <defName>XenophobiaVsAlien_Michelles</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>AlienRace.ThoughtWorker_XenophobiaVsAlien</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>亲外主义者喜欢外星人</label>
+        <description>亲外主义者喜欢外星人</description>
+        <baseOpinionOffset>10</baseOpinionOffset>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>排外主义者讨厌外星人</label>
+        <description>排外主义者讨厌外星人</description>
+        <baseOpinionOffset>-60</baseOpinionOffset>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>XenophobeVsXenophile_Michelles</defName>
+    <thoughtClass>AlienRace.Thought_XenophobeVsXenophile</thoughtClass>
+    <workerClass>AlienRace.ThoughtWorker_XenophobeVsXenophile</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>排外主义者VS亲外主义者</label>
+        <baseOpinionOffset>-50</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
 </Defs>

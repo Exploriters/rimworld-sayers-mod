@@ -41,10 +41,25 @@
       <li>BionicArm_Michelles</li>
       <li>MichellesTailBall</li>
     </techHediffsRequired>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>MichellesBackstories</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
   </PawnKindDef>
   <PawnKindDef ParentName="MichellesOutlanderBase">
     <defName>MichellesLeader</defName>
     <label>Michelles掌权者</label>
     <factionLeader>true</factionLeader>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>MichellesBackstories</li>
+          <li>MichellesLeaderBackstories</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
   </PawnKindDef>
 </Defs>

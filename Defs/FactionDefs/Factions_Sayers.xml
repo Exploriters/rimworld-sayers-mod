@@ -10,13 +10,6 @@
     <factionNameMaker>NamerFactionOutlander</factionNameMaker>
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
     <techLevel>Industrial</techLevel>
-    <backstoryFilters>
-      <li>
-        <categories>
-          <li>Tribal</li>
-        </categories>
-      </li>
-    </backstoryFilters>
     <geneticVariance>1</geneticVariance>
     <startingResearchTags>
       <li>SayersStart</li>
@@ -44,6 +37,13 @@
     <basicMemberKind>SayersClanMember</basicMemberKind>
     <pawnSingular>Sayers族员</pawnSingular>
     <pawnsPlural>Sayers族员</pawnsPlural>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>SayersBackstory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
   </FactionDef>
   <FactionDef ParentName="SayersPlayerFactionBase">
     <defName>SayersRefugees</defName>
@@ -52,6 +52,13 @@
     <basicMemberKind>SayersRefugeesMember</basicMemberKind>
     <pawnSingular>Sayers逃难者</pawnSingular>
     <pawnsPlural>Sayers逃难者</pawnsPlural>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>SayersRefugeesBackstory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
   </FactionDef>
   <FactionDef ParentName="FactionBase">
     <colorSpectrum Inherit="False">

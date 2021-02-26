@@ -1,10 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
   <ThingCategoryDef>
-    <defName>BodyPartsMichelles</defName>
-    <label>michelles</label>
-    <parent>BodyParts</parent>
+	<defName>BodyPartsMichelles</defName>
+	<label>michelles</label>
+	<parent>BodyParts</parent>
   </ThingCategoryDef>
+	  
+  <HediffDef ParentName="AddedBodyPartBase" Name="MichellesBodyPartBase" Abstract="True">
+  </HediffDef>
+  
   <ThingDef ParentName="BodyPartBase" Name="BodyPartMichellesBase" Abstract="True">
     <tradeability>Sellable</tradeability>
     <techLevel>Ultra</techLevel>
@@ -21,10 +26,9 @@
       <DeteriorationRate>0</DeteriorationRate>
       <WorkToMake>26000</WorkToMake>
     </statBases>
-    <tradeTags />
-    <!-- TechHediff -->
+    <tradeTags /><!-- TechHediff -->
     <techHediffsTags Inherit="false">
-      <li>MichellesBodyPartBase</li>
+      <li>Michelles</li>
     </techHediffsTags>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -37,14 +41,15 @@
       </skillRequirements>
       <researchPrerequisite Inherit="false" />
       <researchPrerequisites>
-        <li>Bionics</li>
-        <li>SayersRestrictedThings</li>
-      </researchPrerequisites>
+	    <li>Bionics</li>
+	    <li>SayersRestrictedThings</li>
+	  </researchPrerequisites>
       <recipeUsers>
         <li>FabricationBench</li>
       </recipeUsers>
     </recipeMaker>
   </ThingDef>
+  
   <!--=== 护目镜 ===-->
   <!--= 显现式 =-->
   <ThingDef ParentName="BodyPartMichellesBase">
@@ -61,14 +66,13 @@
       <Plasteel>15</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
-    <thingSetMakerTags></thingSetMakerTags>
+    <thingSetMakerTags>
+    </thingSetMakerTags>
     <statBases>
       <Mass>0.3</Mass>
     </statBases>
-    <techHediffsTags>
-      <li>MichellesBodyPartBase</li>
-    </techHediffsTags>
   </ThingDef>
+  
   <HediffDef ParentName="MichellesBodyPartBase">
     <defName>Goggles_normal</defName>
     <label>护目镜</label>
@@ -114,7 +118,7 @@
     <addsHediff>Goggles_normal</addsHediff>
   </RecipeDef>
   <!--= 隐藏式 =-->
-  <HediffDef ParentName="BodyPartMichellesBase">
+  <HediffDef ParentName="MichellesBodyPartBase">
     <defName>Goggles_Hide</defName>
     <label>护目镜[隐藏式]</label>
     <labelNoun>一副隐藏式护目镜</labelNoun>
@@ -129,7 +133,7 @@
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
-  <ThingDef ParentName="BodyPartMichellesBase">
+  <!--<ThingDef ParentName="BodyPartMichellesBase">
     <defName>Goggles_Hide</defName>
     <label>护目镜[隐藏式]</label>
     <description>一副隐藏式护目镜。</description>
@@ -140,14 +144,12 @@
       <Plasteel>15</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
-    <thingSetMakerTags></thingSetMakerTags>
+    <thingSetMakerTags>
+    </thingSetMakerTags>
     <statBases>
       <Mass>0.3</Mass>
     </statBases>
-    <techHediffsTags>
-      <li>MichellesBodyPart</li>
-    </techHediffsTags>
-  </ThingDef>
+  </ThingDef>-->
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallGoggles_Hide</defName>
     <label>同步隐藏式护目镜</label>
@@ -204,9 +206,6 @@
       <Plasteel>10</Plasteel>
       <ComponentSpacer>3</ComponentSpacer>
     </costList>
-    <techHediffsTags>
-      <li>MichellesBodyPartBase</li>
-    </techHediffsTags>
   </ThingDef>
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallReceiver</defName>
@@ -280,13 +279,11 @@
       <Plasteel>15</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
-    <thingSetMakerTags></thingSetMakerTags>
+    <thingSetMakerTags>
+    </thingSetMakerTags>
     <statBases>
       <Mass>5</Mass>
     </statBases>
-    <techHediffsTags>
-      <li>MichellesBodyPartBase</li>
-    </techHediffsTags>
   </ThingDef>
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallBionicArm_Michelles</defName>
@@ -345,7 +342,8 @@
     <descriptionHyperlinks>
       <RecipeDef>InstallMichellesTailBall</RecipeDef>
     </descriptionHyperlinks>
-    <thingSetMakerTags></thingSetMakerTags>
+    <thingSetMakerTags>
+    </thingSetMakerTags>
     <costList>
       <Plasteel>10</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
@@ -357,9 +355,6 @@
         <li>FleshShaping</li>
       </researchPrerequisites>
     </recipeMaker>
-    <techHediffsTags>
-      <li>MichellesBodyPartBase</li>
-    </techHediffsTags>
   </ThingDef>
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallMichellesTailBall</defName>

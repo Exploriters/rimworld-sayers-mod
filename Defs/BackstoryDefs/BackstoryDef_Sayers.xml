@@ -1,15 +1,97 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef Name="SayersBackstoriesBase" Abstract="True">
+    <spawnCategories>
+      <li>SayersBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef Name="SayersBackstoriesRefugeesBase" Abstract="True">
+    <spawnCategories>
+      <li>SayersRefugeesBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  <!--== Member ==-->
+  <AlienRace.BackstoryDef ParentName="SayersBackstoriesBase">
+    <defName>SayersOrphans1_Child</defName>
+    <title>被抛弃的孩子[Sayers]</title>
+    <titleShort>弃子</titleShort>
+    <baseDescription>[PAWN_nameDef]在一个寒冷的夜晚降生于世，冰冷的夜与呼啸的风注定了[PAWN_pronoun]是不幸的，[PAWN_possessive]母亲在产出那枚包裹着[PAWN_pronoun]的卵时便已因难产而逝，失去了母亲的[PAWN_pronoun]又遭遇了父亲的虐待与抛弃，[PAWN_pronoun]成为了同龄人里最不受欢迎的一个，怪胎、孤儿等名词不绝于耳，就连一些年长的人也对[PAWN_pronoun]侧目而视，[PAWN_pronoun]尝试反击，但营养不良与瘦弱让[PAWN_pronoun]尝到了高估自己的苦头，[PAWN_pronoun]受尽了欺负，留下的是疾病和身上各处的伤疤还有那埋藏在心中不可磨灭的创痕与怒火。</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <forcedHediffs>
+      <li>Malnutrition</li>
+    </forcedHediffs>
+    <forcedTraits>
+      <li>
+        <defName>Immunity</defName>
+        <degree>-1</degree>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>PsychicSensitivity</defName>
+        <degree>-1</degree>
+        <chance>100</chance>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="SayersBackstoriesBase">
+    <defName>SayersPoor1_Adult</defName>
+    <title>孤狼游荡者[Sayers]</title>
+    <titleShort>孤狼</titleShort>
+    <baseDescription>长大后[PAWN_pronoun]心中的怒火早已被磨灭，没有任何家庭背景的[PAWN_pronoun]在社会上生活的也是很艰难，并没有逆袭，一切、社会、世界都离[PAWN_pronoun]远去，[PAWN_pronoun]在这依旧是孤身一人，连朋友都没有。没关系，没背景的[PAWN_pronoun]在这个世界很难与其他人有任何人际关系，最后只能自己一个人从垃圾桶里翻找别人剩下的食物来苟延残喘，即使这样的异端生活让[PAWN_pronoun]几乎丧失了人际关系与健康，但这大大提高了[PAWN_pronoun]的个人作战水平。</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <forcedTraits>
+      <li>
+        <defName>Immunity</defName>
+        <degree>-1</degree>
+        <chance>100</chance>
+      </li>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  <!--== Refugees ==-->
+  <AlienRace.BackstoryDef ParentName="SayersBackstoriesRefugeesBase">
     <defName>SayersRefugees_Base</defName>
     <title>在灾难中逃亡的逃难者[Sayers]</title>
     <titleShort>逃难者</titleShort>
     <baseDescription>[PAWN_nameDef]原本安稳地生活在这个星球上，直到有一天[PAWN_pronoun]发现这个星球变得不再安全，即将分崩离析。为了活下去，[PAWN_pronoun]只好带着花寄兽们，从这个星球逃离</baseDescription>
-    <bodyTypeGlobal>SayersBody</bodyTypeGlobal>
     <slot>Childhood</slot>
-    <spawnCategories>
-      <li>SayersRefugeesBackstory</li>
-    </spawnCategories>
     <skillGains>
       <li>
         <defName>Shooting</defName>
@@ -68,15 +150,11 @@
       <li>DrillTentacle</li>
     </forcedHediffs>
   </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="SayersBackstoriesRefugeesBase">
     <defName>SayersRefugees_BaseAdult</defName>
     <title>逃难者[Sayers]</title>
     <titleShort>逃难者</titleShort>
     <baseDescription>防报错占位用</baseDescription>
-    <bodyTypeGlobal>SayersBody</bodyTypeGlobal>
     <slot>Adulthood</slot>
-    <spawnCategories>
-      <li>SayersRefugeesBackstory</li>
-    </spawnCategories>
   </AlienRace.BackstoryDef>
 </Defs>

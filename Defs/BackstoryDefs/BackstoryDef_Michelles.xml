@@ -1,21 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <AlienRace.BackstoryDef Name="MichellesStartHediffsBase" Abstract="True">
+  <AlienRace.BackstoryDef Name="MichellesBackstoriesBase" Abstract="True">
     <spawnCategories>
       <li>MichellesBackstories</li>
     </spawnCategories>
-    <forcedHediffs>
-    </forcedHediffs>
   </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="MichellesStartHediffsBase">
+  <AlienRace.BackstoryDef Name="MichellesLeaderBackstoriesBase" Abstract="True">
+    <spawnCategories>
+      <li>MichellesLeaderBackstories</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  <!--== Member ==-->
+  <AlienRace.BackstoryDef ParentName="MichellesBackstoriesBase">
     <defName>Michelles_Base</defName>
     <title>Michelles</title>
     <titleShort>Michelles</titleShort>
-    <baseDescription>一只Michelles，暂时性占位</baseDescription>
+    <baseDescription>别让我写了，我乏了</baseDescription>
     <slot>Childhood</slot>
-    <spawnCategories>
-      <li>MichellesBackstories</li>
-    </spawnCategories>
     <skillGains>
       <li>
         <defName>Shooting</defName>
@@ -67,14 +68,95 @@
       </li>
     </skillGains>
   </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="MichellesBackstoriesBase">
     <defName>Michelles_BaseAdult</defName>
     <title>Michelles</title>
     <titleShort>Michelles</titleShort>
-    <baseDescription>一只Michelles，暂时性占位</baseDescription>
+    <baseDescription>防报错占位用，爷乏了</baseDescription>
     <slot>Adulthood</slot>
-    <spawnCategories>
-      <li>MichellesBackstories</li>
-    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  <!--== Leader ==-->
+  <AlienRace.BackstoryDef ParentName="MichellesLeaderBackstoriesBase">
+    <defName>Michelles_ExtremelyLeader_Childhood</defName>
+    <title>科技球抢夺者[Michelles]</title>
+    <titleShort>抢夺者</titleShort>
+    <baseDescription>在[PAWN_nameDef]年幼之时，[PAWN_possessive]科技球因为一场意外而难以再发亮，突如其来的意外让[PAWN_pronoun]感觉无比迷茫，[PAWN_pronoun]试着去寻求父母以及修理厂的帮助，但在这个“科技球比什么都重要”的世界中，科技球故障的[PAWN_nameDef]无异于失去了在这世上安身立命的资格。
+\n无休止的排斥和嘲笑让[PAWN_nameDef]几乎发狂，而最终结果也的确如此。当[PAWN_pronoun]所忍耐的一切在一瞬间爆发时，[PAWN_possessive]疯狂也随之吞没了一切。[PAWN_pronoun]在夜幕降临之时潜身躲藏在小巷拐角处，当另一只Michelles路过时，[PAWN_possessive]机械节肢宛如贪婪的爪一般将对方死摁在了地上，而[PAWN_possessive]爪则是抓住了那可怜人儿的科技球，将它一把扯下。
+\n这比[PAWN_pronoun]想的要顺利得多，当[PAWN_pronoun]逃离了现场，去到那只有自己知道的“秘密基地”时，[PAWN_pronoun]为自己更换了科技球，在短暂的自适应后，科技球颜色已与[PAWN_possessive]的肢体配置颜色一致，而这件事除了[PAWN_nameDef]自己以及那个什么都没看清的可怜的受害者，无人知晓，而就此，[PAWN_nameDef]也从人们的视线中悄然匿去。</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-5</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="MichellesLeaderBackstoriesBase">
+    <defName>Michelles_ExtremelyLeader_Adulthood</defName>
+    <title>极端掌权者[Michelles]</title>
+    <titleShort>掌权者</titleShort>
+    <baseDescription>之前的种种终究因为时间流逝而被逐渐遗忘，而[PAWN_nameDef]竟又重新出现在了人们的视线中。
+\n与多年前[PAWN_pronoun]所表现出来的疯狂截然不同，此刻的[PAWN_pronoun]竟然无比的温和且礼貌，并对[PAWN_pronoun]曾经所犯下的一切感到深深的歉意——也许[PAWN_pronoun]说的是真话吧，[PAWN_pronoun]办起了专门的，为科技球故障者而设的修理厂，甚至是不求回报的对他们进行帮助。这一切似乎都在表明着[PAWN_nameDef]在离开人们视线的这段时间中已然洗心革面，重新步入正轨。
+\n逐渐地，人们对[PAWN_pronoun]放松了警惕，而[PAWN_pronoun]也就趁这时，开始一步步地向上爬着，也因为大家的支持，而在政治上有着自己的一席之地，乃至最终的掌权者候选人。
+\n令人们感到疑惑的是，在抉择下立前，与[PAWN_nameDef]竞争的候选人竟接连遇害，知道只剩下[PAWN_nameDef]一个人。一些Michelles对[PAWN_pronoun]表示怀疑，但抉择掌权者这事不得怠慢，那些更为老练的掌权者们不得不让[PAWN_nameDef]成为了新的掌权者。
+\n而[PAWN_pronoun]的本性暴露则是在[PAWN_pronoun]治理国家数年后。就在一夜间，[PAWN_nameDef]忽然下令启动爆破所有他们曾为其他Michelles所提供的科技球，霎时间，爆炸声、惨叫声四起，各大医院几乎是在瞬间爆满，在这一瞬间所造成的经济损失足以重创他所在的国家的经济链。
+\n其他的掌权者意图阻止[PAWN_pronoun]，反抗[PAWN_pronoun]，但[PAWN_pronoun]早已因为政绩而坐在了他们上头，他们的反抗反而是换来了他们的败落，被[PAWN_nameDef]用[PAWN_possessive]小心机一个个抹除掉。
+\n但[PAWN_nameDef]也终究是迎来了[PAWN_possessive]报应。在举国上下的反抗之后，[PAWN_pronoun]只不过是冷哼了一声，转身踏入了[PAWN_pronoun]早已准备好的空投仓，从这个被[PAWN_pronoun]践踏得一塌糊涂的国家乃至星球中离开，另寻可为[PAWN_pronoun]掌控之处。</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>7</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>7</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>10</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>10</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Bloodlust</defName>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>Psychopath</defName>
+        <chance>80</chance>
+      </li>
+    </forcedTraits>
+    <disallowedTraits>
+      <li>
+        <defName>Kind</defName>
+      </li>
+    </disallowedTraits>
+    <workDisables>
+      <li>Animals</li>
+      <li>Caring</li>
+    </workDisables>
+    <linkedBackstory>Michelles_ExtremelyLeader_Childhood</linkedBackstory>
+    <relationSettings>
+      <relationChanceModifierLover>0</relationChanceModifierLover>
+      <relationChanceModifierExLover>0</relationChanceModifierExLover>
+      <relationChanceModifierFiance>0</relationChanceModifierFiance>
+      <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+      <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+      <relationChanceModifierChild>0</relationChanceModifierChild>
+      <relationChanceModifierSibling>0</relationChanceModifierSibling>
+    </relationSettings>
   </AlienRace.BackstoryDef>
 </Defs>
