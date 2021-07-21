@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef>
+    <defName>WildSayers</defName>
+    <label>野生Sayers</label>
+    <labelPlural>野生Sayers</labelPlural>
+    <labelFemale>野生Sayers</labelFemale>
+    <labelFemalePlural>野生Sayers</labelFemalePlural>
+    <combatPower>70</combatPower>
+    <race>Alien_Sayers</race>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
+    <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
+    <itemQuality>Poor</itemQuality>
+    <chemicalAddictionChance>0.03</chemicalAddictionChance>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <techHediffsChance>0.03</techHediffsChance>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Animal</li>
+    </techHediffsTags>
+  </PawnKindDef>
+</Defs>

@@ -12,51 +12,29 @@
   </AlienRace.BackstoryDef>
   <!--== Member ==-->
   <AlienRace.BackstoryDef ParentName="MichellesBackstoriesBase">
-    <defName>Michelles_Base</defName>
-    <title>Michelles</title>
-    <titleShort>Michelles</titleShort>
-    <baseDescription>别让我写了，我乏了</baseDescription>
+    <defName>MichellesUniverse1_Child</defName>
+    <title>向往宇宙的幼稚儿[Michelles]</title>
+    <titleShort>仰望星空者</titleShort>
+    <baseDescription>只有不停的思考和探索，任何困难都能够化解。这是[PAWN_nameDef]所信奉的宗旨。
+\n在一个平常不能在平常的一天内，[PAWN_nameDef]降生在一个城市的小家庭中，在这个星球的与[PAWN_pronoun]同一天出生的新生儿中，[PAWN_nameDef]很普通，但对[PAWN_pronoun]来说一点都不。新世界的大门敞开着，给了这个好奇宝宝无限的探索空间，在[PAWN_nameDef]幼年时期[PAWN_possessive]父母简直就是[PAWN_possessive]一二贵人。教给了[PAWN_pronoun]很多东西和能让其能独立生存下去的方法以及一点点向[PAWN_pronoun]灌输宇宙的辽阔和很多个与自己所处的世界无数个相同文明的存在，这也让[PAWN_nameDef]打小就对宇宙世界有着无尽的幻想和探索的欲望，那些头顶上到处飞过的星际战舰和漂浮在漫天星空中的空间站令[PAWN_pronoun]产生了无尽的向往。
+\n[PAWN_nameDef]在这个时期几乎没有什么过多的压力，一切灾难都从未降临在[PAWN_pronoun]和这个家庭上，[PAWN_pronoun]根本不用担心[PAWN_pronoun]能不能穿好吃好为了这些东西发愁，[PAWN_pronoun]需要自己费劲心思的事大多都是学校的那些考试，一心一意的吸收着知识。这些都为[PAWN_nameDef]后来取得对自己来说莫大的成就和所处的高度做了铺垫。</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>3</amount>
+        <amount>4</amount>
       </li>
       <li>
         <defName>Melee</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Construction</defName>
-        <amount>3</amount>
+        <amount>2</amount>
       </li>
       <li>
         <defName>Mining</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Cooking</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Plants</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Animals</defName>
-        <amount>3</amount>
+        <amount>-4</amount>
       </li>
       <li>
         <defName>Crafting</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Artistic</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Medicine</defName>
-        <amount>3</amount>
+        <amount>5</amount>
       </li>
       <li>
         <defName>Social</defName>
@@ -64,16 +42,66 @@
       </li>
       <li>
         <defName>Intellectual</defName>
-        <amount>3</amount>
+        <amount>4</amount>
       </li>
     </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>FastLearner</defName>
+        <chance>100</chance>
+      </li>
+    </forcedTraits>
   </AlienRace.BackstoryDef>
   <AlienRace.BackstoryDef ParentName="MichellesBackstoriesBase">
-    <defName>Michelles_BaseAdult</defName>
-    <title>Michelles</title>
-    <titleShort>Michelles</titleShort>
-    <baseDescription>防报错占位用，爷乏了</baseDescription>
+    <defName>MichellesUniverse1_Adult</defName>
+    <title>加入太空军[Michelles]</title>
+    <titleShort>飞升者</titleShort>
+    <baseDescription>[PAWN_nameDef]以优异的成绩和综合素质报考上了这个星球国防大学体系学院的太空军系，并顺利通过层层考验成为了新一代太空军预备役成员，任何困难在[PAWN_nameDef]的眼中早已习惯，[PAWN_pronoun]早已变得成熟和稳重了许多许多，已然不是当时那个望着星空幻想着天马行空壮观景象，只能通过记录下来的视频来获得满足的懵懂少年，一切一切的努力都是为了这一刻的飞跃————这一次，就让我亲自上去看看好了。
+\n
+\n[PAWN_nameDef]只是像往常一样游刃有余的应对考试，直到[PAWN_pronoun]最后通过各项测试即将跟随部队乘坐飞行器前往太空站时，[PAWN_pronoun]一人坐在角落里默默拭去激动的泪水，坚定的迈着稳健的步伐跟随着队伍踏上了飞行器。那样的目光，那样的姿态，好似，山崩地裂般的灾难也丝毫不足以让这位千锤百炼的有着钢铁意志战士倒下。</baseDescription>
     <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Nerves</defName>
+        <degree>2</degree>
+        <chance>100</chance>
+      </li>
+      <li>
+        <defName>Tough</defName>
+        <chance>100</chance>
+      </li>
+    </forcedTraits>
+    <disallowedTraits>
+      <li>
+        <defName>Brawler</defName>
+      </li>
+    </disallowedTraits>
   </AlienRace.BackstoryDef>
   <!--== Leader ==-->
   <AlienRace.BackstoryDef ParentName="MichellesLeaderBackstoriesBase">

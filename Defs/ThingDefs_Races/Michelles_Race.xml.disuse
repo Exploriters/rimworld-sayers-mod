@@ -192,6 +192,7 @@
         <allowHumanBios>true</allowHumanBios>
         <minAgeForAdulthood>0</minAgeForAdulthood>
         <humanRecipeImport>true</humanRecipeImport>
+        <additionalTraits>1~5</additionalTraits>
         <forcedRaceTraitEntries>
           <li>
             <defName>Xenophobia</defName>

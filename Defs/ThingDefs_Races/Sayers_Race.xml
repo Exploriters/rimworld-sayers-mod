@@ -475,23 +475,6 @@
                 </east>
               </offsets>
               <layerOffset>0.1</layerOffset>
-              <hediffGraphics>
-                <BionicEar_Sayers>Things/Pawn/Sayers/SayersComponent/BionicEars/LUBionicEar</BionicEar_Sayers>
-                <Cut>
-                  <path>Things/Pawn/Sayers/SayersDamage/Cut/Ears/I_CUT_LUEar</path>
-                  <severity>
-                    <a5.0>Things/Pawn/Sayers/SayersDamage/Cut/Ears/II_CUT_LUEar</a5.0>
-                    <a2.0>Things/Pawn/Sayers/SayersDamage/Cut/Ears/I_CUT_LUEar</a2.0>
-                  </severity>
-                </Cut>
-                <Stab>
-                  <path>Things/Pawn/Sayers/SayersDamage/Stab/Ears/I_STAB_LUEar</path>
-                  <severity>
-                    <a5.0>Things/Pawn/Sayers/SayersDamage/Stab/Ears/II_STAB_LUEar</a5.0>
-                    <a2.0>Things/Pawn/Sayers/SayersDamage/Stab/Ears/I_STAB_LUEar</a2.0>
-                  </severity>
-                </Stab>
-              </hediffGraphics>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Ears/RUEar</path>
@@ -517,23 +500,6 @@
                 </east>
               </offsets>
               <layerOffset>0.1</layerOffset>
-              <hediffGraphics>
-                <BionicEar_Sayers>Things/Pawn/Sayers/SayersComponent/BionicEars/RUBionicEar</BionicEar_Sayers>
-                <Cut>
-                  <path>Things/Pawn/Sayers/SayersDamage/Cut/Ears/I_CUT_RUEar</path>
-                  <severity>
-                    <a5.0>Things/Pawn/Sayers/SayersDamage/Cut/Ears/II_CUT_RUEar</a5.0>
-                    <a2.0>Things/Pawn/Sayers/SayersDamage/Cut/Ears/I_CUT_RUEar</a2.0>
-                  </severity>
-                </Cut>
-                <Stab>
-                  <path>Things/Pawn/Sayers/SayersDamage/Stab/Ears/I_STAB_RUEar</path>
-                  <severity>
-                    <a5.0>Things/Pawn/Sayers/SayersDamage/Stab/Ears/II_STAB_RUEar</a5.0>
-                    <a2.0>Things/Pawn/Sayers/SayersDamage/Stab/Ears/I_STAB_RUEar</a2.0>
-                  </severity>
-                </Stab>
-              </hediffGraphics>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Ears/LDEar</path>
@@ -559,23 +525,6 @@
                 </east>
               </offsets>
               <layerOffset>0</layerOffset>
-              <hediffGraphics>
-                <BionicEar_Sayers>Things/Pawn/Sayers/SayersComponent/BionicEars/LDBionicEar</BionicEar_Sayers>
-                <Cut>
-                  <path>Things/Pawn/Sayers/SayersDamage/Cut/Ears/I_CUT_LDEar</path>
-                  <severity>
-                    <a5.0>Things/Pawn/Sayers/SayersDamage/Cut/Ears/II_CUT_LDEar</a5.0>
-                    <a2.0>Things/Pawn/Sayers/SayersDamage/Cut/Ears/I_CUT_LDEar</a2.0>
-                  </severity>
-                </Cut>
-                <Stab>
-                  <path>Things/Pawn/Sayers/SayersDamage/Stab/Ears/I_STAB_LDEar</path>
-                  <severity>
-                    <a5.0>Things/Pawn/Sayers/SayersDamage/Stab/Ears/II_STAB_LDEar</a5.0>
-                    <a2.0>Things/Pawn/Sayers/SayersDamage/Stab/Ears/I_STAB_LDEar</a2.0>
-                  </severity>
-                </Stab>
-              </hediffGraphics>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Ears/RDEar</path>
@@ -601,23 +550,6 @@
                 </east>
               </offsets>
               <layerOffset>0</layerOffset>
-              <hediffGraphics>
-                <BionicEar_Sayers>Things/Pawn/Sayers/SayersComponent/BionicEars/RDBionicEar</BionicEar_Sayers>
-                <Cut>
-                  <path>Things/Pawn/Sayers/SayersDamage/Cut/Ears/I_CUT_RDEar</path>
-                  <severity>
-                    <a5.0>Things/Pawn/Sayers/SayersDamage/Cut/Ears/II_CUT_RDEar</a5.0>
-                    <a2.0>Things/Pawn/Sayers/SayersDamage/Cut/Ears/I_CUT_RDEar</a2.0>
-                  </severity>
-                </Cut>
-                <Stab>
-                  <path>Things/Pawn/Sayers/SayersDamage/Stab/Ears/I_STAB_RDEar</path>
-                  <severity>
-                    <a5.0>Things/Pawn/Sayers/SayersDamage/Stab/Ears/II_STAB_RDEar</a5.0>
-                    <a2.0>Things/Pawn/Sayers/SayersDamage/Stab/Ears/I_STAB_RDEar</a2.0>
-                  </severity>
-                </Stab>
-              </hediffGraphics>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Tail/TailF</path>
@@ -743,9 +675,6 @@
                 </east>
               </offsets>
               <layerOffset>0.8</layerOffset>
-              <hediffGraphics>
-                <WoodenTentacle>Things/Pawn/Sayers/SayersComponent/WoodenTentacle/WoodenTentaclesL1</WoodenTentacle>
-              </hediffGraphics>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Tentacles/TentaclesL2</path>
@@ -771,9 +700,6 @@
                 </east>
               </offsets>
               <layerOffset>0.8</layerOffset>
-              <hediffGraphics>
-                <WoodenTentacle>Things/Pawn/Sayers/SayersComponent/WoodenTentacle/WoodenTentaclesL2</WoodenTentacle>
-              </hediffGraphics>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Tentacles/TentaclesR2</path>
@@ -799,9 +725,6 @@
                 </east>
               </offsets>
               <layerOffset>0.8</layerOffset>
-              <hediffGraphics>
-                <WoodenTentacle>Things/Pawn/Sayers/SayersComponent/WoodenTentacle/WoodenTentaclesR1</WoodenTentacle>
-              </hediffGraphics>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Tentacles/TentaclesR1</path>
@@ -827,44 +750,6 @@
                 </east>
               </offsets>
               <layerOffset>0.8</layerOffset>
-              <hediffGraphics>
-                <WoodenTentacle>Things/Pawn/Sayers/SayersComponent/WoodenTentacle/WoodenTentaclesR2</WoodenTentacle>
-              </hediffGraphics>
-            </li>
-            <!--== Damage Graphics ==-->
-            <li>
-              <path>Things/Pawn/Sayers/SayersDamage/_Temporary_/NOTHING</path>
-              <bodyPart>Torso</bodyPart>
-              <colorChannel>skin</colorChannel>
-              <inFrontOfBody>true</inFrontOfBody>
-              <drawnInBed>false</drawnInBed>
-              <layerOffset>0.7</layerOffset>
-              <offsets>
-                <south>
-                  <bodyTypes>
-                    <SayersBody>(-0.4,0.25)</SayersBody>
-                  </bodyTypes>
-                </south>
-                <north>
-                  <bodyTypes>
-                    <SayersBody>(0,0.55)</SayersBody>
-                  </bodyTypes>
-                </north>
-                <east>
-                  <bodyTypes>
-                    <SayersBody>(-0.35,0.17)</SayersBody>
-                  </bodyTypes>
-                </east>
-              </offsets>
-              <hediffGraphics>
-                <Cut>
-                  <path>Things/Pawn/Sayers/SayersDamage/Cut/Bodies/I_CUT_SayersBody</path>
-                  <severity>
-                    <a5.0>Things/Pawn/Sayers/SayersDamage/Cut/Bodies/II_CUT_SayersBody</a5.0>
-                    <a2.0>Things/Pawn/Sayers/SayersDamage/Cut/Bodies/I_CUT_SayersBody</a2.0>
-                  </severity>
-                </Cut>
-              </hediffGraphics>
             </li>
           </bodyAddons>
         </alienPartGenerator>
@@ -1038,7 +923,20 @@
           <li>KilledColonist</li>
           <li>SharedBed</li>
           <li>ColonistLeftUnburied</li>
-          <li>Naked</li>
+          <li>TerribleBestowingCeremony</li>
+          <li>UnimpressiveBestowingCeremony</li>
+          <li>AteFoodInappropriateForTitle</li>
+          <li>DecreeFailed</li>
+          <li>DecreeMet</li>
+          <li>Disinherited</li>
+          <li>DecreeUnmet</li>
+          <li>ReignedInThroneroom</li>
+          <li>LostTitle</li>
+          <li>TitleApparelRequirementNotMet</li>
+          <li>TitleApparelMinQualityNotMet</li>
+          <li>TitleThroneroomRequirementsNotMet</li>
+          <li>TitleNoThroneRoom</li>
+          <li>TitleNoPersonalBedroom</li>
         </cannotReceiveThoughts>
       </thoughtSettings>
       <raceRestriction>
@@ -1081,10 +979,7 @@
           <li>Apparel_Gunlink</li>
         </whiteApparelList>
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
-        <plantList>
-          <li>Plant_Tenlacess_Sayers</li>
-          <li>Plant_Fushrooy_Sayers</li>
-        </plantList>
+        <!--<plantList><li>Plant_Tenlacess_Sayers</li><li>Plant_Fushrooy_Sayers</li></plantList>-->
       </raceRestriction>
       <relationSettings>
         <relationChanceModifierParent>0</relationChanceModifierParent>
