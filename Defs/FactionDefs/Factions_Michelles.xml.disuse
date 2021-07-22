@@ -14,7 +14,10 @@
     <pawnsPlural>Michelles</pawnsPlural>
     <settlementGenerationWeight>1</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
-    <maxCountAtGameStart>3</maxCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <startingCountAtWorldCreation>1</startingCountAtWorldCreation>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>71</configurationListOrderPriority>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>

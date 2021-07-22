@@ -41,9 +41,9 @@
       </targetParams>
     </verbProperties>
     <comps>
-      <li Class="CompProperties_AbilityMoteOnTarget">
-        <compClass>Explorite.CompAbilityEffect_MoteOnTarget_ParasiticStab</compClass>
-        <moteDef>Mote_AcidCloud</moteDef>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <compClass>Explorite.CompAbilityEffect_FleckOnTarget_ParasiticStab</compClass>
+        <fleckDef>Fleck_AcidCloud</fleckDef>
       </li>
       <li Class="Explorite.CompProperties_AbilityGiveHediff_ParasiticStab">
         <hediffDef>FleshSeedParasitized</hediffDef>
