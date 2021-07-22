@@ -6,6 +6,7 @@
     <isFighter>false</isFighter>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <forceNormalGearQuality>true</forceNormalGearQuality>
+    <initialWillRange>0~0</initialWillRange>
   </PawnKindDef>
   <PawnKindDef ParentName="BasePlayerPawnKind">
     <defName>SayersClanMember</defName>
@@ -33,32 +34,7 @@
         </categories>
       </li>
     </backstoryFiltersOverride>
+    <initialResistanceRange>13~21</initialResistanceRange>
   </PawnKindDef>
-  <PawnKindDef ParentName="BasePlayerPawnKind">
-    <defName>SayersRefugeesMember</defName>
-    <label>Sayers</label>
-    <defaultFactionType>SayersRefugees</defaultFactionType>
-    <chemicalAddictionChance>0.06</chemicalAddictionChance>
-    <apparelTags>
-      <li>SayersBasic</li>
-    </apparelTags>
-    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
-    <apparelMoney>350~600</apparelMoney>
-    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
-    <techHediffsChance>0.03</techHediffsChance>
-    <techHediffsMoney>50~800</techHediffsMoney>
-    <techHediffsTags>
-      <li>Poor</li>
-      <li>Simple</li>
-      <li>ImplantEmpireCommon</li>
-    </techHediffsTags>
-    <backstoryFiltersOverride>
-      <li>
-        <categories>
-          <li>SayersRefugeesBackstory</li>
-          <li>Tribal</li>
-        </categories>
-      </li>
-    </backstoryFiltersOverride>
-  </PawnKindDef>
+  <!--<PawnKindDef ParentName="BasePlayerPawnKind"><defName>SayersRefugeesMember</defName><label>Sayers</label><defaultFactionType>SayersRefugees</defaultFactionType><chemicalAddictionChance>0.06</chemicalAddictionChance><apparelTags><li>SayersBasic</li></apparelTags><apparelAllowHeadgearChance>0</apparelAllowHeadgearChance><apparelMoney>350~600</apparelMoney><backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality><techHediffsChance>0.03</techHediffsChance><techHediffsMoney>50~800</techHediffsMoney><techHediffsTags><li>Poor</li><li>Simple</li><li>ImplantEmpireCommon</li></techHediffsTags><backstoryFiltersOverride><li><categories><li>SayersRefugeesBackstory</li><li>Tribal</li></categories></li></backstoryFiltersOverride></PawnKindDef>-->
 </Defs>

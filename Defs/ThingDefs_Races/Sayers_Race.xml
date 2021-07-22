@@ -116,7 +116,7 @@
         </surpriseAttack>
       </li>
       <li>
-        <label>牙齿</label>
+        <label>獠牙</label>
         <capacities>
           <li>ToxicBite</li>
         </capacities>
@@ -474,7 +474,8 @@
                   </crownTypes>
                 </east>
               </offsets>
-              <layerOffset>0.1</layerOffset>
+              <!--<layerOffset>0.1</layerOffset>-->
+              <defaultOffset>Tail</defaultOffset>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Ears/RUEar</path>
@@ -499,7 +500,8 @@
                   </crownTypes>
                 </east>
               </offsets>
-              <layerOffset>0.1</layerOffset>
+              <!--<layerOffset>0.1</layerOffset>-->
+              <defaultOffset>Tail</defaultOffset>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Ears/LDEar</path>
@@ -524,7 +526,8 @@
                   </crownTypes>
                 </east>
               </offsets>
-              <layerOffset>0</layerOffset>
+              <!--<layerOffset>0</layerOffset>-->
+              <defaultOffset>Tail</defaultOffset>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Ears/RDEar</path>
@@ -549,7 +552,8 @@
                   </crownTypes>
                 </east>
               </offsets>
-              <layerOffset>0</layerOffset>
+              <!--<layerOffset>0</layerOffset>-->
+              <defaultOffset>Tail</defaultOffset>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Tail/TailF</path>
@@ -574,7 +578,8 @@
                   </bodyTypes>
                 </east>
               </offsets>
-              <layerOffset>0.1</layerOffset>
+              <!--<layerOffset>0.1</layerOffset>-->
+              <defaultOffset>Tail</defaultOffset>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Tail/TailB</path>
@@ -599,7 +604,8 @@
                   </bodyTypes>
                 </east>
               </offsets>
-              <layerOffset>0</layerOffset>
+              <!--<layerOffset>0</layerOffset>-->
+              <defaultOffset>Tail</defaultOffset>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Flowers/FlowersE</path>
@@ -624,7 +630,8 @@
                   </crownTypes>
                 </east>
               </offsets>
-              <layerOffset>1</layerOffset>
+              <!--<layerOffset>1</layerOffset>-->
+              <defaultOffset>Tail</defaultOffset>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Flowers/FlowersH</path>
@@ -649,7 +656,8 @@
                   </bodyTypes>
                 </east>
               </offsets>
-              <layerOffset>1</layerOffset>
+              <!--<layerOffset>1</layerOffset>-->
+              <defaultOffset>Tail</defaultOffset>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Tentacles/TentaclesL1</path>
@@ -674,7 +682,8 @@
                   </bodyTypes>
                 </east>
               </offsets>
-              <layerOffset>0.8</layerOffset>
+              <!--<layerOffset>0.8</layerOffset>-->
+              <defaultOffset>Tail</defaultOffset>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Tentacles/TentaclesL2</path>
@@ -699,7 +708,8 @@
                   </bodyTypes>
                 </east>
               </offsets>
-              <layerOffset>0.8</layerOffset>
+              <!--<layerOffset>0.8</layerOffset>-->
+              <defaultOffset>Tail</defaultOffset>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Tentacles/TentaclesR2</path>
@@ -724,7 +734,8 @@
                   </bodyTypes>
                 </east>
               </offsets>
-              <layerOffset>0.8</layerOffset>
+              <!--<layerOffset>0.8</layerOffset>-->
+              <defaultOffset>Tail</defaultOffset>
             </li>
             <li>
               <path>Things/Pawn/Sayers/Tentacles/TentaclesR1</path>
@@ -749,7 +760,8 @@
                   </bodyTypes>
                 </east>
               </offsets>
-              <layerOffset>0.8</layerOffset>
+              <!--<layerOffset>0.8</layerOffset>-->
+              <defaultOffset>Tail</defaultOffset>
             </li>
           </bodyAddons>
         </alienPartGenerator>
@@ -760,12 +772,10 @@
           <body>Things/Pawn/Sayers/Bodies/</body>
         </li>
       </graphicPaths>
-      <hairSettings>
-        <hasHair>false</hasHair>
-      </hairSettings>
+      <!--<hairSettings><hasHair>false</hasHair></hairSettings>-->
       <thoughtSettings>
         <restrictedThoughts>
-          <li>AteAwfulMeal_Sayers</li>
+          <!--<li>AteAwfulMeal_Sayers</li>-->
           <li>AteRawFood_Sayers</li>
           <li>AteKibble_Sayers</li>
           <li>AteCorpse_Sayers</li>
@@ -784,11 +794,23 @@
           <li>NeedRoomSize_Sayers</li>
           <li>NeedOutdoors_Sayers</li>
           <li>BondedAnimalDied_Sayers</li>
+          <li>RebuffedMyRomanceAttemptMood</li>
+          <li>FailedRomanceAttemptOnMeLowOpinionMood</li>
+          <li>Expectations</li>
         </restrictedThoughts>
         <replacerList>
+          <!--<li><original>AteAwfulMeal</original><replacer>AteAwfulMeal_Sayers</replacer></li>-->
           <li>
-            <original>AteAwfulMeal</original>
-            <replacer>AteAwfulMeal_Sayers</replacer>
+            <original>RebuffedMyRomanceAttemptMood</original>
+            <replacer>RebuffedMyRomanceAttemptMood_Sayers</replacer>
+          </li>
+          <li>
+            <original>FailedRomanceAttemptOnMeLowOpinionMood</original>
+            <replacer>FailedRomanceAttemptOnMeLowOpinionMood_Sayers</replacer>
+          </li>
+          <li>
+            <original>Expectations</original>
+            <replacer>Expectations_Sayers</replacer>
           </li>
           <li>
             <original>AteRawFood</original>
@@ -866,7 +888,10 @@
 		  -->
         </replacerList>
         <cannotReceiveThoughts>
-          <li>AteAwfulMeal</li>
+          <!--<li>AteAwfulMeal</li>-->
+          <li>RebuffedMyRomanceAttemptMood</li>
+          <li>FailedRomanceAttemptOnMeLowOpinionMood</li>
+          <li>Expectations</li>
           <li>AteRawFood</li>
           <li>AteKibble</li>
           <li>AteCorpse</li>

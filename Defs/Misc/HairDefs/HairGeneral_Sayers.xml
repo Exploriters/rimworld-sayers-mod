@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>NoHair</defName>
+    <label>没有头发XD</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Sayers/Hairs/NoHair</texPath>
+    <category>Sayers_Style</category>
+    <styleTags>
+      <li>Sayers_Style</li>
+    </styleTags>
+  </HairDef>
+</Defs>

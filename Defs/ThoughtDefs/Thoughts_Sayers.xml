@@ -282,6 +282,33 @@
       </li>
     </stages>
   </ThoughtDef>
+  <!--== Social ==-->
+  <ThoughtDef>
+    <defName>RebuffedMyRomanceAttemptMood_Sayers</defName>
+    <durationDays>3.0</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>被{0}拒绝</label>
+        <description>啊啊…我就不该去尝试的，这太让人伤心了。</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>FailedRomanceAttemptOnMeLowOpinionMood_Sayers</defName>
+    <durationDays>3.0</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>拒绝了{0}</label>
+        <description>哈？恋爱？爬吧。</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
   <!--============ Situation ============-->
   <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
   <!--== Needs ==-->
@@ -447,5 +474,67 @@
         <baseMoodEffect>10</baseMoodEffect>
       </li>
     </stages>
+  </ThoughtDef>
+  <!--============ Expectations related thoughts ============-->
+  <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
+  <ThoughtDef>
+    <defName>Expectations_Sayers</defName>
+    <workerClass>ThoughtWorker_Expectations</workerClass>
+    <stages>
+      <!-- First 6 are in descending order, to preserve localizations indices -->
+      <li>
+        <label>合理的期望</label>
+        <description>我不能指望凡事都被惯着。</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+      <li>
+        <label>合理的期望</label>
+        <description>我不能指望凡事都被惯着。</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+      <li>
+        <label>合理的期望</label>
+        <description>我不能指望凡事都被惯着。</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+      <li>
+        <label>较低的期望</label>
+        <description>我不能指望过得很舒适。</description>
+        <baseMoodEffect>18</baseMoodEffect>
+      </li>
+      <li>
+        <label>很低的期望</label>
+        <description>我要使自己坚强起来。</description>
+        <baseMoodEffect>24</baseMoodEffect>
+      </li>
+      <li>
+        <label>极低的期望</label>
+        <description>我必须如钢铁般坚强才能活下去。</description>
+        <baseMoodEffect>30</baseMoodEffect>
+      </li>
+      <!-- Later are in ascending order, to preserve localizations indices -->
+      <li>
+        <label>合理的期望</label>
+        <description>我不能指望凡事都被惯着。</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+      <li>
+        <label>合理的期望</label>
+        <description>我不能指望凡事都被惯着。</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+      <!-- per-role expectations -->
+      <li>
+        <label>合理的期望</label>
+        <description>我不能指望凡事都被惯着。</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+      <li>
+        <label>合理的期望</label>
+        <description>我不能指望凡事都被惯着。</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+    <validWhileDespawned>true</validWhileDespawned>
   </ThoughtDef>
 </Defs>

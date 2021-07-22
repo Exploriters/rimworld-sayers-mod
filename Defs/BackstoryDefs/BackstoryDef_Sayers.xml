@@ -5,11 +5,7 @@
       <li>SayersBackstory</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef Name="SayersBackstoriesRefugeesBase" Abstract="True">
-    <spawnCategories>
-      <li>SayersRefugeesBackstory</li>
-    </spawnCategories>
-  </AlienRace.BackstoryDef>
+  <!--<AlienRace.BackstoryDef Name="SayersBackstoriesRefugeesBase" Abstract="True"><spawnCategories><li>SayersRefugeesBackstory</li></spawnCategories></AlienRace.BackstoryDef>-->
   <!--== Member ==-->
   <AlienRace.BackstoryDef ParentName="SayersBackstoriesBase">
     <defName>SayersOrphans1_Child</defName>
@@ -86,75 +82,6 @@
     </forcedTraits>
   </AlienRace.BackstoryDef>
   <!--== Refugees ==-->
-  <AlienRace.BackstoryDef ParentName="SayersBackstoriesRefugeesBase">
-    <defName>SayersRefugees_Base</defName>
-    <title>在灾难中逃亡的逃难者[Sayers]</title>
-    <titleShort>逃难者</titleShort>
-    <baseDescription>[PAWN_nameDef]原本安稳地生活在这个星球上，直到有一天[PAWN_pronoun]发现这个星球变得不再安全，即将分崩离析。为了活下去，[PAWN_pronoun]只好带着花寄兽们，从这个星球逃离</baseDescription>
-    <slot>Childhood</slot>
-    <skillGains>
-      <li>
-        <defName>Shooting</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Melee</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Construction</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Cooking</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Plants</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Animals</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Crafting</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Artistic</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Medicine</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Social</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Intellectual</defName>
-        <amount>3</amount>
-      </li>
-    </skillGains>
-    <forcedHediffs>
-      <li>BionicTentacle</li>
-      <li>BionicLeg</li>
-      <li>BionicTentacle</li>
-      <li>DrillTentacle</li>
-      <li>DrillTentacle</li>
-    </forcedHediffs>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="SayersBackstoriesRefugeesBase">
-    <defName>SayersRefugees_BaseAdult</defName>
-    <title>逃难者[Sayers]</title>
-    <titleShort>逃难者</titleShort>
-    <baseDescription>防报错占位用</baseDescription>
-    <slot>Adulthood</slot>
-  </AlienRace.BackstoryDef>
+  <!--<AlienRace.BackstoryDef ParentName="SayersBackstoriesRefugeesBase"><defName>SayersRefugees_Base</defName><title>在灾难中逃亡的逃难者[Sayers]</title><titleShort>逃难者</titleShort><baseDescription>[PAWN_nameDef]原本安稳地生活在这个星球上，直到有一天[PAWN_pronoun]发现这个星球变得不再安全，即将分崩离析。为了活下去，[PAWN_pronoun]只好带着花寄兽们，从这个星球逃离</baseDescription><slot>Childhood</slot><skillGains><li><defName>Shooting</defName><amount>3</amount></li><li><defName>Melee</defName><amount>3</amount></li><li><defName>Construction</defName><amount>3</amount></li><li><defName>Mining</defName><amount>3</amount></li><li><defName>Cooking</defName><amount>3</amount></li><li><defName>Plants</defName><amount>3</amount></li><li><defName>Animals</defName><amount>3</amount></li><li><defName>Crafting</defName><amount>3</amount></li><li><defName>Artistic</defName><amount>3</amount></li><li><defName>Medicine</defName><amount>3</amount></li><li><defName>Social</defName><amount>3</amount></li><li><defName>Intellectual</defName><amount>3</amount></li></skillGains><forcedHediffs><li>BionicTentacle</li><li>BionicLeg</li><li>BionicTentacle</li><li>DrillTentacle</li><li>DrillTentacle</li></forcedHediffs></AlienRace.BackstoryDef>-->
+  <!--<AlienRace.BackstoryDef ParentName="SayersBackstoriesRefugeesBase"><defName>SayersRefugees_BaseAdult</defName><title>逃难者[Sayers]</title><titleShort>逃难者</titleShort><baseDescription>防报错占位用</baseDescription><slot>Adulthood</slot></AlienRace.BackstoryDef>-->
 </Defs>

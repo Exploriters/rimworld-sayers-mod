@@ -21,9 +21,6 @@
       <li>TribalStart</li>
       <li>TribalStartTechprints</li>
     </startingTechprintsResearchTags>
-    <hairTags>
-      <li>Urban</li>
-    </hairTags>
     <apparelStuffFilter>
       <thingDefs>
         <li>Synthread</li>
@@ -44,22 +41,11 @@
         </categories>
       </li>
     </backstoryFilters>
+    <allowedCultures>
+      <li>EndlessSearch_Sayers</li>
+    </allowedCultures>
   </FactionDef>
-  <FactionDef ParentName="SayersPlayerFactionBase">
-    <defName>SayersRefugees</defName>
-    <label>Sayers逃难者</label>
-    <description>由Sayers组成的逃难者团队(或者孤身一人)。</description>
-    <basicMemberKind>SayersRefugeesMember</basicMemberKind>
-    <pawnSingular>Sayers逃难者</pawnSingular>
-    <pawnsPlural>Sayers逃难者</pawnsPlural>
-    <backstoryFilters>
-      <li>
-        <categories>
-          <li>SayersRefugeesBackstory</li>
-        </categories>
-      </li>
-    </backstoryFilters>
-  </FactionDef>
+  <!--<FactionDef ParentName="SayersPlayerFactionBase"><defName>SayersRefugees</defName><label>Sayers逃难者</label><description>由Sayers组成的逃难者团队(或者孤身一人)。</description><basicMemberKind>SayersRefugeesMember</basicMemberKind><pawnSingular>Sayers逃难者</pawnSingular><pawnsPlural>Sayers逃难者</pawnsPlural><backstoryFilters><li><categories><li>SayersRefugeesBackstory</li></categories></li></backstoryFilters></FactionDef>-->
   <FactionDef ParentName="FactionBase">
     <colorSpectrum Inherit="False">
       <li>(0.518, 1, 0.769)</li>

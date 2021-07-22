@@ -531,7 +531,7 @@
     <thingSetMakerTags>
     </thingSetMakerTags>
     <comps>
-      <li Class="CompProperties_BiocodableApparel" />
+      <li Class="CompProperties_Biocodable" />
     </comps>
     <tradeability>Sellable</tradeability>
   </ThingDef>
@@ -627,7 +627,7 @@
     <thingSetMakerTags>
     </thingSetMakerTags>
     <comps>
-      <li Class="CompProperties_BiocodableApparel" />
+      <li Class="CompProperties_Biocodable" />
     </comps>
     <tradeability>Sellable</tradeability>
   </ThingDef>

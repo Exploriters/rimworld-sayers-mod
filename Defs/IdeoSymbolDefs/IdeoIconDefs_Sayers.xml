@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IdeoIconDef>
+    <defName>IdeoIconSayers</defName>
+    <iconPath>UI/Ideoligions/Tentaler</iconPath>
+    <cultures>
+      <li>EndlessSearch_Sayers</li>
+    </cultures>
+    <memes>
+      <li>CarnivorousAnimal_SayersMeme</li>
+      <li>Experimental_SayersMeme</li>
+    </memes>
+  </IdeoIconDef>
+</Defs>
