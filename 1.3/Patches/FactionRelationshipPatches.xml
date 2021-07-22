@@ -7,7 +7,6 @@
 				<xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
 				<value>
 					<li>SayersClan</li>
-					<li>SayersRefugees</li>
 				</value>
 			</li>
 		</operations>
