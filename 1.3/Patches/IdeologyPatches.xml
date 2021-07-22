@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/PreceptDef[not (conflictingMemes)]</xpath>
+		<value>
+			<conflictingMemes />
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/PreceptDef[
+		           issue="IdeoRole"
+				or defName="IdeoRelic"
+				or defName="NobleDespisedWeapons"
+				]
+			/conflictingMemes</xpath>
+		<value>
+			<li>CarnivorousAnimal_SayersMeme</li>
+			<li>Experimental_SayersMeme</li>
+		</value>
+	</Operation>
+</Patch>

@@ -18,8 +18,7 @@
     </stages>
     <comps>
       <li Class="Explorite.HediffCompProperties_FleshSeedParasitized">
-        <compClass>Explorite.HediffComp_FleshSeedParasitized</compClass>
-        <mote>Mote_AcidCloud</mote>
+        <fleck>AcidCloud</fleck>
         <moteCount>6</moteCount>
         <moteOffsetRange>0.25~0.75</moteOffsetRange>
         <filth>Filth_Blood</filth>
