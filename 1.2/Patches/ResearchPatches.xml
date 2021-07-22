@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ResearchProjectDef[(
+						defName="Cocoa" or 
+						defName="Devilstrand" or 
+						defName="Brewing" or 
+						defName="Greatbow" or 
+						defName="Stonecutting" or 
+						defName="ComplexFurniture" or 
+						defName="ComplexClothing" or 
+						defName="PlateArmor" or 
+						defName="LongBlades" or 
+						defName="Piano" or 
+						defName="CarpetMaking" or 
+						defName="PsychiteRefining" or 
+						defName="WakeUpProduction" or 
+						defName="GoJuiceProduction" or 
+						defName="PenoxycylineProduction") 
+					and not (tags)]</xpath>
+				<value>
+					<tags>
+					</tags>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ResearchProjectDef[
+						defName="Cocoa" or 
+						defName="Devilstrand" or 
+						defName="Brewing" or 
+						defName="Greatbow" or 
+						defName="Stonecutting" or 
+						defName="ComplexFurniture" or 
+						defName="ComplexClothing" or 
+						defName="PlateArmor" or 
+						defName="LongBlades" or 
+						defName="Piano" or 
+						defName="CarpetMaking" or 
+						defName="PsychiteRefining" or 
+						defName="WakeUpProduction" or 
+						defName="GoJuiceProduction" or 
+						defName="PenoxycylineProduction"]
+					/tags</xpath>
+				<value>
+					<li>SayersStart</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

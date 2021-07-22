@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffGiverSetDef>
+    <defName>Sayers</defName>
+    <hediffGivers>
+      
+      <li Class="Explorite.HediffGiver_EnsureForAlways">
+        <hediff>SayersHiddenEffect</hediff>
+      </li>
+	  
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+</Defs>

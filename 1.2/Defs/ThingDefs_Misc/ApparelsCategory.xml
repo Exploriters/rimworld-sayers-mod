@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>SayersApparels</defName>
+    <label>Sayers衣物</label>
+    <parent>Apparel</parent>
+    <iconPath>Things/Pawn/SayersItems/Apparel/SayersBasic/SayersBasic</iconPath>
+    <resourceReadoutRoot>false</resourceReadoutRoot>
+  </ThingCategoryDef>
+</Defs>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>ParasiticStab_Sayers</defName>
+    <abilityClass>Ability</abilityClass>
+    <category>ExploriteRacal</category>
+    <label>寄生穿刺</label>
+    <description>用触手去攻击目标，并且往目标体内注入含有种子的植物液——即予以目标寄生状态，而被寄生者死亡后，一棵“可食用的”血肉之树将会破体而出。</description>
+    <level>0</level>
+    <iconPath>UI/Abilities/ParasiticStab</iconPath>
+    <hotKey>Misc12</hotKey>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <targetRequired>false</targetRequired>
+    <canUseAoeToGetTargets>True</canUseAoeToGetTargets>
+    <showPsycastEffects>False</showPsycastEffects>
+    <showCastingProgressBar>False</showCastingProgressBar>
+    <warmupStartSound>DeathAcidifier</warmupStartSound>
+    <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>True</disableGizmoWhileUndrafted>
+	
+    <sendLetterOnCooldownComplete>false</sendLetterOnCooldownComplete>
+    <cooldownTicksRange>1200~1200</cooldownTicksRange>
+    <statBases>
+      <Ability_Duration>40</Ability_Duration>
+      <Ability_EffectRadius>1.5</Ability_EffectRadius>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0.05</warmupTime>
+      <range>1.5</range>
+      <drawAimPie>False</drawAimPie>
+      <requireLineOfSight>False</requireLineOfSight>
+      <!--<linkedBodyPartsGroup>
+        <li>Tentacles</li>
+      </linkedBodyPartsGroup>-->
+      <targetParams Inherit="False">
+        <canTargetSelf>true</canTargetSelf>
+        <canTargetHumans>true</canTargetHumans>
+        <canTargetAnimals>true</canTargetAnimals>
+        <canTargetMechs>true</canTargetMechs>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityMoteOnTarget">
+        <compClass>Explorite.CompAbilityEffect_MoteOnTarget_ParasiticStab</compClass>
+        <moteDef>Mote_AcidCloud</moteDef>
+      </li>
+      <li Class="Explorite.CompProperties_AbilityGiveHediff_ParasiticStab">
+        <hediffDef>FleshSeedParasitized</hediffDef>
+        <!--<durationMultiplier>ToxicSensitivity</durationMultiplier>-->
+        <psychic>false</psychic>
+        <applicableToMechs>false</applicableToMechs>
+        <goodwillImpact>-5</goodwillImpact>
+		
+        <injuryOnHit>Injection</injuryOnHit>
+        <injuryCount>3~6</injuryCount>
+        <injuryDamage>3~6</injuryDamage>
+      </li>
+    </comps>
+  </AbilityDef>
+</Defs>

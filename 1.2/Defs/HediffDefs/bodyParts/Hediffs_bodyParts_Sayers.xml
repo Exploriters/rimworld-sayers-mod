@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingCategoryDef>
+	<defName>BodyPartsSayers</defName>
+	<label>sayers</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+  
+  <!--== 基础 ==-->
+  <ThingDef Name="BodyPartProstheticSayersBase" ParentName="BodyPartProstheticBase" Abstract="True">
+    <tradeability>Sellable</tradeability>
+    <thingCategories Inherit="false">
+      <li>BodyPartsSayers</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem_Sayers</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+      <color>(154,124,104)</color>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite Inherit="False" />
+      <researchPrerequisites>
+        <li>SayersRestrictedThings</li>
+        <li>Prosthetics</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef Name="BodyPartBionicSayersBase" ParentName="BodyPartBionicBase" Abstract="True">
+    <tradeability>Sellable</tradeability>
+    <thingCategories Inherit="false">
+      <li>BodyPartsSayers</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem_Sayers</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+      <color>(189,169,118)</color>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite Inherit="False" />
+      <researchPrerequisites>
+        <li>SayersRestrictedThings</li>
+        <li>Bionics</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef Name="BodyPartArchotechSayersBase" ParentName="BodyPartArchotechBase" Abstract="True">
+    <tradeability>Sellable</tradeability>
+    <thingCategories Inherit="false">
+      <li>BodyPartsSayers</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem_Sayers</texPath>
+      <color>(155,165,148)</color>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <!--==== 可怜无比の木头  ====-->
+  <!--= 木触手 =-->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>WoodenTentacle</defName>
+    <label>木触手</label>
+    <labelNoun>一条木触手</labelNoun>
+    <description>一条已安装的木触手。</description>
+    <priceImpact>false</priceImpact>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.60</partEfficiency>
+    </addedPartProps>
+    <spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
+  </HediffDef>
+  <RecipeDef ParentName="SurgeryInstallWoodenPartBase">
+    <defName>InstallWoodenTentacle</defName>
+    <label>安装木触手</label>
+    <description>安装木触手。</description>
+    <descriptionHyperlinks>
+      <ThingDef>WoodLog</ThingDef>
+      <HediffDef>WoodenTentacle</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>正在安装木触手</jobString>
+    <appliedOnFixedBodyParts>
+      <li>Tentacles</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>WoodenTentacle</addsHediff>
+  </RecipeDef>
+  <!--==== 简易  ====-->
+  
+  <!--= 假触手 =-->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>SimpleProstheticTentacle</defName>
+    <label>假触手</label>
+    <labelNoun>一条假触手</labelNoun>
+    <description>一条已安装的简易假触手。</description>
+    <descriptionHyperlinks>
+      <ThingDef>SimpleProstheticTentacle</ThingDef>
+    </descriptionHyperlinks>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>触手</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>16.4</power>
+            <cooldownTime>1</cooldownTime>
+          </li>
+          <li>
+            <label>触手注射头</label>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>24.6</power>
+            <cooldownTime>1</cooldownTime>
+            <chanceFactor>0.6</chanceFactor>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>SimpleProstheticTentacle</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.50</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartProstheticMakeableBase">
+    <defName>SimpleProstheticTentacle</defName>
+    <label>假触手</label>
+    <description>一条假触手。</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallSimpleProstheticTentacle</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>40</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <Mass>5</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>InstallSimpleProstheticTentacle</defName>
+    <label>安装假触手</label>
+    <description>安装假触手。</description>
+    <descriptionHyperlinks>
+      <ThingDef>SimpleProstheticTentacle</ThingDef>
+      <HediffDef>SimpleProstheticTentacle</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>正在安装假触手</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SimpleProstheticTentacle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SimpleProstheticTentacle</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Tentacles</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>SimpleProstheticTentacle</addsHediff>
+  </RecipeDef>
+  <!--==== 仿生  ====-->
+  <!--= 仿生触手 =-->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BionicTentacle</defName>
+    <label>仿生触手</label>
+    <labelNoun>一条仿生触手</labelNoun>
+    <description>一条已安装的仿生触手。</description>
+    <descriptionHyperlinks>
+      <ThingDef>BionicTentacle</ThingDef>
+    </descriptionHyperlinks>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>触手</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>18.4</power>
+            <cooldownTime>1</cooldownTime>
+          </li>
+          <li>
+            <label>触手注射头</label>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>26.6</power>
+            <cooldownTime>1</cooldownTime>
+            <chanceFactor>0.6</chanceFactor>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>BionicTentacle</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartBionicSayersBase">
+    <defName>BionicTentacle</defName>
+    <label>仿生触手</label>
+    <description>一条仿生触手。</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallBionicTentacle</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <thingSetMakerTags>
+    </thingSetMakerTags>
+    <statBases>
+      <Mass>5</Mass>
+    </statBases>
+  </ThingDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallBionicTentacle</defName>
+    <label>安装仿生触手</label>
+    <description>安装仿生触手。</description>
+    <descriptionHyperlinks>
+      <ThingDef>BionicTentacle</ThingDef>
+      <HediffDef>BionicTentacle</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>正在安装仿生触手</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BionicTentacle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BionicTentacle</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Tentacles</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BionicTentacle</addsHediff>
+  </RecipeDef>
+  <!--= 仿生耳朵 =-->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BionicEar_Sayers</defName>
+    <label>仿生耳朵</label>
+    <labelNoun>一只仿生耳朵</labelNoun>
+    <description>一只已安装的仿生耳朵。</description>
+    <descriptionHyperlinks>
+      <ThingDef>BionicEar_Sayers</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>BionicEar_Sayers</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartBionicSayersBase">
+    <defName>BionicEar_Sayers</defName>
+    <label>仿生耳朵</label>
+    <description>一只仿生耳朵。</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallBionicEar_Sayers</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>10</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+  </ThingDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallBionicEar_Sayers</defName>
+    <label>安装仿生耳朵</label>
+    <description>安装仿生耳朵。</description>
+    <descriptionHyperlinks>
+      <ThingDef>BionicEar_Sayers</ThingDef>
+      <HediffDef>BionicEar_Sayers</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>正在安装仿生耳朵</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BionicEar_Sayers</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BionicEar_Sayers</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>SayersEar</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BionicEar_Sayers</addsHediff>
+  </RecipeDef>
+  <!--==== 远古科技  ====-->
+  <!--= 远古科技触手 =-->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ArchotechTentacle</defName>
+    <label>远古科技触手</label>
+    <labelNoun>一条远古科技触手</labelNoun>
+    <description>一条已安装的远古科技触手。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechTentacle</ThingDef>
+    </descriptionHyperlinks>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>触手</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>22.4</power>
+            <cooldownTime>1</cooldownTime>
+          </li>
+          <li>
+            <label>触手注射头</label>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>30.6</power>
+            <cooldownTime>1</cooldownTime>
+            <chanceFactor>0.6</chanceFactor>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>ArchotechTentacle</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.50</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartArchotechSayersBase">
+    <defName>ArchotechTentacle</defName>
+    <label>远古科技触手</label>
+    <description>一条远古科技触手。</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallArchotechTentacle</RecipeDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+    <thingSetMakerTags>
+    </thingSetMakerTags>
+  </ThingDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallArchotechTentacle</defName>
+    <label>安装远古科技触手</label>
+    <description>安装远古科技触手。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechTentacle</ThingDef>
+      <HediffDef>ArchotechTentacle</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>正在安装远古科技触手</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechTentacle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ArchotechTentacle</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Tentacles</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArchotechTentacle</addsHediff>
+  </RecipeDef>
+  <!--= 远古科技耳朵 =-->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>ArchotechEar_Sayers</defName>
+    <label>远古科技耳朵</label>
+    <labelNoun>一只远古科技耳朵</labelNoun>
+    <description>一只已安装的远古科技耳朵。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechEar_Sayers</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>ArchotechEar_Sayers</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.50</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartArchotechSayersBase">
+    <defName>ArchotechEar_Sayers</defName>
+    <label>远古科技耳朵</label>
+    <description>一只远古科技耳朵。</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallArchotechEar_Sayers</RecipeDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+    <thingSetMakerTags>
+    </thingSetMakerTags>
+  </ThingDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallArchotechEar_Sayers</defName>
+    <label>安装远古科技耳朵</label>
+    <description>安装远古科技耳朵。</description>
+    <descriptionHyperlinks>
+      <ThingDef>ArchotechEar_Sayers</ThingDef>
+      <HediffDef>ArchotechEar_Sayers</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>正在安装远古科技耳朵</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ArchotechEar_Sayers</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ArchotechEar_Sayers</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>SayersEar</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>ArchotechEar_Sayers</addsHediff>
+  </RecipeDef>
+  <!--==== 其他稀奇古怪の玩意儿 ====-->
+  <!--= 挖掘触手 =-->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>DrillTentacle</defName>
+    <label>挖掘触手</label>
+    <labelNoun>挖掘触手</labelNoun>
+    <description>一条挖掘触手。</description>
+    <descriptionHyperlinks>
+      <ThingDef>DrillTentacle</ThingDef>
+    </descriptionHyperlinks>
+    <addedPartProps>
+      <solid>true</solid>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MiningSpeed>3</MiningSpeed>
+          <DeepDrillingSpeed>0.7</DeepDrillingSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>drill</label>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>26</power>
+            <cooldownTime>1</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            <soundMeleeHit>MeleeHit_DrillArm</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_DrillArm</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>DrillTentacle</spawnThingOnRemoved>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartProstheticImperialBase">
+    <defName>DrillTentacle</defName>
+    <label>挖掘触手</label>
+    <description>一条挖掘触手。</description>
+    <descriptionHyperlinks>
+      <RecipeDef>InstallDrillTentacle</RecipeDef>
+    </descriptionHyperlinks>
+    <thingSetMakerTags>
+    </thingSetMakerTags>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite Inherit="False" />
+      <researchPrerequisites>
+        <li>SayersRestrictedThings</li>
+        <li>SpecializedLimbs</li>
+      </researchPrerequisites>
+    </recipeMaker>
+  </ThingDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>InstallDrillTentacle</defName>
+    <label>安装挖掘触手</label>
+    <description>安装挖掘触手。</description>
+    <descriptionHyperlinks>
+      <ThingDef>DrillTentacle</ThingDef>
+      <HediffDef>DrillTentacle</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>正在安装挖掘触手</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DrillTentacle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>DrillTentacle</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Tentacles</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>DrillTentacle</addsHediff>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartGroupDef>
+    <defName>Tail</defName>
+    <label>尾巴</label>
+    <listOrder>5</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>Tentacles</defName>
+    <label>触手组</label>
+    <listOrder>6</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>TentacleLeft1</defName>
+    <label>最左触手</label>
+    <listOrder>7</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>TentacleLeft2</defName>
+    <label>左中触手</label>
+    <listOrder>8</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>TentacleRight2</defName>
+    <label>右中触手</label>
+    <listOrder>9</listOrder>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>TentacleRight1</defName>
+    <label>最右触手</label>
+    <listOrder>10</listOrder>
+  </BodyPartGroupDef>
+</Defs>

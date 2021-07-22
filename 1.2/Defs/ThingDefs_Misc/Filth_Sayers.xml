@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseFilth">
+    <defName>Filth_SayersMucus</defName>
+    <label>粘液</label>
+    <statBases>
+      <Beauty>-2</Beauty>
+      <Cleanliness>-10</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/SayersMucus</texPath>
+      <color>(153, 244, 204, 127)</color>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <filth>
+      <disappearsInDays>15~20</disappearsInDays>
+      <cleaningWorkToReduceThickness>100</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <LifeStageDef>
+    <defName>SayersBaby</defName>
+    <label>婴儿</label>
+    <reproductive>false</reproductive>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>SayersToddler</defName>
+    <label>幼儿</label>
+    <reproductive>false</reproductive>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>SayersChild</defName>
+    <label>孩童</label>
+    <reproductive>false</reproductive>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>SayersTeenager</defName>
+    <label>少年</label>
+    <adjective>少年</adjective>
+    <reproductive>false</reproductive>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>SayersAdult</defName>
+    <label>成人</label>
+    <visible>false</visible>
+    <reproductive>false</reproductive>
+  </LifeStageDef>
+  
+  <LifeStageDef>
+      <defName>MichellesBaby</defName>
+    <label>婴儿</label>
+    <reproductive>false</reproductive>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>MichellesToddler</defName>
+    <label>幼儿</label>
+    <reproductive>false</reproductive>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>MichellesChild</defName>
+    <label>孩童</label>
+    <reproductive>false</reproductive>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>MichellesTeenager</defName>
+    <label>少年</label>
+    <adjective>少年</adjective>
+    <reproductive>false</reproductive>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>MichellesAdult</defName>
+    <label>成人</label>
+    <visible>false</visible>
+    <reproductive>false</reproductive>
+  </LifeStageDef>
+
+</Defs>

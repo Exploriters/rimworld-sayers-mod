@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>Make_BroomPaste</defName>
+    <label>制作金雀花膏</label>
+    <description>把金雀花磨成金雀花膏</description>
+    <jobString>正在制作金雀花膏</jobString>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>50</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Herb_Broom</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Herb_Broom</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Medicine_BroomPaste>1</Medicine_BroomPaste>
+    </products>
+    <researchPrerequisites>
+      <li>BasicHerbProcessing</li>
+    </researchPrerequisites>
+    <recipeUsers>
+      <li>HerbProcessingSpot</li>
+      <li>PlantReactionTable</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

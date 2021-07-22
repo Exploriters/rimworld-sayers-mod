@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>SayersHiddenEffect</defName>
+    <label>Sayers</label>
+    <description>Sayers。</description>
+    <descriptionHyperlinks>
+      <ThingDef>Alien_Sayers</ThingDef>
+    </descriptionHyperlinks>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="Explorite.HediffCompProperties_HediffGiverEnsureForAlwaysRequired" />
+	</comps>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+        <statFactors />
+        <statOffsets />
+        <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

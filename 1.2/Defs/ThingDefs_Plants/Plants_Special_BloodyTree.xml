@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="TreeBase" Name="BloodyTreeBase" Abstract="True">
+    <thingClass>Explorite.Plant_FleshTree</thingClass>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Flammability>0.8</Flammability>
+      <Nutrition>1.7</Nutrition>
+      <MeditationFocusStrength>0.2</MeditationFocusStrength>
+    </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <pathCost>42</pathCost>
+    <blockWind>true</blockWind>
+    <ingestible>
+      <foodType>Tree</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant>
+      <growMinGlow>0</growMinGlow>
+      <growOptimalGlow>0</growOptimalGlow>
+      <fertilityMin>0</fertilityMin>
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <lifespanDaysPerGrowDays>0</lifespanDaysPerGrowDays>
+      <soundHarvesting>Harvest_Tree</soundHarvesting>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <sowWork Inherit="False" />
+      <sowMinSkill Inherit="False" />
+      <sowTags Inherit="False"/>
+      <sowResearchPrerequisites Inherit="False" />
+      <mustBeWildToSow>true</mustBeWildToSow>
+      <harvestWork>800</harvestWork>
+      <harvestedThingDef>BloodyTree_Meat</harvestedThingDef>
+      <harvestYield>25</harvestYield>
+      <harvestTag>Wood</harvestTag>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <harvestFailable>false</harvestFailable>
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <visualSizeRange>1.3~2.0</visualSizeRange>
+      <topWindExposure>0.25</topWindExposure>
+      <wildClusterRadius Inherit="False" />
+      <wildClusterWeight Inherit="False" />
+      <wildOrder>3</wildOrder>
+      <interferesWithRoof>false</interferesWithRoof>
+      <neverBlightable>false</neverBlightable>
+      <dieIfLeafless>false</dieIfLeafless>
+      <dieFromToxicFallout>false</dieFromToxicFallout>
+    </plant>
+    <graphicData>
+      <shaderParameters>
+        <_FallColorSource>(0.3803, 0.4352, 0.1451)</_FallColorSource>
+        <_FallColorDestination>/Other/TreeFallGradient</_FallColorDestination>
+        <_FallTransitionRange>(0.02, 0.10)</_FallTransitionRange>
+        <_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+      </shaderParameters>
+    </graphicData>
+    <comps>
+      <li>
+        <compClass>Explorite.CompThingHolder</compClass>
+      </li>
+      <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+          <li>Morbid</li>
+        </focusTypes>
+        <offsets>
+          <li Class="FocusStrengthOffset_BuildingDefs">
+            <defs>
+              <Plant_BloodyTree>0.05</Plant_BloodyTree>
+            </defs>
+            <radius>9.9</radius>
+            <maxBuildings>3</maxBuildings>
+            <explanationKey>MeditationFocusPerBloodyTree</explanationKey>
+            <explanationKeyAbstract>MeditationFocusPerBloodyTreeAbstract</explanationKeyAbstract>
+          </li>
+        </offsets>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3.75</glowRadius>
+        <glowColor>(125,110,110,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BloodyTreeBase">
+    <defName>Plant_BloodyTree</defName>
+    <label>血肉树</label>
+    <description>由某些特殊攻击而导致被寄生的生物死后破体而出长成的猩红树木，由骨肉与交错的植物触须组成。虽然很恶心，但是这玩意儿收割之后竟然能吃。</description>
+    <graphicData>
+      <texPath>Things/Plant/BloodyTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.15, 0.3, 0.1)</volume>
+        <offset>(-0.03,0,-0.44)</offset>
+      </shadowData>
+      <drawOffset>(0,1,0)</drawOffset>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+      <Nutrition>1.25</Nutrition>
+    </statBases>
+    <ingestible />
+    <plant>
+      <growDays>3</growDays>
+      <harvestWork>400</harvestWork>
+      <harvestYield>27</harvestYield>
+      <immatureGraphicPath>Things/Plant/BloodyTree_Leafless</immatureGraphicPath>
+    </plant>
+  </ThingDef>
+</Defs>

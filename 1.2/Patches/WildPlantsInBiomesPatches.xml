@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+		
+			<li Class="PatchOperationAdd"><xpath>Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath><value>
+					<Plant_Broom>0.05</Plant_Broom>
+			</value></li>
+			<li Class="PatchOperationAdd"><xpath>Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath><value>
+					<Plant_Broom>0.01</Plant_Broom>
+			</value></li>
+			<li Class="PatchOperationAdd"><xpath>Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath><value>
+					<Plant_Broom>0.01</Plant_Broom>
+			</value></li>
+			
+			<li Class="PatchOperationAdd"><xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath><value>
+					<Plant_Broom>0.1875</Plant_Broom>
+			</value></li>
+			<li Class="PatchOperationAdd"><xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants</xpath><value>
+					<Plant_Broom>0.05</Plant_Broom>
+			</value></li>
+			
+			<li Class="PatchOperationAdd"><xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildPlants</xpath><value>
+					<Plant_Broom>0.005</Plant_Broom>
+			</value></li>
+			<li Class="PatchOperationAdd"><xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildPlants</xpath><value>
+					<Plant_Broom>0.005</Plant_Broom>
+			</value></li>
+			<li Class="PatchOperationAdd"><xpath>Defs/BiomeDef[defName="AridShrubland"]/wildPlants</xpath><value>
+					<Plant_Broom>0.005</Plant_Broom>
+			</value></li>
+			<li Class="PatchOperationAdd"><xpath>Defs/BiomeDef[defName="Desert"]/wildPlants</xpath><value>
+					<Plant_Broom>0.001</Plant_Broom>
+			</value></li>
+			<li Class="PatchOperationAdd"><xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildPlants</xpath><value>
+					<Plant_Broom>0.001</Plant_Broom>
+			</value></li>
+			
+		</operations>
+	</Operation>
+</Patch>
