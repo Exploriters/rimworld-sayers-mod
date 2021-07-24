@@ -54,9 +54,9 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
     </allowedMemes>
-    <!--<structureMemeWeights>
-      <Structure_Centaur MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Centaur>
-    </structureMemeWeights>-->
+    <structureMemeWeights>
+      <Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Animist>
+    </structureMemeWeights>
   </FactionDef>
   <FactionDef ParentName="SayersPlayerFactionBase">
     <defName>SayersClan</defName>

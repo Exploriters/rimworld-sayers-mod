@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
-				<value>
-					<li>SayersClan</li>
-				</value>
-			</li>
-		</operations>
+	<Operation Class="PatchOperationAdd">
+		<success>Normal</success>
+		<xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
+		<value>
+			<li>SayersClan</li>
+		</value>
 	</Operation>
 </Patch>

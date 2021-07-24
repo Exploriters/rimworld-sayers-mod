@@ -10,11 +10,18 @@
 	
 	<Operation Class="PatchOperationAdd">
 		<success>Always</success>
-		<xpath>Defs/PreceptDef[
-		           issue="IdeoRole"
-				or defName="IdeoRelic"
-				or defName="NobleDespisedWeapons"
-				]
+		<xpath>Defs/PreceptDef[(
+		           issue="AnimalsVenerated"
+		        or issue="IdeoRole"
+		        or issue="Ritual"
+		        or issue="IdeoBuilding"
+		        or issue="IdeoRitualSeat"
+				or issue="IdeoRelic"
+				or issue="Weapons"
+				) and not(
+				   @Name="FuneralBase"
+				or @ParentName="FuneralBase"
+				)]
 			/conflictingMemes</xpath>
 		<value>
 			<li>CarnivorousAnimal_SayersMeme</li>

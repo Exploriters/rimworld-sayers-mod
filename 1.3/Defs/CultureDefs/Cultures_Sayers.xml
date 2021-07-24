@@ -10,7 +10,7 @@
     <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Astropolitan</leaderTitleMaker>
     <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalAstropolitan</festivalNameMaker>
     <allowedPlaceTags>
-      <li>World/WorldObjects/Expanding/Member</li>
+      <li>OriginSpacer</li>
     </allowedPlaceTags>
     <iconPath>UI/Cultures/Sayers</iconPath>
     <iconColor>(0.8, 0.8, 0.8)</iconColor>
