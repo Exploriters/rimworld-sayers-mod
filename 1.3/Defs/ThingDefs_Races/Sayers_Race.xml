@@ -53,7 +53,7 @@
           <li>Blunt</li>
         </capacities>
         <power>16.4</power>
-        <cooldownTime>1</cooldownTime>
+        <cooldownTime>0.6</cooldownTime>
         <linkedBodyPartsGroup>TentacleLeft1</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -70,7 +70,7 @@
           <li>Blunt</li>
         </capacities>
         <power>16.4</power>
-        <cooldownTime>1</cooldownTime>
+        <cooldownTime>0.6</cooldownTime>
         <linkedBodyPartsGroup>TentacleLeft2</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -104,7 +104,7 @@
           <li>Blunt</li>
         </capacities>
         <power>16.4</power>
-        <cooldownTime>1</cooldownTime>
+        <cooldownTime>0.6</cooldownTime>
         <linkedBodyPartsGroup>TentacleRight1</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -144,7 +144,7 @@
           <li>Injection</li>
         </capacities>
         <power>24.6</power>
-        <cooldownTime>1</cooldownTime>
+        <cooldownTime>0.8</cooldownTime>
         <linkedBodyPartsGroup>TentacleLeft1</linkedBodyPartsGroup>
         <chanceFactor>0.6</chanceFactor>
       </li>
@@ -154,7 +154,7 @@
           <li>Injection</li>
         </capacities>
         <power>24.6</power>
-        <cooldownTime>1</cooldownTime>
+        <cooldownTime>0.8</cooldownTime>
         <linkedBodyPartsGroup>TentacleLeft2</linkedBodyPartsGroup>
         <chanceFactor>0.6</chanceFactor>
       </li>
@@ -164,7 +164,7 @@
           <li>Injection</li>
         </capacities>
         <power>24.6</power>
-        <cooldownTime>1</cooldownTime>
+        <cooldownTime>0.8</cooldownTime>
         <linkedBodyPartsGroup>TentacleRight2</linkedBodyPartsGroup>
         <chanceFactor>0.6</chanceFactor>
       </li>
@@ -174,7 +174,7 @@
           <li>Injection</li>
         </capacities>
         <power>24.6</power>
-        <cooldownTime>1</cooldownTime>
+        <cooldownTime>0.8</cooldownTime>
         <linkedBodyPartsGroup>TentacleRight1</linkedBodyPartsGroup>
         <chanceFactor>0.6</chanceFactor>
       </li>
@@ -462,16 +462,19 @@
                   <crownTypes>
                     <Sayers_Head1>(-0.4,0.55)</Sayers_Head1>
                   </crownTypes>
+                  <layerOffset>-1</layerOffset>
                 </south>
                 <north>
                   <crownTypes>
                     <Sayers_Head1>(0,0.85)</Sayers_Head1>
                   </crownTypes>
+                  <layerOffset>-1</layerOffset>
                 </north>
                 <east>
                   <crownTypes>
                     <Sayers_Head1>(-0.5,0.5)</Sayers_Head1>
                   </crownTypes>
+                  <layerOffset>-0.5</layerOffset>
                 </east>
               </offsets>
               <!--<layerOffset>0.1</layerOffset>-->
@@ -486,18 +489,21 @@
               <offsets>
                 <south>
                   <crownTypes>
-                    <Sayers_Head1>(-0.44,0.55)</Sayers_Head1>
+                    <Sayers_Head1>(-0.4,0.55)</Sayers_Head1>
                   </crownTypes>
+                  <layerOffset>-1</layerOffset>
                 </south>
                 <north>
                   <crownTypes>
                     <Sayers_Head1>(0.02,0.85)</Sayers_Head1>
                   </crownTypes>
+                  <layerOffset>-1</layerOffset>
                 </north>
                 <east>
                   <crownTypes>
-                    <Sayers_Head1>(-0.6,0.55)</Sayers_Head1>
+                    <Sayers_Head1>(-0.6,0.5)</Sayers_Head1>
                   </crownTypes>
+                  <layerOffset>-0.5</layerOffset>
                 </east>
               </offsets>
               <!--<layerOffset>0.1</layerOffset>-->
@@ -514,15 +520,17 @@
                   <crownTypes>
                     <Sayers_Head1>(-0.4,0.55)</Sayers_Head1>
                   </crownTypes>
+                  <layerOffset>-1</layerOffset>
                 </south>
                 <north>
                   <crownTypes>
-                    <Sayers_Head1>(0,0.85)</Sayers_Head1>
+                    <Sayers_Head1>(-0.03,0.85)</Sayers_Head1>
                   </crownTypes>
+                  <layerOffset>-0.8</layerOffset>
                 </north>
                 <east>
                   <crownTypes>
-                    <Sayers_Head1>(-0.5,0.5)</Sayers_Head1>
+                    <Sayers_Head1>(-0.5,0.6)</Sayers_Head1>
                   </crownTypes>
                 </east>
               </offsets>
@@ -538,13 +546,15 @@
               <offsets>
                 <south>
                   <crownTypes>
-                    <Sayers_Head1>(-0.35,0.6)</Sayers_Head1>
+                    <Sayers_Head1>(-0.42,0.57)</Sayers_Head1>
                   </crownTypes>
+                  <layerOffset>-1</layerOffset>
                 </south>
                 <north>
                   <crownTypes>
                     <Sayers_Head1>(0,0.85)</Sayers_Head1>
                   </crownTypes>
+                  <layerOffset>-0.8</layerOffset>
                 </north>
                 <east>
                   <crownTypes>
@@ -571,6 +581,7 @@
                   <bodyTypes>
                     <SayersBody>(0,0.55)</SayersBody>
                   </bodyTypes>
+                  <layerOffset>1</layerOffset>
                 </north>
                 <east>
                   <bodyTypes>
@@ -602,6 +613,7 @@
                   <bodyTypes>
                     <SayersBody>(-0.35,0.17)</SayersBody>
                   </bodyTypes>
+                  <layerOffset>1</layerOffset>
                 </east>
               </offsets>
               <!--<layerOffset>0</layerOffset>-->
@@ -628,6 +640,7 @@
                   <crownTypes>
                     <Sayers_Head1>(-0.55,0.55)</Sayers_Head1>
                   </crownTypes>
+                  <layerOffset>0.1</layerOffset>
                 </east>
               </offsets>
               <!--<layerOffset>1</layerOffset>-->
@@ -644,15 +657,17 @@
                   <bodyTypes>
                     <SayersBody>(-0.4,0.1)</SayersBody>
                   </bodyTypes>
+                  <layerOffset>1</layerOffset>
                 </south>
                 <north>
                   <bodyTypes>
-                    <SayersBody>(0,0.55)</SayersBody>
+                    <SayersBody>(-0.03,0.55)</SayersBody>
                   </bodyTypes>
+                  <layerOffset>-1</layerOffset>
                 </north>
                 <east>
                   <bodyTypes>
-                    <SayersBody>(-0.35,0.17)</SayersBody>
+                    <SayersBody>(-0.4,0.17)</SayersBody>
                   </bodyTypes>
                 </east>
               </offsets>
@@ -673,7 +688,7 @@
                 </south>
                 <north>
                   <bodyTypes>
-                    <SayersBody>(0,0.55)</SayersBody>
+                    <SayersBody>(0.01,0.55)</SayersBody>
                   </bodyTypes>
                 </north>
                 <east>
@@ -720,7 +735,7 @@
               <offsets>
                 <south>
                   <bodyTypes>
-                    <SayersBody>(-0.4,0.25)</SayersBody>
+                    <SayersBody>(-0.45,0.25)</SayersBody>
                   </bodyTypes>
                 </south>
                 <north>
@@ -746,7 +761,7 @@
               <offsets>
                 <south>
                   <bodyTypes>
-                    <SayersBody>(-0.4,0.25)</SayersBody>
+                    <SayersBody>(-0.43,0.25)</SayersBody>
                   </bodyTypes>
                 </south>
                 <north>

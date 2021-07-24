@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ResearchProjectDef>
     <defName>SayersTechRootProject</defName>
@@ -7,10 +7,8 @@
     <description>允许进一步研究Sayers相关的专属科技。</description>
     <baseCost>100</baseCost>
     <techLevel>Neolithic</techLevel>
-    <prerequisites>
-    </prerequisites>
-    <hiddenPrerequisites>
-    </hiddenPrerequisites>
+    <prerequisites></prerequisites>
+    <hiddenPrerequisites></hiddenPrerequisites>
     <researchViewX>0</researchViewX>
     <researchViewY>0</researchViewY>
     <!--<techprintCount>1</techprintCount>
@@ -103,19 +101,5 @@
       <li>Electricity</li>
       <li>SayersPlantModuleMakeing</li>
     </prerequisites>
-  </ResearchProjectDef>
-  <!--==HerbsPlan==-->
-  <ResearchProjectDef>
-    <defName>BasicHerbProcessing</defName>
-    <label>基础草药加工</label>
-    <tab>Explorite</tab>
-    <description>基础的草药加工，很简单，但还是有点儿技巧需要掌握的。</description>
-    <baseCost>100</baseCost>
-    <techLevel>Neolithic</techLevel>
-    <researchViewX>0</researchViewX>
-    <researchViewY>1.4</researchViewY>
-    <tags>
-      <li>SayersStart</li>
-    </tags>
   </ResearchProjectDef>
 </Defs>

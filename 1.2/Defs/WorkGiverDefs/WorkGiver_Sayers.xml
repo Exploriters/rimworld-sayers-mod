@@ -16,21 +16,4 @@
     </requiredCapacities>
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
-  <!--==Herbs Plan==-->
-  <WorkGiverDef>
-    <defName>DoBillsUseHerbProcessingSpot</defName>
-    <label>在药草加工点制作东西</label>
-    <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Crafting</workType>
-    <priorityInType>100</priorityInType>
-    <fixedBillGiverDefs>
-      <li>HerbProcessingSpot</li>
-    </fixedBillGiverDefs>
-    <verb>制作</verb>
-    <gerund>制作于</gerund>
-    <requiredCapacities>
-      <li>Manipulation</li>
-    </requiredCapacities>
-    <prioritizeSustains>true</prioritizeSustains>
-  </WorkGiverDef>
 </Defs>
