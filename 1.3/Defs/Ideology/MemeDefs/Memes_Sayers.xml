@@ -7,7 +7,7 @@
     <renderOrder>1000</renderOrder>
     <renderWithGap>true</renderWithGap>
   </MemeGroupDef>
-  <MemeDef Name="SayersMemeBase" Abstract="True">
+  <Explorite.MemeDef_Ex Name="SayersMemeBase" Abstract="True">
     <generalRules>
       <rulesStrings>
         <li>memeAdjective-&gt;Sayers</li>
@@ -43,8 +43,12 @@
         <priority>3</priority>
       </li>
     </thingStyleCategories>
-  </MemeDef>
-  <MemeDef ParentName="SayersMemeBase">
+	
+	<exclusiveTo>
+	  <li>SayersClan</li>
+	</exclusiveTo>
+  </Explorite.MemeDef_Ex>
+  <Explorite.MemeDef_Ex ParentName="SayersMemeBase">
     <defName>CarnivorousAnimal_SayersMeme</defName>
     <label>猎食者</label>
     <description>猎食与被猎食，这就是自然法则。</description>
@@ -78,8 +82,8 @@
         <li>Scarification_Minor_Sayers</li>
       </li>
     </requireOne>
-  </MemeDef>
-  <MemeDef>
+  </Explorite.MemeDef_Ex>
+  <Explorite.MemeDef_Ex ParentName="SayersMemeBase">
     <defName>Experimental_SayersMeme</defName>
     <label>试验品</label>
     <description>即便不知来源，颅内低语仍旧回响，仿佛细线一般操控着一言一行，如影随形，无休无止，直至从心底认同它，认为本就该如此。</description>
@@ -110,7 +114,7 @@
         <li>Research_Fast</li>
       </li>
     </requireOne>
-  </MemeDef>
+  </Explorite.MemeDef_Ex>
   <IdeoStoryPatternDef>
     <defName>SayersDescription</defName>
     <segments>
@@ -123,7 +127,7 @@
       </rulesStrings>
     </rules>
   </IdeoStoryPatternDef>
-  <MemeDef ParentName="SayersMemeBase">
+  <Explorite.MemeDef_Ex ParentName="SayersMemeBase">
     <defName>Structure_Sayers</defName>
     <label>Sayers</label>
     <description>自从被抛弃那一刻起，神明便再也不复存在，我们所追寻的是我们自身，而宇宙的真谛也许就在我们脑中那丝线之中。</description>
@@ -133,5 +137,5 @@
     <worshipRoomLabel>巢穴</worshipRoomLabel>
     <randomizationSelectionWeightFactor>2</randomizationSelectionWeightFactor>
     <deityCount>0</deityCount>
-  </MemeDef>
+  </Explorite.MemeDef_Ex>
 </Defs>
