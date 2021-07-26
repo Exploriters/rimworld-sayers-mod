@@ -10,39 +10,37 @@
   <MemeDef Name="SayersMemeBase" Abstract="True">
     <generalRules>
       <rulesStrings>
-        <li>memeAdjective-&gt;猎食者</li>
         <li>memeAdjective-&gt;Sayers</li>
-        <li>memeCreed-&gt;花</li>
-        <li>memeCreed-&gt;触手</li>
-        <li>memeCreed-&gt;骨骼</li>
+        <li>memeCreed-&gt;Sayers</li>
         <li>memeConcept-&gt;Sayers</li>
         <li>memeLeaderNoun-&gt;Sayers</li>
-        <li>memeLeaderNoun-&gt;猎食者</li>
-        <li>memeLeaderAdjective-&gt;阿尔法</li>
+        <li>memeLeaderAdjective-&gt;Alpha</li>
         <li>memeMoralist-&gt;Sayers</li>
-        <li>memeMoralist-&gt;守巢者</li>
-        <li>memeMoralist-&gt;藤蔓</li>
       </rulesStrings>
     </generalRules>
     <symbolPacks>
       <li>
-        <ideoName>Animalism</ideoName>
-        <theme>animals</theme>
-        <adjective>animalistic</adjective>
-        <member>animalist</member>
-      </li>
-      <li>
-        <ideoName>Beastism</ideoName>
-        <theme>beasts</theme>
-        <adjective>beastic</adjective>
-        <member>beastor</member>
+        <ideoName>Sayers</ideoName>
+        <theme>SayersA</theme>
+        <adjective>SayersB</adjective>
+        <member>SayersC</member>
       </li>
     </symbolPacks>
-    <descriptionMaker />
+    <descriptionMaker>
+      <patterns>
+        <li>
+          <def>SayersDescription</def>
+        </li>
+      </patterns>
+    </descriptionMaker>
     <thingStyleCategories>
       <li>
         <category>Animalist</category>
         <priority>100</priority>
+      </li>
+      <li>
+        <category>Morbid</category>
+        <priority>3</priority>
       </li>
     </thingStyleCategories>
   </MemeDef>
@@ -112,5 +110,28 @@
         <li>Research_Fast</li>
       </li>
     </requireOne>
+  </MemeDef>
+  <IdeoStoryPatternDef>
+    <defName>SayersDescription</defName>
+    <segments>
+      <li>main</li>
+    </segments>
+    <rules>
+      <include />
+      <rulesStrings>
+        <li>main-&gt;去你妈的Rules我现在猫毛满天飞。</li>
+      </rulesStrings>
+    </rules>
+  </IdeoStoryPatternDef>
+  <MemeDef ParentName="SayersMemeBase">
+    <defName>Structure_Sayers</defName>
+    <label>Sayers</label>
+    <description>自从被抛弃那一刻起，神明便再也不复存在，我们所追寻的是我们自身，而宇宙的真谛也许就在我们脑中那丝线之中。</description>
+    <category>Structure</category>
+    <iconPath>UI/Structures/Animist</iconPath>
+    <impact>0</impact>
+    <worshipRoomLabel>巢穴</worshipRoomLabel>
+    <randomizationSelectionWeightFactor>2</randomizationSelectionWeightFactor>
+    <deityCount>0</deityCount>
   </MemeDef>
 </Defs>

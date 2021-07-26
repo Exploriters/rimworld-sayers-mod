@@ -811,7 +811,7 @@
           <li>BondedAnimalDied_Sayers</li>
           <li>RebuffedMyRomanceAttemptMood</li>
           <li>FailedRomanceAttemptOnMeLowOpinionMood</li>
-          <li>Expectations</li>
+          <li>Expectations_Sayers</li>
         </restrictedThoughts>
         <replacerList>
           <!--<li><original>AteAwfulMeal</original><replacer>AteAwfulMeal_Sayers</replacer></li>-->
@@ -822,10 +822,6 @@
           <li>
             <original>FailedRomanceAttemptOnMeLowOpinionMood</original>
             <replacer>FailedRomanceAttemptOnMeLowOpinionMood_Sayers</replacer>
-          </li>
-          <li>
-            <original>Expectations</original>
-            <replacer>Expectations_Sayers</replacer>
           </li>
           <li>
             <original>AteRawFood</original>
@@ -977,6 +973,8 @@
           <li>TitleThroneroomRequirementsNotMet</li>
           <li>TitleNoThroneRoom</li>
           <li>TitleNoPersonalBedroom</li>
+          <li>ObservedGibbetCage</li>
+          <li>ObservedSkullspike</li>
         </cannotReceiveThoughts>
       </thoughtSettings>
       <raceRestriction>
