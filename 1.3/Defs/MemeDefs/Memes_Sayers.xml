@@ -85,7 +85,7 @@
       </li>
     </requireOne>
   </Explorite.MemeDef_Ex>
-  <Explorite.MemeDef_Ex>
+  <Explorite.MemeDef_Ex ParentName="SayersMemeBase">
     <defName>Experimental_SayersMeme</defName>
     <label>试验品</label>
     <description>即便不知来源，颅内低语仍旧回响，仿佛细线一般操控着一言一行，如影随形，无休无止，直至从心底认同它，认为本就该如此。</description>
