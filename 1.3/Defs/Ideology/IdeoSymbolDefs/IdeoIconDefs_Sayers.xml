@@ -12,4 +12,15 @@
       <li>Structure_Sayers</li>
     </memes>
   </IdeoIconDef>
+
+  <ColorDef>
+    <defName>SayersGreen</defName>
+    <color>RGBA(0.518, 1.000, 0.769, 1.000)</color>
+    <memes>
+      <li>CarnivorousAnimal_SayersMeme</li>
+      <li>Experimental_SayersMeme</li>
+      <li>Structure_Sayers</li>
+    </memes>
+  </ColorDef>
+  
 </Defs>

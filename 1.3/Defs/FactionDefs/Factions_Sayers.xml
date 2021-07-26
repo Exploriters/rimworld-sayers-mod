@@ -55,7 +55,7 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
     </allowedMemes>
     <structureMemeWeights>
-      <Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Animist>
+      <Structure_Sayers>1</Structure_Sayers>
     </structureMemeWeights>
   </FactionDef>
   <FactionDef ParentName="SayersPlayerFactionBase">

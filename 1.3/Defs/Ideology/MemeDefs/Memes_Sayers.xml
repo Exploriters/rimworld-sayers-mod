@@ -8,31 +8,9 @@
     <renderWithGap>true</renderWithGap>
   </MemeGroupDef>
   <Explorite.MemeDef_Ex Name="SayersMemeBase" Abstract="True">
-    <generalRules>
-      <rulesStrings>
-        <li>memeAdjective-&gt;Sayers</li>
-        <li>memeCreed-&gt;Sayers</li>
-        <li>memeConcept-&gt;Sayers</li>
-        <li>memeLeaderNoun-&gt;Sayers</li>
-        <li>memeLeaderAdjective-&gt;Alpha</li>
-        <li>memeMoralist-&gt;Sayers</li>
-      </rulesStrings>
-    </generalRules>
-    <symbolPacks>
-      <li>
-        <ideoName>Sayers</ideoName>
-        <theme>SayersA</theme>
-        <adjective>SayersB</adjective>
-        <member>SayersC</member>
-      </li>
-    </symbolPacks>
-    <descriptionMaker>
-      <patterns>
-        <li>
-          <def>SayersDescription</def>
-        </li>
-      </patterns>
-    </descriptionMaker>
+    <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+    <veneratedAnimalsCountOffset>-10</veneratedAnimalsCountOffset>
+    <veneratedAnimalsCountOverride>0</veneratedAnimalsCountOverride>
     <thingStyleCategories>
       <li>
         <category>Animalist</category>
@@ -135,7 +113,31 @@
     <iconPath>UI/Structures/Animist</iconPath>
     <impact>0</impact>
     <worshipRoomLabel>巢穴</worshipRoomLabel>
-    <randomizationSelectionWeightFactor>2</randomizationSelectionWeightFactor>
     <deityCount>0</deityCount>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective-&gt;Sayers</li>
+        <li>memeCreed-&gt;Sayers</li>
+        <li>memeConcept-&gt;Sayers</li>
+        <li>memeLeaderNoun-&gt;Sayers</li>
+        <li>memeLeaderAdjective-&gt;Alpha</li>
+        <li>memeMoralist-&gt;Sayers</li>
+      </rulesStrings>
+    </generalRules>
+    <symbolPacks>
+      <li>
+        <ideoName>Sayers</ideoName>
+        <theme>SayersA</theme>
+        <adjective>SayersB</adjective>
+        <member>SayersC</member>
+      </li>
+    </symbolPacks>
+    <descriptionMaker>
+      <patterns>
+        <li>
+          <def>SayersDescription</def>
+        </li>
+      </patterns>
+    </descriptionMaker>
   </Explorite.MemeDef_Ex>
 </Defs>
