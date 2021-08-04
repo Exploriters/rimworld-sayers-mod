@@ -474,7 +474,7 @@
                   <crownTypes>
                     <Sayers_Head1>(-0.5,0.5)</Sayers_Head1>
                   </crownTypes>
-                  <layerOffset>-0.5</layerOffset>
+                  <layerOffset>0.5</layerOffset>
                 </east>
               </offsets>
               <!--<layerOffset>0.1</layerOffset>-->
@@ -791,6 +791,7 @@
       <thoughtSettings>
         <restrictedThoughts>
           <!--<li>AteAwfulMeal_Sayers</li>-->
+          <li>SayersWillFeelLonely</li>
           <li>AteRawFood_Sayers</li>
           <li>AteKibble_Sayers</li>
           <li>AteCorpse_Sayers</li>
@@ -1018,6 +1019,7 @@
         </whiteApparelList>
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
         <!--<plantList><li>Plant_Tenlacess_Sayers</li><li>Plant_Fushrooy_Sayers</li></plantList>-->
+        <onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
       </raceRestriction>
       <relationSettings>
         <relationChanceModifierParent>0</relationChanceModifierParent>

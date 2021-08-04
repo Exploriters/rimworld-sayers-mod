@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingStyleDef>
+    <defName>Sayers_WarMask</defName>
+    <wornGraphicPath>Things/Pawn/Sayers/ApparelStyles/WarMaskSayers/WarMaskSayers</wornGraphicPath>
+    <graphicData>
+      <texPath>Things/Pawn/Sayers/ApparelStyles/WarMaskSayers/WarMaskSayers</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+</Defs>

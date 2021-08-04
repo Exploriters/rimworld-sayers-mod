@@ -537,4 +537,30 @@
     </stages>
     <validWhileDespawned>true</validWhileDespawned>
   </ThoughtDef>
+  <!--============ ???? ============-->
+  <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
+  <ThoughtDef>
+    <defName>SayersAbandonedSadness</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>遗弃悲伤</label>
+        <description>我们像个垃圾一样被随意地扔在了这里:(</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>SayersWillFeelLonely</defName>
+    <workerClass>Explorite.ThoughtWorker_SayersWillFeelLonely</workerClass>
+    <stages>
+      <li>
+        <label>孤独感</label>
+        <description>这里只有我了吗？</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+    <validWhileDespawned>true</validWhileDespawned>
+  </ThoughtDef>
 </Defs>

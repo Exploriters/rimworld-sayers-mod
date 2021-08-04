@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <StyleCategoryDef>
+    <defName>Sayers_IdeoStyle</defName>
+    <label>Sayers</label>
+    <iconPath>UI/StyleCategories/Animalist</iconPath>
+    <soundOngoingRitual>RitualSustainer_Animalist</soundOngoingRitual>
+    <ritualVisualEffectDef>Animalist</ritualVisualEffectDef>
+    <thingDefStyles>
+      <li>
+        <thingDef>SculptureSmall</thingDef>
+        <styleDef>Animalist_SculptureSmall</styleDef>
+      </li>
+      <li>
+        <thingDef>SculptureLarge</thingDef>
+        <styleDef>Animalist_SculptureLarge</styleDef>
+      </li>
+      <li>
+        <thingDef>SculptureGrand</thingDef>
+        <styleDef>Animalist_SculptureGrand</styleDef>
+      </li>
+      <li>
+        <thingDef>Apparel_ArmorHelmetRecon</thingDef>
+        <styleDef>Animalist_ReconHelmet</styleDef>
+      </li>
+      <li>
+        <thingDef>Apparel_PowerArmorHelmet</thingDef>
+        <styleDef>Animalist_MarineHelmet</styleDef>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">
+        <thingDef>Apparel_ArmorHelmetCataphract</thingDef>
+        <styleDef>Animalist_CataphractHelmet</styleDef>
+      </li>
+      <li>
+        <thingDef>Apparel_WarMask</thingDef>
+        <styleDef>Sayers_WarMask</styleDef>
+      </li>
+    </thingDefStyles>
+    <addDesignators>
+      <li>AnimalistSlab_Medium</li>
+      <li>AnimalistSlab_Broad</li>
+    </addDesignators>
+  </StyleCategoryDef>
+</Defs>

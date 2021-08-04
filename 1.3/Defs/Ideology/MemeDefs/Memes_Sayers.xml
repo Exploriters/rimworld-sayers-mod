@@ -35,18 +35,13 @@
     </descriptionMaker>
     <thingStyleCategories>
       <li>
-        <category>Animalist</category>
+        <category>Sayers_IdeoStyle</category>
         <priority>100</priority>
       </li>
-      <li>
-        <category>Morbid</category>
-        <priority>3</priority>
-      </li>
     </thingStyleCategories>
-	
-	<exclusiveTo>
-	  <li>SayersClan</li>
-	</exclusiveTo>
+    <exclusiveTo>
+      <li>SayersClan</li>
+    </exclusiveTo>
   </Explorite.MemeDef_Ex>
   <Explorite.MemeDef_Ex ParentName="SayersMemeBase">
     <defName>CarnivorousAnimal_SayersMeme</defName>
@@ -132,7 +127,7 @@
     <label>Sayers</label>
     <description>自从被抛弃那一刻起，神明便再也不复存在，我们所追寻的是我们自身，而宇宙的真谛也许就在我们脑中那丝线之中。</description>
     <category>Structure</category>
-    <iconPath>UI/Structures/Animist</iconPath>
+    <iconPath>UI/Structures/Sayers</iconPath>
     <impact>0</impact>
     <worshipRoomLabel>巢穴</worshipRoomLabel>
     <randomizationSelectionWeightFactor>2</randomizationSelectionWeightFactor>
