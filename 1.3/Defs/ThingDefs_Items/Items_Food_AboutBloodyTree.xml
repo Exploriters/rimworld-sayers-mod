@@ -8,6 +8,7 @@
     <thingCategories>
       <li>ResourcesRaw</li>
       <li>Foods</li>
+      <li>Leathers</li>
     </thingCategories>
     <graphicData>
       <texPath>Things/Item/Resource/BloodyTree_Meat</texPath>
@@ -15,15 +16,15 @@
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
-      <MarketValue>1.4</MarketValue>
+      <MarketValue>14</MarketValue>
       <Mass>0.018</Mass>
       <Flammability>0.6</Flammability>
       <DeteriorationRate>2</DeteriorationRate>
       <Nutrition>0.05</Nutrition>
-      <StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.45</StuffPower_Armor_Blunt>
-      <StuffPower_Armor_Heat>0.60</StuffPower_Armor_Heat>
-      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Armor_Sharp>1.8</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.20</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
     </statBases>
     <deepCommonality>0</deepCommonality>
@@ -48,6 +49,8 @@
       <stuffAdjective>血肉</stuffAdjective>
       <categories>
         <li>Woody</li>
+        <li>Leathery</li>
+        <li>Metallic</li>
       </categories>
       <commonality>0.00</commonality>
       <color>(89,13,13)</color>
@@ -56,7 +59,13 @@
       <soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
-      <statFactors />
+      <statFactors>
+        <MaxHitPoints>1.1</MaxHitPoints>
+        <Flammability>0.4</Flammability>
+        <Beauty>1</Beauty>
+        <WorkToBuild>0.4</WorkToBuild>
+        <MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
     </stuffProps>
   </ThingDef>
 </Defs>
