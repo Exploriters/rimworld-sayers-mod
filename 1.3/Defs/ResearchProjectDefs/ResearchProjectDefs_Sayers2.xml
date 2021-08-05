@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef Name="SayersTechBase" Abstract="True">
+    <tab>Explorite</tab>
+    <description>TODO。</description>
+    <baseCost>100</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites></prerequisites>
+    <hiddenPrerequisites></hiddenPrerequisites>
+    <researchViewX>0.0</researchViewX>
+    <researchViewY>0.0</researchViewY>
+  </ResearchProjectDef>
+  
+  <!-- 列1 0.0 -->
+  <ResearchProjectDef>
+    <defName>SayersTechRootProject</defName>
+    <label>Sayers科技</label>
+    <tab>Explorite</tab>
+    <description>允许进一步研究Sayers相关的专属科技。</description>
+    <baseCost>100</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites></prerequisites>
+    <hiddenPrerequisites></hiddenPrerequisites>
+    <researchViewY>1.4</researchViewY>
+    <researchViewX>0.0</researchViewX>
+    <!--<techprintCount>1</techprintCount>
+    <techprintCommonality>0</techprintCommonality>
+    <techprintMarketValue>20000</techprintMarketValue>
+    <heldByFactionCategoryTags><li>SayersFactionDummy</li></heldByFactionCategoryTags>-->
+    <tags>
+      <li>SayersStart</li>
+      <li>ExploriteNeverResearchable</li>
+    </tags>
+  </ResearchProjectDef>
+  
+  <!-- 列2 0.7 -->
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject1_1</defName>
+    <label>生物前置</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>0.0</researchViewY>
+    <researchViewX>0.7</researchViewX>
+    <prerequisites>
+      <li>SayersTechRootProject</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject1_2</defName>
+    <label>自然前置</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>0.7</researchViewY>
+    <researchViewX>0.7</researchViewX>
+    <prerequisites>
+      <li>SayersTechRootProject</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>SayersRestrictedThings</defName>
+    <label>Sayers限定装备</label>
+    <tab>Explorite</tab>
+    <description>利用人类生产设施和制造技术来制作Sayers的限定装备。</description>
+    <baseCost>100</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>1.4</researchViewY>
+    <researchViewX>0.7</researchViewX>
+    <prerequisites>
+      <li>SayersTechRootProject</li>
+    </prerequisites>
+    <tags>
+      <li>SayersStart</li>
+    </tags>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject1_3</defName>
+    <label>非生物前置</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>2.1</researchViewY>
+    <researchViewX>0.7</researchViewX>
+    <prerequisites>
+      <li>SayersTechRootProject</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <!-- 列3 1.4 -->
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject2_1</defName>
+    <label>花尸生物前置</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>0.0</researchViewY>
+    <researchViewX>1.4</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject1_1</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject2_2</defName>
+    <label>生物组织提取</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>0.7</researchViewY>
+    <researchViewX>1.4</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject1_1</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject2_3</defName>
+    <label>植物液精炼</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>1.4</researchViewY>
+    <researchViewX>1.4</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject1_2</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject2_4</defName>
+    <label>基础斗篷缝制</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>2.8</researchViewY>
+    <researchViewX>1.4</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject1_3</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject2_5</defName>
+    <label>基础镶嵌武器制作</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>3.5</researchViewY>
+    <researchViewX>1.4</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject1_3</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <!-- 列4 2.1 -->
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject3_1</defName>
+    <label>尸花种植</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>0.0</researchViewY>
+    <researchViewX>2.1</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject2_1</li>
+      <li>SayersResearchProject2_2</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject3_2</defName>
+    <label>神经连接前置</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>0.7</researchViewY>
+    <researchViewX>2.1</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject2_2</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject3_3</defName>
+    <label>一阶进化针剂</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>1.4</researchViewY>
+    <researchViewX>2.1</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject2_2</li>
+      <li>SayersResearchProject2_3</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject3_4</defName>
+    <label>变温花种植</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>2.1</researchViewY>
+    <researchViewX>2.1</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject2_3</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject3_5</defName>
+    <label>植模块制作</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>2.8</researchViewY>
+    <researchViewX>2.1</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject2_3</li>
+      <li>SayersResearchProject1_3</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject3_6</defName>
+    <label>装甲外覆斗篷</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>3.5</researchViewY>
+    <researchViewX>2.1</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject2_4</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject3_7</defName>
+    <label>复杂镶嵌武器制作</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>4.2</researchViewY>
+    <researchViewX>2.1</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject2_5</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <!-- 列5 2.8 -->
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject4_1</defName>
+    <label>花尸进化针剂</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>0.0</researchViewY>
+    <researchViewX>2.8</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject3_1</li>
+      <li>SayersResearchProject3_3</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject4_2</defName>
+    <label>二阶进化针剂</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>0.7</researchViewY>
+    <researchViewX>2.8</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject3_3</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject4_3</defName>
+    <label>MBE计划前置</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>1.4</researchViewY>
+    <researchViewX>2.8</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject3_3</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject4_4</defName>
+    <label>挂载式体温调整器</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>2.1</researchViewY>
+    <researchViewX>2.8</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject3_4</li>
+      <li>SayersResearchProject3_5</li>
+      <li>SayersResearchProject3_6</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject4_5</defName>
+    <label>装甲镶嵌</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>2.8</researchViewY>
+    <researchViewX>2.8</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject3_3</li>
+      <li>SayersResearchProject3_6</li>
+      <li>SayersResearchProject3_7</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject4_6</defName>
+    <label>简易副肢制作</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>3.5</researchViewY>
+    <researchViewX>2.8</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject3_2</li>
+      <li>SayersResearchProject2_5</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <!-- 列6 3.5 -->
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject5_1</defName>
+    <label>三阶进化针剂</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>0.0</researchViewY>
+    <researchViewX>3.5</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject4_1</li>
+      <li>SayersResearchProject4_2</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject5_2</defName>
+    <label>组织培养</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>0.7</researchViewY>
+    <researchViewX>3.5</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject4_3</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject5_3</defName>
+    <label>基础AI模块</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>1.4</researchViewY>
+    <researchViewX>3.5</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject4_3</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject5_4</defName>
+    <label>增强副肢制作</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>2.1</researchViewY>
+    <researchViewX>3.5</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject4_6</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <!-- 列7 4.2 -->
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject6_1</defName>
+    <label>四阶进化针剂</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>0.0</researchViewY>
+    <researchViewX>4.2</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject5_1</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject6_2</defName>
+    <label>冷冻舱</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>0.7</researchViewY>
+    <researchViewX>4.2</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject5_1</li>
+      <li>SayersResearchProject5_2</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject6_3</defName>
+    <label>躯体构建</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>1.4</researchViewY>
+    <researchViewX>4.2</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject5_2</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject6_4</defName>
+    <label>人工大脑</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>2.1</researchViewY>
+    <researchViewX>4.2</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject5_2</li>
+      <li>SayersResearchProject5_3</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <!-- 列8 4.9 -->
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject7_1</defName>
+    <label>MBE计划</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>0.0</researchViewY>
+    <researchViewX>4.9</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject6_1</li>
+      <li>SayersResearchProject6_2</li>
+      <li>SayersResearchProject6_3</li>
+      <li>SayersResearchProject6_4</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <!-- 列9 5.6 -->
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject8_1</defName>
+    <label>携带式狙击炮塔</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>0.0</researchViewY>
+    <researchViewX>5.6</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject7_1</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject8_2</defName>
+    <label>猛毒进化</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>0.7</researchViewY>
+    <researchViewX>5.6</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject7_1</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject8_3</defName>
+    <label>荆棘进化</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>1.4</researchViewY>
+    <researchViewX>5.6</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject7_1</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject8_4</defName>
+    <label>人造花尸傀儡</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>2.1</researchViewY>
+    <researchViewX>5.6</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject7_1</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject8_5</defName>
+    <label>血弹树</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>2.8</researchViewY>
+    <researchViewX>5.6</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject7_1</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject8_6</defName>
+    <label>重寄生</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>3.5</researchViewY>
+    <researchViewX>5.6</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject7_1</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <!-- 列10 6.3 -->
+  <ResearchProjectDef ParentName="SayersTechBase">
+    <defName>SayersResearchProject9_1</defName>
+    <label>终焉通讯装置</label>
+    <description>TODO。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewY>0.0</researchViewY>
+    <researchViewX>6.3</researchViewX>
+    <prerequisites>
+      <li>SayersResearchProject7_1</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+
+</Defs>
