@@ -65,6 +65,9 @@
         <li Class="Explorite.ScenPart_ScatteredGarbage">
           <def>ScatteredGarbage</def>
         </li>
+        <li Class="Explorite.ScenPart_StartThoughtSadness">
+          <def>StartThought</def>
+        </li>
       </parts>
     </scenario>
   </ScenarioDef>

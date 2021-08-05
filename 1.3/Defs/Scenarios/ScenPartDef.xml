@@ -7,4 +7,11 @@
     <scenPartClass>Explorite.ScenPart_ScatteredGarbage</scenPartClass>
     <maxUses>1</maxUses>
   </ScenPartDef>
+  <ScenPartDef>
+    <defName>StartThought</defName>
+    <label>初始遗弃悲伤[Sayers]</label>
+    <category>Misc</category>
+    <scenPartClass>Explorite.ScenPart_StartThoughtSadness</scenPartClass>
+    <maxUses>1</maxUses>
+  </ScenPartDef>
 </Defs>
