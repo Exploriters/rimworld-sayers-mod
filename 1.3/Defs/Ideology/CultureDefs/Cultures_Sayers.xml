@@ -4,7 +4,8 @@
     <defName>EndlessSearch_Sayers</defName>
     <label>无尽之寻</label>
     <description>懵懂时期的抛弃将成为一生的疤痕，是选择就此深埋还是踏上这追寻最初记忆的不归路。</description>
-    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoEndlessSearch</ideoNameMaker>
+    <pawnNameMaker>NamerPersonSayers</pawnNameMaker>
+    <ideoNameMaker>NamerIdeoEndlessSearch</ideoNameMaker>
     <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
     <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
     <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Astropolitan</leaderTitleMaker>
@@ -14,24 +15,36 @@
       <li>ExExclusive</li>
     </allowedPlaceTags>
     <iconPath>UI/Cultures/Sayers</iconPath>
-    <iconColor>(0.8, 0.8, 0.8)</iconColor>
+    <iconColor>(255, 255, 255)</iconColor>
     <styleItemTags>
       <li>
         <tag>Sayers_Style</tag>
         <baseWeight>1</baseWeight>
         <weightFactor>1</weightFactor>
       </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
     </styleItemTags>
   </CultureDef>
+  
   <RulePackDef>
     <defName>NamerIdeoEndlessSearch</defName>
     <include />
     <rulePack>
       <rulesStrings>
-        <li>r_ideoName-&gt;Sayers</li>
-        <li>r_ideoAdjective-&gt;Sayers</li>
-        <li>r_memberName-&gt;Sayers</li>
+        <li>r_ideoName->Sayers</li>
+        <li>r_ideoAdjective->Sayers</li>
+        <li>r_memberName->Sayers</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
+  
 </Defs>

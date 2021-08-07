@@ -318,13 +318,13 @@
     </appliedOnFixedBodyParts>
     <addsHediff>BionicEar_Sayers</addsHediff>
   </RecipeDef>
-  <!--==== 远古科技  ====-->
-  <!--= 远古科技触手 =-->
+  <!--==== 超凡科技  ====-->
+  <!--= 超凡科技触手 =-->
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>ArchotechTentacle</defName>
-    <label>远古科技触手</label>
-    <labelNoun>一条远古科技触手</labelNoun>
-    <description>一条已安装的远古科技触手。</description>
+    <label>超凡科技触手</label>
+    <labelNoun>一条超凡科技触手</labelNoun>
+    <description>一条已安装的超凡科技触手。</description>
     <descriptionHyperlinks>
       <ThingDef>ArchotechTentacle</ThingDef>
     </descriptionHyperlinks>
@@ -360,8 +360,8 @@
   </HediffDef>
   <ThingDef ParentName="BodyPartArchotechSayersBase">
     <defName>ArchotechTentacle</defName>
-    <label>远古科技触手</label>
-    <description>一条远古科技触手。</description>
+    <label>超凡科技触手</label>
+    <description>一条超凡科技触手。</description>
     <descriptionHyperlinks>
       <RecipeDef>InstallArchotechTentacle</RecipeDef>
     </descriptionHyperlinks>
@@ -374,13 +374,13 @@
   </ThingDef>
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallArchotechTentacle</defName>
-    <label>安装远古科技触手</label>
-    <description>安装远古科技触手。</description>
+    <label>安装超凡科技触手</label>
+    <description>安装超凡科技触手。</description>
     <descriptionHyperlinks>
       <ThingDef>ArchotechTentacle</ThingDef>
       <HediffDef>ArchotechTentacle</HediffDef>
     </descriptionHyperlinks>
-    <jobString>正在安装远古科技触手</jobString>
+    <jobString>正在安装超凡科技触手</jobString>
     <ingredients>
       <li>
         <filter>
@@ -401,12 +401,12 @@
     </appliedOnFixedBodyParts>
     <addsHediff>ArchotechTentacle</addsHediff>
   </RecipeDef>
-  <!--= 远古科技耳朵 =-->
+  <!--= 超凡科技耳朵 =-->
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>ArchotechEar_Sayers</defName>
-    <label>远古科技耳朵</label>
-    <labelNoun>一只远古科技耳朵</labelNoun>
-    <description>一只已安装的远古科技耳朵。</description>
+    <label>超凡科技耳朵</label>
+    <labelNoun>一只超凡科技耳朵</labelNoun>
+    <description>一只已安装的超凡科技耳朵。</description>
     <descriptionHyperlinks>
       <ThingDef>ArchotechEar_Sayers</ThingDef>
     </descriptionHyperlinks>
@@ -419,8 +419,8 @@
   </HediffDef>
   <ThingDef ParentName="BodyPartArchotechSayersBase">
     <defName>ArchotechEar_Sayers</defName>
-    <label>远古科技耳朵</label>
-    <description>一只远古科技耳朵。</description>
+    <label>超凡科技耳朵</label>
+    <description>一只超凡科技耳朵。</description>
     <descriptionHyperlinks>
       <RecipeDef>InstallArchotechEar_Sayers</RecipeDef>
     </descriptionHyperlinks>
@@ -433,13 +433,13 @@
   </ThingDef>
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallArchotechEar_Sayers</defName>
-    <label>安装远古科技耳朵</label>
-    <description>安装远古科技耳朵。</description>
+    <label>安装超凡科技耳朵</label>
+    <description>安装超凡科技耳朵。</description>
     <descriptionHyperlinks>
       <ThingDef>ArchotechEar_Sayers</ThingDef>
       <HediffDef>ArchotechEar_Sayers</HediffDef>
     </descriptionHyperlinks>
-    <jobString>正在安装远古科技耳朵</jobString>
+    <jobString>正在安装超凡科技耳朵</jobString>
     <ingredients>
       <li>
         <filter>
