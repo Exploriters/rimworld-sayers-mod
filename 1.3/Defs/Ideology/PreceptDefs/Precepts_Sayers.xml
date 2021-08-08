@@ -234,7 +234,7 @@
     <displayOrderInImpact>100</displayOrderInImpact>
     <label>接受</label>
     <description>伤疤是生存到最后的猎手所佩戴的奖章。</description>
-    <requiredScars>1</requiredScars>
+    <requiredScars>0</requiredScars>
     <comps>
       <li Class="PreceptComp_SituationalThought">
         <thought>Scarification_Minor_Sayers_Thought</thought>

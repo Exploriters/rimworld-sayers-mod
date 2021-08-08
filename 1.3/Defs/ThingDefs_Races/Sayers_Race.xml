@@ -785,6 +785,8 @@
         <li>
           <head>Things/Pawn/Sayers/Heads/</head>
           <body>Things/Pawn/Sayers/Bodies/</body>
+          <skeleton>Things/Pawn/Sayers/Bodies/Dessicated/Dessicated_SayersBody</skeleton>
+          <skull>Things/Pawn/Sayers/Heads/Skull/Sayers_Head1_Skull</skull>
         </li>
       </graphicPaths>
       <!--<hairSettings><hasHair>false</hasHair></hairSettings>-->
