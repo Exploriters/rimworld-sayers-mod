@@ -35,7 +35,7 @@
           <visible>false</visible>
         </li>
         <!--== 人物年龄范围 ==-->
-        <!--<li Class="ScenPart_PawnFilter_Age"><def>PawnFilter_Age</def><allowedAgeRange>15~18</allowedAgeRange><visible>false</visible></li>-->
+		<!-- D:! -->
         <!--== 裸体唷 ==-->
         <li Class="ScenPart_Naked">
           <def>Naked</def>

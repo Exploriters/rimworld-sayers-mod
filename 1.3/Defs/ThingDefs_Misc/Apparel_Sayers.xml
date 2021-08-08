@@ -42,12 +42,10 @@
       </layers>
       <tags>
         <li>SayersBodyFit</li>
+        <li>SayersOutfit</li>
         <li>SayersBasic</li>
       </tags>
-      <defaultOutfitTags>
-        <li>Worker</li>
-        <li>Soldier</li>
-      </defaultOutfitTags>
+      <defaultOutfitTags />
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <tradeability>Sellable</tradeability>
@@ -96,13 +94,11 @@
       </layers>
       <tags>
         <li>SayersBodyFit</li>
+        <li>SayersOutfit</li>
         <li>IndustrialBasic</li>
         <li>Neolithic</li>
       </tags>
-      <defaultOutfitTags>
-        <li>Worker</li>
-        <li>Soldier</li>
-      </defaultOutfitTags>
+      <defaultOutfitTags />
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -178,11 +174,10 @@
       </layers>
       <tags>
         <li>SayersBodyFit</li>
+        <li>SayersOutfit</li>
         <li>IndustrialAdvanced</li>
       </tags>
-      <defaultOutfitTags>
-        <li>Worker</li>
-      </defaultOutfitTags>
+      <defaultOutfitTags />
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -267,11 +262,10 @@
       </layers>
       <tags>
         <li>SayersBodyFit</li>
+        <li>SayersOutfit</li>
         <li>MedievalMilitary</li>
       </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
+      <defaultOutfitTags />
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -346,11 +340,10 @@
       </layers>
       <tags>
         <li>SayersBodyFit</li>
+        <li>SayersOutfit</li>
         <li>IndustrialMilitaryBasic</li>
       </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
+      <defaultOutfitTags />
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -423,11 +416,10 @@
       </layers>
       <tags>
         <li>SayersBodyFit</li>
+        <li>SayersOutfit</li>
         <li>IndustrialAdvanced</li>
       </tags>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
+      <defaultOutfitTags />
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -490,6 +482,7 @@
     <apparel>
       <tags>
         <li>SayersBodyFit</li>
+        <li>SayersOutfit</li>
       </tags>
       <bodyPartGroups>
         <li>Torso</li>
@@ -502,9 +495,7 @@
         <li>Middle</li>
         <li>Shell</li>
       </layers>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
+      <defaultOutfitTags />
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -586,6 +577,7 @@
     <apparel>
       <tags>
         <li>SayersBodyFit</li>
+        <li>SayersOutfit</li>
       </tags>
       <bodyPartGroups>
         <li>Torso</li>
@@ -598,9 +590,7 @@
         <li>Middle</li>
         <li>Shell</li>
       </layers>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
+      <defaultOutfitTags />
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -638,6 +628,7 @@
     <apparel>
       <tags>
         <li>SayersBodyFit</li>
+        <li>SayersOutfit</li>
         <li>SpacerMilitary</li>
       </tags>
     </apparel>
@@ -650,6 +641,7 @@
     <apparel>
       <tags>
         <li>SayersBodyFit</li>
+        <li>SayersOutfit</li>
         <li>SpacerMilitary</li>
       </tags>
     </apparel>

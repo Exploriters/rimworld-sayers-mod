@@ -7,8 +7,8 @@
     <isPlayer>true</isPlayer>
     <factionIconPath>World/WorldObjects/Expanding/Member</factionIconPath>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
-    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <factionNameMaker>NamerFactionSayers</factionNameMaker>
+    <settlementNameMaker>NamerSettlementSayers</settlementNameMaker>
     <techLevel>Industrial</techLevel>
     <geneticVariance>1</geneticVariance>
     <startingResearchTags>

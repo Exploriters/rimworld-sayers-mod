@@ -5,9 +5,9 @@
     <defName>Sayers</defName>
     <hediffGivers>
       
-      <li Class="Explorite.HediffGiver_EnsureForAlways">
+      <!--<li Class="Explorite.HediffGiver_EnsureForAlways">
         <hediff>SayersHiddenEffect</hediff>
-      </li>
+      </li>-->
 	  
     </hediffGivers>
   </HediffGiverSetDef>

@@ -20,6 +20,10 @@
         </abilities>
       </li>
     </comps>
+    <tradeTags>
+      <li>ExAutoApparelWhiteList</li>
+      <li>ExImmuneToFoodPoisoning</li>
+    </tradeTags>
     <statBases>
       <MarketValue>5150</MarketValue>
       <MoveSpeed>13.8</MoveSpeed>
@@ -184,6 +188,7 @@
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
       <makesFootprints>false</makesFootprints>
+      <hasGenders>false</hasGenders>
       <lifeExpectancy>80</lifeExpectancy>
       <leatherDef>Leather_Fox</leatherDef>
       <nameCategory>HumanStandard</nameCategory>
@@ -245,6 +250,14 @@
       </specialShadowData>
       <ageGenerationCurve>
         <points>
+          <li>(0,0)</li>
+          <li>(1,100)</li>
+          <li>(10,100)</li>
+          <li>(19,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <!--<ageGenerationCurve>
+        <points>
           <li>(14,0)</li>
           <li>(16,100)</li>
           <li>(50,100)</li>
@@ -254,7 +267,7 @@
           <li>(90,3)</li>
           <li>(100,0)</li>
         </points>
-      </ageGenerationCurve>
+      </ageGenerationCurve>-->
       <hediffGiverSets>
         <li>OrganicStandard</li>
         <li>Human</li>
@@ -276,14 +289,14 @@
         <maleGenderProbability>0.5</maleGenderProbability>
         <immuneToAge>true</immuneToAge>
         <allowHumanBios>true</allowHumanBios>
-        <minAgeForAdulthood>0</minAgeForAdulthood>
+        <minAgeForAdulthood>1000</minAgeForAdulthood>
         <humanRecipeImport>true</humanRecipeImport>
-        <forcedRaceTraitEntries>
+        <!--<forcedRaceTraitEntries>
           <li>
             <defName>Asexual</defName>
             <chance>65</chance>
           </li>
-        </forcedRaceTraitEntries>
+        </forcedRaceTraitEntries>-->
         <alienPartGenerator>
           <aliencrowntypes>
             <li>Sayers_Head1</li>
@@ -1001,7 +1014,7 @@
           <li>Apparel_SayersPlantsArmor</li>
           <li>Apparel_SayersArmorReconPlants</li>
         </apparelList>
-        <whiteApparelList>
+        <!--<whiteApparelList>
           <li>Apparel_CowboyHat</li>
           <li>Apparel_BowlerHat</li>
           <li>Apparel_TribalHeaddress</li>
@@ -1018,14 +1031,22 @@
           <li>Apparel_PackJump</li>
           <li>Apparel_PackBroadshield</li>
           <li>Apparel_Gunlink</li>
-        </whiteApparelList>
+        </whiteApparelList>-->
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
         <!--<plantList><li>Plant_Tenlacess_Sayers</li><li>Plant_Fushrooy_Sayers</li></plantList>-->
         <onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
       </raceRestriction>
       <relationSettings>
+        <relationChanceModifierLover>0</relationChanceModifierLover>
+        <relationChanceModifierExLover>0</relationChanceModifierExLover>
+
+        <relationChanceModifierFiance>0</relationChanceModifierFiance>
+        <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+        <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+
         <relationChanceModifierParent>0</relationChanceModifierParent>
         <relationChanceModifierChild>0</relationChanceModifierChild>
+        <relationChanceModifierSibling>0</relationChanceModifierSibling>
       </relationSettings>
     </alienRace>
   </AlienRace.ThingDef_AlienRace>
