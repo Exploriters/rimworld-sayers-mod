@@ -17,16 +17,22 @@
 		        or issue="IdeoRitualSeat"
 				or issue="IdeoRelic"
 				or issue="Weapons"
+				or @ParentName="FestivalBase"
+				or @Name="FestivalBase"
+				or @ParentName="FestivalBase"
+				or @Name="FestivalBase"
 				) and not(
-				   @Abstract="True"
-				or @Name="FuneralBase"
-				or @ParentName="FuneralBase"
-				or visible="false"
-				or classicExtra="true"
-				
-				or @Name="PreceptRoleSingleBase"
+				   @Name="PreceptRoleSingleBase"
 				or @Name="PreceptRoleMultiBase"
 				or defName="IdeoRole_Leader"
+				
+				or visible="false"
+				or @ParentName="FuneralBase"
+				or @Name="FuneralBase"
+				or @ParentName="SpeechPreceptBase"
+				or @Name="SpeechPreceptBase"
+				or @ParentName="TrialBase"
+				or @Name="TrialBase"
 				)]
 			/conflictingMemes</xpath>
 		<value>
