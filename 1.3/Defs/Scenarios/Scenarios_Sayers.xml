@@ -2,7 +2,7 @@
 <Defs>
   <ScenarioDef>
     <defName>Sayers_Stat</defName>
-    <label>起源[Sayers]</label>
+    <label>起源</label>
     <description>这不是你所希望的。\n
 也许从一开始，睁眼看见那犬科动物时，你会认为，这是你的父亲，是能够让你交付一切的生物。\n
 但是这不过是你的一厢情愿罢了。\n
@@ -35,7 +35,7 @@
           <visible>false</visible>
         </li>
         <!--== 人物年龄范围 ==-->
-		<!-- D:! -->
+		<!-- 大人，时代变了 -->
         <!--== 裸体唷 ==-->
         <li Class="ScenPart_Naked">
           <def>Naked</def>

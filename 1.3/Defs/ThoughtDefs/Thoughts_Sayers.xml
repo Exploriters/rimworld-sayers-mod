@@ -2,6 +2,21 @@
 <Defs>
   <!--============ Memory ============-->
   <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
+  <!--== convert ==-->
+  <ThoughtDef>
+    <defName>FailedConvertAbilityRecipient_Sayers</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>2</durationDays>
+    <stackLimit>3</stackLimit>
+    <stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>{0}试图改变我</label>
+        <description>有人试图告诉我该怎么做，但是得了吧！让他们都去死，永远地闭嘴，我们的计划不容异议！</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
   <!--== Eating ==-->
   <ThoughtDef>
     <defName>AteAwfulMeal_Sayers</defName>
@@ -311,6 +326,35 @@
   </ThoughtDef>
   <!--============ Situation ============-->
   <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
+  <!--== Conversion resentment ==-->
+  <ThoughtDef>
+    <defName>FailedConvertIdeoAttemptResentment_Sayers</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>1</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>转化怨恨</label>
+        <description>有人试图让我放弃计划所指，我只想扯下他的舌头让他离我越远越好。</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+        <baseOpinionOffset>-40</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!--== WearingColor Favorite ==-->
+  <ThoughtDef>
+    <defName>WearingColor_Favorite_Sayers</defName>
+    <thoughtClass>Thought_Situational</thoughtClass>
+    <workerClass>ThoughtWorker_WearingColor_Favorite</workerClass>
+    <stages>
+      <li>
+        <label>穿着中意的颜色</label>
+        <description>这个颜色就像我身上的鲜花一样可爱！</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
   <!--== Needs ==-->
   <ThoughtDef>
     <defName>NeedOutdoors_Sayers</defName>

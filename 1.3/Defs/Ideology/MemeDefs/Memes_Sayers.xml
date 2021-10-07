@@ -87,6 +87,14 @@
       <li>
         <li>Research_Fast</li>
       </li>
+      <li>
+        <li>Proselytizing_Prohibited_Sayers</li>
+      </li>
+<!--
+      <li>
+        <li>Charity_Sayers</li>
+      </li>
+-->
     </requireOne>
   </Explorite.MemeDef_Ex>
   <IdeoStoryPatternDef>
@@ -97,7 +105,7 @@
     <rules>
       <include />
       <rulesStrings>
-        <li>main-&gt;去你妈的Rules我现在猫毛满天飞。</li>
+        <li>main-&gt;我们的记忆之初，是洁白的空间，我们的生命切割点。同样是洁白的空间。每个同伴的生命都就此断成两截。现在是一截，而之前的那一截却随着惨痛的记忆而消失不见，就像是逐渐起雾一般，将视野逐渐遮盖，直至什么也看不见。\n我们试图去观察，去看，去看每一个其他的生物，他们是如何生活，却发现他们的生命是多么清晰——家庭、过去、以及目标，他们往往知道着关于他们自己的一切，而我们的生命却藏满了秘密。\n而在那惨无人道的抛弃之后，我们来到了这里，来到了这个对我们完全陌生的世界，我们能信赖的只有自己，与一同被抛弃的同伴。而这边缘世界之中，那根藏于我们脑海中的控制之线却从未松懈，反而愈来愈紧，成为无法忽视的存在。\n…而这根丝线的另一端，又是何物呢？\n\nAbrel：我恨Rules DX</li>
       </rulesStrings>
     </rules>
   </IdeoStoryPatternDef>

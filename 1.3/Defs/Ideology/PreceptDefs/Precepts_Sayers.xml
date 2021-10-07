@@ -239,13 +239,13 @@
       <li Class="PreceptComp_SituationalThought">
         <thought>Scarification_Minor_Sayers_Thought</thought>
         <thoughtStageDescriptions>
-          <li>疤痕化（需要1个疤痕）</li>
+          <li>疤痕化</li>
         </thoughtStageDescriptions>
       </li>
       <li Class="PreceptComp_SituationalThought">
         <thought>Scarification_Minor_Opinion_Sayers</thought>
         <thoughtStageDescriptions>
-          <li>疤痕化（需要1个疤痕）</li>
+          <li>疤痕化</li>
         </thoughtStageDescriptions>
       </li>
     </comps>
@@ -281,9 +281,48 @@
     <stages>
       <li>
         <label>疤痕</label>
-        <description>这是一种荣誉。</description>
+        <description>荣誉。</description>
         <baseMoodEffect>1</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
+  <!--==Proselytizing==-->
+    <PreceptDef>
+    <defName>Proselytizing_Prohibited_Sayers</defName>
+    <issue>Proselytizing</issue>
+    <label>憎恶</label>
+    <description>我们不需要别人来告诉我们，我们应该怎么做，我们的事与他人无关，我们也不指望他们能理解！</description>
+    <impact>High</impact>
+    <displayOrderInIssue>-50</displayOrderInIssue>
+    <associatedMemes>
+      <li>Experimental_SayersMeme</li>
+    </associatedMemes>
+    <requiredMemes>
+      <li>Experimental_SayersMeme</li>
+    </requiredMemes>
+    <statFactors>
+      <ConversionPower>0</ConversionPower>
+      <SocialIdeoSpreadFrequencyFactor>0</SocialIdeoSpreadFrequencyFactor>
+    </statFactors>
+    <proselytizes>false</proselytizes>
+  </PreceptDef>
+  <!--==Charity==-->
+<!--
+  <PreceptDef ParentName="CharityPositiveBase">
+    <defName>Charity_Sayers</defName>
+    <issue>Charity</issue>
+    <label>疑惑</label>
+    <description>…？</description>
+    <impact>Medium</impact>
+    <displayOrderInIssue>10</displayOrderInIssue>
+    <displayOrderInImpact>1000</displayOrderInImpact>
+    <approvesOfCharity>true</approvesOfCharity>
+    <associatedMemes>
+      <li>Experimental_SayersMeme</li>
+    </associatedMemes>
+    <requiredMemes>
+      <li>Experimental_SayersMeme</li>
+    </requiredMemes>
+  </PreceptDef>
+-->
 </Defs>

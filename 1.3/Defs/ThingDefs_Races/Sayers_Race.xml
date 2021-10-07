@@ -125,9 +125,8 @@
           <li>ToxicBite</li>
         </capacities>
         <power>20.4</power>
-        <cooldownTime>1</cooldownTime>
+        <cooldownTime>0.7</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <chanceFactor>0.5</chanceFactor>
         <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
         <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
       </li>
@@ -193,7 +192,7 @@
       <leatherDef>Leather_Fox</leatherDef>
       <nameCategory>HumanStandard</nameCategory>
       <body>Body_Sayers</body>
-      <baseBodySize>0.5</baseBodySize>
+      <baseBodySize>0.25</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
       <predator>false</predator>
       <foodType>OmnivoreHuman, CarnivoreAnimal, OmnivoreAnimal</foodType>
@@ -201,7 +200,7 @@
       <meatMarketValue>0.8</meatMarketValue>
       <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
-      <nuzzleMtbHours>12</nuzzleMtbHours>
+      <nuzzleMtbHours>6</nuzzleMtbHours>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -233,7 +232,7 @@
       <lifeStageAges>
         <li>
           <def>SayersAdult</def>
-          <minAge>18</minAge>
+          <minAge>0</minAge>
           <soundWounded>Pawn_Cat_Injured</soundWounded>
           <soundDeath>Pawn_Cat_Death</soundDeath>
           <soundCall>Pawn_Cat_Call</soundCall>
@@ -828,6 +827,9 @@
           <li>RebuffedMyRomanceAttemptMood</li>
           <li>FailedRomanceAttemptOnMeLowOpinionMood</li>
           <li>Expectations_Sayers</li>
+		  <li>FailedConvertAbilityRecipient_Sayers</li>
+		  <li>FailedConvertIdeoAttemptResentment_Sayers</li>
+		  <li>WearingColor_Favorite_Sayers</li>
         </restrictedThoughts>
         <replacerList>
           <!--<li><original>AteAwfulMeal</original><replacer>AteAwfulMeal_Sayers</replacer></li>-->
@@ -890,6 +892,10 @@
           <li>
             <original>BondedAnimalDied</original>
             <replacer>BondedAnimalDied_Sayers</replacer>
+          </li>
+          <li>
+            <original>FailedConvertAbilityRecipient</original>
+            <replacer>FailedConvertAbilityRecipient_Sayers</replacer>
           </li>
           <!-- 非计时的状况性想法不使用replacer
           <li>
@@ -991,6 +997,9 @@
           <li>TitleNoPersonalBedroom</li>
           <li>ObservedGibbetCage</li>
           <li>ObservedSkullspike</li>
+		  <li>FailedConvertAbilityRecipient</li>
+		  <li>FailedConvertIdeoAttemptResentment</li>
+		  <li>WearingColor_Favorite</li>
         </cannotReceiveThoughts>
       </thoughtSettings>
       <raceRestriction>
@@ -1048,6 +1057,27 @@
         <relationChanceModifierChild>0</relationChanceModifierChild>
         <relationChanceModifierSibling>0</relationChanceModifierSibling>
       </relationSettings>
+<!--HAR不靠谱XD-->
+<!--	<styleSettings>
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>-->
     </alienRace>
   </AlienRace.ThingDef_AlienRace>
 </Defs>
