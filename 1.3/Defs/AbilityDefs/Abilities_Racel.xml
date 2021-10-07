@@ -7,6 +7,7 @@
     <label>寄生穿刺</label>
     <description>用触手去攻击目标，并且往目标体内注入含有种子的植物液——即予以目标寄生状态，而被寄生者死亡后，一棵“可食用的”血肉之树将会破体而出。</description>
     <level>0</level>
+    <writeCombatLog>True</writeCombatLog>
     <iconPath>UI/Abilities/ParasiticStab</iconPath>
     <hotKey>Misc12</hotKey>
     <jobDef>CastAbilityOnThing</jobDef>
