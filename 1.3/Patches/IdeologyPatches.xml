@@ -13,14 +13,20 @@
 		<xpath>Defs/PreceptDef[(
 		           issue="AnimalsVenerated"
 		        or issue="IdeoRole"
-		        or issue="Ritual"
 		        or issue="IdeoBuilding"
 		        or issue="IdeoRitualSeat"
 				or issue="IdeoRelic"
 				or issue="Weapons"
 				) and not(
-				   @Name="FuneralBase"
+				   @Abstract="True"
+				or @Name="FuneralBase"
 				or @ParentName="FuneralBase"
+				or visible="false"
+				or classicExtra="true"
+				
+				or @Name="PreceptRoleSingleBase"
+				or @Name="PreceptRoleMultiBase"
+				or defName="IdeoRole_Leader"
 				)]
 			/conflictingMemes</xpath>
 		<value>
