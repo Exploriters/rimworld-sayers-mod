@@ -21,9 +21,11 @@
 				or @Name="FestivalBase"
 				or @ParentName="FestivalBase"
 				or @Name="FestivalBase"
+				or defName="ScarificationCeremony"
+				or defName="IdeoRole_Moralist"
+				or @Name="PreceptRoleMultiBase"
 				) and not(
 				   @Name="PreceptRoleSingleBase"
-				or @Name="PreceptRoleMultiBase"
 				or defName="IdeoRole_Leader"
 				
 				or visible="false"

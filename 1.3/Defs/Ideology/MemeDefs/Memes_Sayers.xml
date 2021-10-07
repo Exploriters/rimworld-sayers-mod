@@ -21,6 +21,7 @@
 	  <li>SayersClan</li>
 	</exclusiveTo>
 	<lockAccuIdeoColor>true</lockAccuIdeoColor>
+	<overrdieIcon>true</overrdieIcon>
   </Explorite.MemeDef_Ex>
   <Explorite.MemeDef_Ex ParentName="SayersMemeBase">
     <defName>CarnivorousAnimal_SayersMeme</defName>
