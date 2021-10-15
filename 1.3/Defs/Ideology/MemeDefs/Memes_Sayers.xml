@@ -13,8 +13,12 @@
     <veneratedAnimalsCountOverride>0</veneratedAnimalsCountOverride>
     <thingStyleCategories>
       <li>
-        <category>Sayers_IdeoStyle</category>
-        <priority>100</priority>
+        <category>Animalist</category>
+        <priority>40</priority>
+      </li>
+      <li>
+        <category>Techist</category>
+        <priority>30</priority>
       </li>
     </thingStyleCategories>
 	<exclusiveTo>

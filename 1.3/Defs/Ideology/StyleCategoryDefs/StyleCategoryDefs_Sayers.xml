@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <StyleCategoryDef>
+  <!--<StyleCategoryDef>
     <defName>Sayers_IdeoStyle</defName>
     <label>Sayers</label>
     <iconPath>UI/StyleCategories/Animalist</iconPath>
@@ -40,5 +40,5 @@
       <li>AnimalistSlab_Medium</li>
       <li>AnimalistSlab_Broad</li>
     </addDesignators>
-  </StyleCategoryDef>
+  </StyleCategoryDef>-->
 </Defs>
