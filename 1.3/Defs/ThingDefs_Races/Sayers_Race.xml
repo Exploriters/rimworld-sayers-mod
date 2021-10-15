@@ -49,6 +49,7 @@
       <SmoothingSpeed>0.5</SmoothingSpeed>
       <PawnShieldRechargeRate>0</PawnShieldRechargeRate>
       <PawnShieldEnergyMax>0</PawnShieldEnergyMax>
+	  <TameAnimalChance>2</TameAnimalChance>
     </statBases>
     <tools>
       <li>
