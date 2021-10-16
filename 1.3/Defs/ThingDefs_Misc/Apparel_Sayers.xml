@@ -1,6 +1,106 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+  <!--==NEW==-->
+  <ThingDef ParentName="ApparelMakeableBase">
+	<defName>Apparel_SayersBasicCloak</defName>
+	<label>斗篷</label>
+    <description>布料或者皮革制成的轻薄斗篷，可以很好地遮蔽触手并提供温暖，并且不会阻碍行动。</description>
+    <recipeMaker>
+		<researchPrerequisites>
+			<li>SayersRestrictedThings</li>
+		</researchPrerequisites>
+    </recipeMaker>
+    <graphicData>
+		<texPath>Things/Pawn/SayersItems/ApparelNew/BasicCloak/BasicCloak</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<costStuffCount>75</costStuffCount>
+    <stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+		<li>SayersApparels_New</li>
+    </thingCategories>
+    <statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>800</WorkToMake>
+		<Mass>3</Mass>
+		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+		<EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Tentacles</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Things/Pawn/SayersItems/ApparelNew/BasicCloak/BasicCloak</wornGraphicPath>
+		<layers>
+			<li>Shell</li>
+		</layers>
+		<tags>
+			<li>SayersBodyFit</li>
+			<li>SayersOutfit</li>
+			<li>SayersBasic</li>
+		</tags>
+		<defaultOutfitTags />
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+	<defName>Apparel_SayersBasicBodyBinding</defName>
+	<label>躯干束缚</label>
+    <description>将布料或者皮革简单的缠绕捆绑在躯干上以达到轻微的防御与保暖作用。</description>
+    <recipeMaker>
+		<researchPrerequisites>
+			<li>SayersRestrictedThings</li>
+		</researchPrerequisites>
+    </recipeMaker>
+    <graphicData>
+		<texPath>Things/Pawn/SayersItems/ApparelNew/BasicBodyBinding/BasicBinding</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<costStuffCount>75</costStuffCount>
+    <stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+		<li>SayersApparels_New</li>
+    </thingCategories>
+    <statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>300</WorkToMake>
+		<Mass>1</Mass>
+		<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+		<EquipDelay>1</EquipDelay>
+    </statBases>
+    <apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Things/Pawn/SayersItems/ApparelNew/BasicBodyBinding/BasicBodyBinding</wornGraphicPath>
+		<layers>
+			<li>OnSkin</li>
+		</layers>
+		<tags>
+			<li>SayersBodyFit</li>
+			<li>SayersOutfit</li>
+			<li>SayersBasic</li>
+		</tags>
+		<defaultOutfitTags />
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+  <!--==↓↓↓OLD↓↓↓==-->
   <!--==身体部分==-->
+  <!--
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_SayersBasic</defName>
     <label>织布斗篷[Sayers]</label>
@@ -433,7 +533,9 @@
     </colorGenerator>
     <tradeability>Sellable</tradeability>
   </ThingDef>
+  -->
   <!--=植模块装甲=-->
+  <!--
   <ThingDef Name="ApparelArmorReconPlantsBase" ParentName="ArmorMachineableBase" Abstract="True">
     <techLevel>Spacer</techLevel>
     <recipeMaker>
@@ -647,4 +749,5 @@
     </apparel>
     <tradeability>Sellable</tradeability>
   </ThingDef>
+  -->
 </Defs>

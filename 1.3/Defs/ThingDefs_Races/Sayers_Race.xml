@@ -1015,6 +1015,9 @@
           </li>
         </researchList>-->
         <apparelList>
+          <li>Apparel_SayersBasicCloak</li>
+          <li>Apparel_SayersBasicBodyBinding</li>
+		  <!--They're old
           <li>Apparel_SayersBasic</li>
           <li>Apparel_SayersParka</li>
           <li>Apparel_SayersDuster</li>
@@ -1022,7 +1025,7 @@
           <li>Apparel_SayersFlakVest</li>
           <li>Apparel_SayersFlakJacket</li>
           <li>Apparel_SayersPlantsArmor</li>
-          <li>Apparel_SayersArmorReconPlants</li>
+          <li>Apparel_SayersArmorReconPlants</li>-->
         </apparelList>
         <!--<whiteApparelList>
           <li>Apparel_CowboyHat</li>
@@ -1059,13 +1062,14 @@
         <relationChanceModifierSibling>0</relationChanceModifierSibling>
       </relationSettings>
 <!--HAR不靠谱XD-->
-<!--	<styleSettings>
+	<styleSettings>
+		<!--
         <li>
           <key>HairDef</key>
           <value>
             <hasStyle>false</hasStyle>
           </value>
-        </li>
+        </li>-->
         <li>
           <key>BeardDef</key>
           <value>
@@ -1078,7 +1082,7 @@
             <hasStyle>false</hasStyle>
           </value>
         </li>
-      </styleSettings>-->
+      </styleSettings>
     </alienRace>
   </AlienRace.ThingDef_AlienRace>
 </Defs>
