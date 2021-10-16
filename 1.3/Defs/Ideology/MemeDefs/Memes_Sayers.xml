@@ -128,9 +128,9 @@
         <li>memeAdjective-&gt;Sayers</li>
         <li>memeCreed-&gt;Sayers</li>
         <li>memeConcept-&gt;Sayers</li>
-        <li>memeLeaderNoun-&gt;Sayers</li>
+        <li>memeLeaderNoun-&gt;领袖</li>
         <li>memeLeaderAdjective-&gt;Alpha</li>
-        <li>memeMoralist-&gt;Sayers</li>
+        <li>memeMoralist-&gt;传道者</li>
       </rulesStrings>
     </generalRules>
     <symbolPacks>
