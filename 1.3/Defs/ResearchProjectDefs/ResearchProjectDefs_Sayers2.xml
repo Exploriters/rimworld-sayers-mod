@@ -21,7 +21,7 @@
     <techLevel>Neolithic</techLevel>
     <prerequisites></prerequisites>
     <hiddenPrerequisites></hiddenPrerequisites>
-    <researchViewY>1.4</researchViewY>
+    <researchViewY>0.7</researchViewY>
     <researchViewX>0.0</researchViewX>
     <!--<techprintCount>1</techprintCount>
     <techprintCommonality>0</techprintCommonality>
@@ -40,8 +40,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>0.0</researchViewY>
-    <researchViewX>0.7</researchViewX>
+    <researchViewY>0.35</researchViewY>
+    <researchViewX>1</researchViewX>
     <prerequisites>
       <li>SayersTechRootProject</li>
     </prerequisites>
@@ -54,7 +54,7 @@
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewY>0.7</researchViewY>
-    <researchViewX>0.7</researchViewX>
+    <researchViewX>1</researchViewX>
     <prerequisites>
       <li>SayersTechRootProject</li>
     </prerequisites>
@@ -67,8 +67,8 @@
     <description>利用人类生产设施和制造技术来制作Sayers的限定装备。</description>
     <baseCost>100</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>1.4</researchViewY>
-    <researchViewX>0.7</researchViewX>
+    <researchViewY>0.7</researchViewY>
+    <researchViewX>1</researchViewX>
     <prerequisites>
       <li>SayersTechRootProject</li>
     </prerequisites>
@@ -83,8 +83,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>2.1</researchViewY>
-    <researchViewX>0.7</researchViewX>
+    <researchViewY>1.05</researchViewY>
+    <researchViewX>1</researchViewX>
     <prerequisites>
       <li>SayersTechRootProject</li>
     </prerequisites>
@@ -98,7 +98,7 @@
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewY>0.0</researchViewY>
-    <researchViewX>1.4</researchViewX>
+    <researchViewX>2</researchViewX>
     <prerequisites>
       <li>SayersResearchProject1_1</li>
     </prerequisites>
@@ -110,8 +110,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>0.7</researchViewY>
-    <researchViewX>1.4</researchViewX>
+    <researchViewY>0.35</researchViewY>
+    <researchViewX>2</researchViewX>
     <prerequisites>
       <li>SayersResearchProject1_1</li>
     </prerequisites>
@@ -123,8 +123,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>1.4</researchViewY>
-    <researchViewX>1.4</researchViewX>
+    <researchViewY>0.7</researchViewY>
+    <researchViewX>2</researchViewX>
     <prerequisites>
       <li>SayersResearchProject1_2</li>
     </prerequisites>
@@ -136,8 +136,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>2.8</researchViewY>
-    <researchViewX>1.4</researchViewX>
+    <researchViewY>1.4</researchViewY>
+    <researchViewX>2</researchViewX>
     <prerequisites>
       <li>SayersResearchProject1_3</li>
     </prerequisites>
@@ -149,8 +149,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>3.5</researchViewY>
-    <researchViewX>1.4</researchViewX>
+    <researchViewY>1.75</researchViewY>
+    <researchViewX>2</researchViewX>
     <prerequisites>
       <li>SayersResearchProject1_3</li>
     </prerequisites>
@@ -164,7 +164,7 @@
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewY>0.0</researchViewY>
-    <researchViewX>2.1</researchViewX>
+    <researchViewX>3</researchViewX>
     <prerequisites>
       <li>SayersResearchProject2_1</li>
       <li>SayersResearchProject2_2</li>
@@ -177,8 +177,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>0.7</researchViewY>
-    <researchViewX>2.1</researchViewX>
+    <researchViewY>0.35</researchViewY>
+    <researchViewX>3</researchViewX>
     <prerequisites>
       <li>SayersResearchProject2_2</li>
     </prerequisites>
@@ -190,8 +190,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>1.4</researchViewY>
-    <researchViewX>2.1</researchViewX>
+    <researchViewY>0.7</researchViewY>
+    <researchViewX>3</researchViewX>
     <prerequisites>
       <li>SayersResearchProject2_2</li>
       <li>SayersResearchProject2_3</li>
@@ -204,8 +204,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>2.1</researchViewY>
-    <researchViewX>2.1</researchViewX>
+    <researchViewY>1.05</researchViewY>
+    <researchViewX>3</researchViewX>
     <prerequisites>
       <li>SayersResearchProject2_3</li>
     </prerequisites>
@@ -217,8 +217,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>2.8</researchViewY>
-    <researchViewX>2.1</researchViewX>
+    <researchViewY>1.4</researchViewY>
+    <researchViewX>3</researchViewX>
     <prerequisites>
       <li>SayersResearchProject2_3</li>
       <li>SayersResearchProject1_3</li>
@@ -231,8 +231,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>3.5</researchViewY>
-    <researchViewX>2.1</researchViewX>
+    <researchViewY>1.75</researchViewY>
+    <researchViewX>3</researchViewX>
     <prerequisites>
       <li>SayersResearchProject2_4</li>
     </prerequisites>
@@ -244,8 +244,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>4.2</researchViewY>
-    <researchViewX>2.1</researchViewX>
+    <researchViewY>2.1</researchViewY>
+    <researchViewX>3</researchViewX>
     <prerequisites>
       <li>SayersResearchProject2_5</li>
     </prerequisites>
@@ -259,7 +259,7 @@
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewY>0.0</researchViewY>
-    <researchViewX>2.8</researchViewX>
+    <researchViewX>4</researchViewX>
     <prerequisites>
       <li>SayersResearchProject3_1</li>
       <li>SayersResearchProject3_3</li>
@@ -272,8 +272,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>0.7</researchViewY>
-    <researchViewX>2.8</researchViewX>
+    <researchViewY>0.35</researchViewY>
+    <researchViewX>4</researchViewX>
     <prerequisites>
       <li>SayersResearchProject3_3</li>
     </prerequisites>
@@ -285,8 +285,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>1.4</researchViewY>
-    <researchViewX>2.8</researchViewX>
+    <researchViewY>0.7</researchViewY>
+    <researchViewX>4</researchViewX>
     <prerequisites>
       <li>SayersResearchProject3_3</li>
     </prerequisites>
@@ -298,8 +298,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>2.1</researchViewY>
-    <researchViewX>2.8</researchViewX>
+    <researchViewY>1.05</researchViewY>
+    <researchViewX>4</researchViewX>
     <prerequisites>
       <li>SayersResearchProject3_4</li>
       <li>SayersResearchProject3_5</li>
@@ -313,8 +313,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>2.8</researchViewY>
-    <researchViewX>2.8</researchViewX>
+    <researchViewY>1.4</researchViewY>
+    <researchViewX>4</researchViewX>
     <prerequisites>
       <li>SayersResearchProject3_3</li>
       <li>SayersResearchProject3_6</li>
@@ -328,8 +328,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>3.5</researchViewY>
-    <researchViewX>2.8</researchViewX>
+    <researchViewY>1.75</researchViewY>
+    <researchViewX>4</researchViewX>
     <prerequisites>
       <li>SayersResearchProject3_2</li>
       <li>SayersResearchProject2_5</li>
@@ -344,7 +344,7 @@
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewY>0.0</researchViewY>
-    <researchViewX>3.5</researchViewX>
+    <researchViewX>5</researchViewX>
     <prerequisites>
       <li>SayersResearchProject4_1</li>
       <li>SayersResearchProject4_2</li>
@@ -357,8 +357,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>0.7</researchViewY>
-    <researchViewX>3.5</researchViewX>
+    <researchViewY>0.35</researchViewY>
+    <researchViewX>5</researchViewX>
     <prerequisites>
       <li>SayersResearchProject4_3</li>
     </prerequisites>
@@ -370,8 +370,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>1.4</researchViewY>
-    <researchViewX>3.5</researchViewX>
+    <researchViewY>0.7</researchViewY>
+    <researchViewX>5</researchViewX>
     <prerequisites>
       <li>SayersResearchProject4_3</li>
     </prerequisites>
@@ -383,8 +383,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>2.1</researchViewY>
-    <researchViewX>3.5</researchViewX>
+    <researchViewY>1.05</researchViewY>
+    <researchViewX>5</researchViewX>
     <prerequisites>
       <li>SayersResearchProject4_6</li>
     </prerequisites>
@@ -398,7 +398,7 @@
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewY>0.0</researchViewY>
-    <researchViewX>4.2</researchViewX>
+    <researchViewX>6</researchViewX>
     <prerequisites>
       <li>SayersResearchProject5_1</li>
     </prerequisites>
@@ -410,8 +410,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>0.7</researchViewY>
-    <researchViewX>4.2</researchViewX>
+    <researchViewY>0.35</researchViewY>
+    <researchViewX>6</researchViewX>
     <prerequisites>
       <li>SayersResearchProject5_1</li>
       <li>SayersResearchProject5_2</li>
@@ -424,8 +424,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>1.4</researchViewY>
-    <researchViewX>4.2</researchViewX>
+    <researchViewY>0.7</researchViewY>
+    <researchViewX>6</researchViewX>
     <prerequisites>
       <li>SayersResearchProject5_2</li>
     </prerequisites>
@@ -437,8 +437,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>2.1</researchViewY>
-    <researchViewX>4.2</researchViewX>
+    <researchViewY>1.05</researchViewY>
+    <researchViewX>6</researchViewX>
     <prerequisites>
       <li>SayersResearchProject5_2</li>
       <li>SayersResearchProject5_3</li>
@@ -453,7 +453,7 @@
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewY>0.0</researchViewY>
-    <researchViewX>4.9</researchViewX>
+    <researchViewX>7</researchViewX>
     <prerequisites>
       <li>SayersResearchProject6_1</li>
       <li>SayersResearchProject6_2</li>
@@ -470,7 +470,7 @@
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewY>0.0</researchViewY>
-    <researchViewX>5.6</researchViewX>
+    <researchViewX>8</researchViewX>
     <prerequisites>
       <li>SayersResearchProject7_1</li>
     </prerequisites>
@@ -482,8 +482,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>0.7</researchViewY>
-    <researchViewX>5.6</researchViewX>
+    <researchViewY>0.35</researchViewY>
+    <researchViewX>8</researchViewX>
     <prerequisites>
       <li>SayersResearchProject7_1</li>
     </prerequisites>
@@ -495,8 +495,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>1.4</researchViewY>
-    <researchViewX>5.6</researchViewX>
+    <researchViewY>0.7</researchViewY>
+    <researchViewX>8</researchViewX>
     <prerequisites>
       <li>SayersResearchProject7_1</li>
     </prerequisites>
@@ -508,8 +508,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>2.1</researchViewY>
-    <researchViewX>5.6</researchViewX>
+    <researchViewY>1.05</researchViewY>
+    <researchViewX>8</researchViewX>
     <prerequisites>
       <li>SayersResearchProject7_1</li>
     </prerequisites>
@@ -521,8 +521,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>2.8</researchViewY>
-    <researchViewX>5.6</researchViewX>
+    <researchViewY>1.4</researchViewY>
+    <researchViewX>8</researchViewX>
     <prerequisites>
       <li>SayersResearchProject7_1</li>
     </prerequisites>
@@ -534,8 +534,8 @@
     <description>TODO。</description>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewY>3.5</researchViewY>
-    <researchViewX>5.6</researchViewX>
+    <researchViewY>1.75</researchViewY>
+    <researchViewX>8</researchViewX>
     <prerequisites>
       <li>SayersResearchProject7_1</li>
     </prerequisites>
@@ -549,7 +549,7 @@
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewY>0.0</researchViewY>
-    <researchViewX>6.3</researchViewX>
+    <researchViewX>9</researchViewX>
     <prerequisites>
       <li>SayersResearchProject7_1</li>
     </prerequisites>
