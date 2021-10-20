@@ -60,7 +60,7 @@
     </prerequisites>
   </ResearchProjectDef>
   
-  <ResearchProjectDef>
+  <ResearchProjectDef Abstract="True">
     <defName>SayersRestrictedThings</defName>
     <label>Sayers限定装备</label>
     <tab>Explorite</tab>
