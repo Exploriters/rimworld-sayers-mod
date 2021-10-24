@@ -67,7 +67,7 @@
       </parts>
     </scenario>
   </ScenarioDef>
-  <!--<ScenarioDef><defName>Sayers_Runaway</defName><label>溶解逃亡[Sayers]</label><description>当你意识到这个世界开始不对劲时，已经晚了。你的族人消失殆尽，只剩你，和你的五只花寄兽留在这儿。这个世界变得陌生，危险，疯狂而可怖，甚至随时可能分崩离析。
+  <!--<ScenarioDef><defName>Sayers_Runaway</defName><label>溶解逃亡</label><description>当你意识到这个世界开始不对劲时，已经晚了。你的族人消失殆尽，只剩你，和你的五只花寄兽留在这儿。这个世界变得陌生，危险，疯狂而可怖，甚至随时可能分崩离析。
 \n你能做的，就是尽量带着你的同伴们——花寄兽们，尽力从这危险的，即将毁灭的星球中逃离。
 \n
 \n注;高难度剧本，当心！</description><scenario><summary>带着5只花寄兽逃离这个危险的星球。</summary><playerFaction><def>PlayerFaction</def><factionDef>SayersRefugees</factionDef></playerFaction><parts><li Class="ScenPart_ConfigPage_ConfigureStartingPawns"><def>ConfigPage_ConfigureStartingPawns</def><pawnCount>1</pawnCount><pawnChoiceCount>9</pawnChoiceCount></li><li Class="ScenPart_PlayerPawnsArriveMethod"><def>PlayerPawnsArriveMethod</def></li><li Class="ScenPart_PawnFilter_Age"><def>PawnFilter_Age</def><allowedAgeRange>15~18</allowedAgeRange><visible>false</visible></li><li Class="ScenPart_GameStartDialog"><def>GameStartDialog</def><text>无光之夜，电闪雷鸣。你的触手抚摸着花寄兽的头颅，但显然，这星球已经没法待了，随时可能分崩离析。

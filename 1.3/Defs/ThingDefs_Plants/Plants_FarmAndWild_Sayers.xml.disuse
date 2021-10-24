@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="PlantBase">
     <defName>Plant_Fushrooy_Sayers</defName>
-    <label>福斯瑞[Sayers]</label>
+    <label>福斯瑞</label>
     <description>一种由Sayers所种植的，莹蓝色的可食用植物……当然，可食用这种事儿，仅限Sayers吧……</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>

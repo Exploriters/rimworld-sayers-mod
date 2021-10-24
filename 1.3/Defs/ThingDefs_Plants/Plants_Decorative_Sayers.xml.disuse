@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="PlantBase">
     <defName>Plant_Tenlacess_Sayers</defName>
-    <label>特拉克斯[Sayers]</label>
+    <label>特拉克斯</label>
     <description>一种漂亮但脆弱的，形似触手的蓝色观赏植物，没人知道它是从哪儿来的，甚至没人见过它们的种子……除了Sayers。</description>
     <statBases>
       <MaxHitPoints>42</MaxHitPoints>

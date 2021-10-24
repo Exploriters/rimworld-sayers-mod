@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="BenchBase">
     <defName>PlantReactionTable</defName>
-    <label>植物反应桌[Sayers]</label>
+    <label>植物反应桌</label>
     <description>一个给Sayers准备的，可以鼓捣各种稀奇玩意儿的小桌子，也许吧？</description>
     <thingClass>Building_WorkTable</thingClass>
     <altitudeLayer>Building</altitudeLayer>

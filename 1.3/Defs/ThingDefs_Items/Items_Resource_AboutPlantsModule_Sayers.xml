@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="ResourceBase">
     <defName>PlantElement</defName>
-    <label>植元素[Sayers]</label>
+    <label>植元素</label>
     <description>从各类植物——尤其是原木中提取出来的植元素，可以制作成用于生产某些东西的植模块。</description>
     <graphicData>
       <texPath>Things/Item/Resource/AboutPlantModule/PlantElement</texPath>
@@ -26,7 +26,7 @@
   </ThingDef>
   <ThingDef ParentName="ResourceBase">
     <defName>PlantModule</defName>
-    <label>植模块[Sayers]</label>
+    <label>植模块</label>
     <description>由植元素制作成的植模块，可以用于生产盔甲、武器、设备等，是Sayers独有的技术</description>
     <graphicData>
       <texPath>Things/Item/Resource/AboutPlantModule/PlantModule</texPath>

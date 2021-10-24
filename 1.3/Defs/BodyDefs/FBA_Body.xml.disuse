@@ -2,7 +2,7 @@
 <Defs>
   <BodyDef>
     <defName>FlowerBorhAnimal</defName>
-    <label>花寄兽[Sayers]</label>
+    <label>花寄兽</label>
     <corePart>
       <def>Body</def>
       <height>Middle</height>

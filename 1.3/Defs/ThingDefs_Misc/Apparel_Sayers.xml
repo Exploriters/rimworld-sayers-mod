@@ -103,7 +103,7 @@
   <!--
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_SayersBasic</defName>
-    <label>织布斗篷[Sayers]</label>
+    <label>织布斗篷</label>
     <description>由布料或者皮革制成的斗篷，对于Sayers来说是件很不错的轻柔的服装，但是对于人类来说无法理解。</description>
     <recipeMaker>
       <researchPrerequisites>
@@ -152,7 +152,7 @@
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_SayersParka</defName>
-    <label>风雪外覆斗篷[Sayers]</label>
+    <label>风雪外覆斗篷</label>
     <description>一件比较厚重的外覆斗篷，保暖效果很不错。</description>
     <recipeMaker>
       <researchPrerequisites>
@@ -230,7 +230,7 @@
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_SayersDuster</defName>
-    <label>防尘外覆斗篷[Sayers]</label>
+    <label>防尘外覆斗篷</label>
     <description>一件加长的防尘外覆斗篷，可以在一定程度上抵御沙尘和阳光。</description>
     <recipeMaker>
       <researchPrerequisite Inherit="False" />
@@ -309,7 +309,7 @@
   </ThingDef>
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>Apparel_SayersPlateArmor</defName>
-    <label>板甲外覆斗篷[Sayers]</label>
+    <label>板甲外覆斗篷</label>
     <description>一套坚固的微重型类板甲外覆斗篷，但是如果人类看见了，可能…会以为是什么奇怪的中型生物褪下来的带着鳞片的皮肤？</description>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
@@ -388,7 +388,7 @@
   </ThingDef>
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_SayersFlakVest</defName>
-    <label>轻型防弹外覆斗篷[Sayers]</label>
+    <label>轻型防弹外覆斗篷</label>
     <description>一件在胸口和背部插有轻薄装甲板的外覆斗篷。主要用于保护躯干和主要脏器，触手？谁管得着啊！</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
@@ -464,7 +464,7 @@
   </ThingDef>
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_SayersFlakJacket</defName>
-    <label>中型防弹外覆斗篷[Sayers]</label>
+    <label>中型防弹外覆斗篷</label>
     <description>一件近全身包覆了装甲板的坚韧的织物外覆斗篷，虽然没有全身盔甲严密，但也提供了强大的防护(除了触手)，同时兼顾了舒适性。</description>
     <recipeMaker>
       <researchPrerequisite Inherit="False" />
@@ -725,7 +725,7 @@
   </ThingDef>
   <ThingDef ParentName="ApparelArmorPlantsBase">
     <defName>Apparel_SayersPlantsArmor</defName>
-    <label>机动性植模块装甲斗篷[Sayers]</label>
+    <label>机动性植模块装甲斗篷</label>
     <description>一件强调机动性的植模块装甲斗篷。从颈部到脚爪都覆盖玻璃钢纤维编制的装甲片，能够十分有效地防御攻击。神经模因机械让Sayers在穿着重型装甲斗篷时仍然能够轻松行动。</description>
     <apparel>
       <tags>
@@ -738,7 +738,7 @@
   </ThingDef>
   <ThingDef ParentName="ApparelArmorReconPlantsBase">
     <defName>Apparel_SayersArmorReconPlants</defName>
-    <label>斥候植模块装甲斗篷[Sayers]</label>
+    <label>斥候植模块装甲斗篷</label>
     <description>轻量化的阉割版植模块装甲斗篷，但轻量化的设计也使其相较于其他植模块装甲斗篷具备更优越的机动性，配置的轻型玻璃钢装甲可以在不影响穿戴者灵活性的情况下提供可靠的防护，位于装甲中段的神经模因装置可以让使用者更容易地穿戴和使用它。</description>
     <apparel>
       <tags>
