@@ -22,7 +22,12 @@
     </comps>
     <tradeTags>
       <li>ExAutoApparelWhiteList</li>
-      <li>ExImmuneToFoodPoisoning</li>
+      <li>ExDisableFoodPoisoning</li>
+      <li>ExDisableSkillsDegrees</li>
+      <li>ExDisableOutdoorsNeeds</li>
+      <li>ExDisableWoundRendering</li>
+      <li>ExDisableThoughtWorkerPreceptHasUncovered</li>
+      <li>ExDisableWaistRendering</li>
     </tradeTags>
     <statBases>
       <MarketValue>5150</MarketValue>
