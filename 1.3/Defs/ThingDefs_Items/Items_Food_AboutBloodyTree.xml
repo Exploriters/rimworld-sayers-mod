@@ -6,9 +6,7 @@
     <description>想啥呢，它是吃的。</description>
     <thingClass>ThingWithComps</thingClass>
     <thingCategories>
-      <li>ResourcesRaw</li>
       <li>Foods</li>
-      <li>Leathers</li>
     </thingCategories>
     <graphicData>
       <texPath>Things/Item/Resource/BloodyTree_Meat</texPath>
